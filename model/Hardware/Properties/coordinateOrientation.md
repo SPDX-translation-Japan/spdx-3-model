@@ -14,4 +14,4 @@ The Coordinate orientation System use by XYZ axis.
 
 - name: coordinateOrientation
 - Nature: DataProperty
-- Range: coordinateOrientationType
+- Range: CoordinateOrientationType
