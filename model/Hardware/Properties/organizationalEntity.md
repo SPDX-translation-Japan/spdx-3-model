@@ -8,7 +8,7 @@ Product Manufacture Name and related information
 
 ## Description
 
-The Agent is the intellectual property holder of the product type. They are responsible for the define PartNumber, batchNumber or serialNumber of unit of hardware.
+The Agent is the intellectual property holder of the product type. They are responsible for defining the PartNumber, batchNumber or serialNumber of unit of hardware.
 
 ## Metadata
 
