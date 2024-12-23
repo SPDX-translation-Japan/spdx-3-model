@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# coordinateOrientationType
+# CoordinateOrientationType
 
 ## Summary
 
@@ -13,11 +13,11 @@ Any coordinate orientation System, that must that orientation must remain in the
 
 ## Metadata
 
-- name: coordinateOrientationType
+- name: CoordinateOrientationType
 
 ## Entries
 
-- XYZ FreeForm:  XYZ FreeForm: 
+- XYZFreeForm:  XYZ FreeForm: 
 - LMS: X= Longest, Y=Middle  Z=shortest 
 
 
