@@ -25,7 +25,7 @@ the following has to hold:
 1. for every `/Hardware/Hardware` The property listed under the physical are not available if virtualFlag = true
 
 2. for every `/Core/Process` with the processType = 'Instantiation' there MUST exist exactly one
-   `/Core/Relationship` of type `instantiation` having that element as its
+   `/Core/Relationship` of type `instantiatedBy` having that element as its
    `from` property and a `/Hardware/Hardware` as its `to`
     property with that element virtualFlag = true.
     
