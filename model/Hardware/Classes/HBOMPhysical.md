@@ -19,7 +19,7 @@ Physical characteristics include dimensions, mass, units and related items.
 ## Properties
 
 - dimensions
-  - type: /Hardware/HBOMDimensions
+  - type: HBOMDimensions
   - maxCount: 1
 - mass 
   - type: xsd:Number
