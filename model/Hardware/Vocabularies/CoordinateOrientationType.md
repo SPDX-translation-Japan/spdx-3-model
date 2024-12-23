@@ -19,5 +19,3 @@ Any coordinate orientation System, that must that orientation must remain in the
 
 - XYZFreeForm: XYZ FreeForm
 - LMS: X = Longest, Y = Middle, Z = Shortest
-
-
