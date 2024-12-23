@@ -19,5 +19,5 @@ Documents states vary by state. Enumerations are used to define the state.
 - Draft: in production 
 - Active: in use
 - Obsolete: superseded or not valid at present
-- Other: 
+- Other: other
 
