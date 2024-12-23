@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# processType
+# ProcessType
 
 ## Summary
 
@@ -12,7 +12,7 @@ Documents states vary by state. Enumerations are used to define the state.
 
 ## Metadata
 
-- name: processType
+- name: ProcessType
 
 ## Entries
 
