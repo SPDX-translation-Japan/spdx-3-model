@@ -14,4 +14,4 @@ Draft, active, obsolete or other are used to define the state or status of a pro
 
 - name: status
 - Nature: DataProperty
-- Range: documentState
+- Range: DocumentState
