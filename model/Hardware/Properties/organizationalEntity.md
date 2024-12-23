@@ -8,10 +8,10 @@ Product Manufacture Name and related information
 
 ## Description
 
-This is the name of the OEM organization for a product.
+The Agent is the intellectual property holder of the product type. They are responsible for the define PartNumber, batchNumber or serialNumber of unit of hardware.
 
 ## Metadata
 
 - name: organizationalEntity
 - Nature: ObjectProperty
-- Range: /Core/Organization
+- Range: /Core/Agent
