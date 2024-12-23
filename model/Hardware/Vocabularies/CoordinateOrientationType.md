@@ -8,7 +8,7 @@ coordinateorientationType sets the coordinate orientation.
 
 ## Description
 
-coordinateorientationType sets the coordinate orientation in a object.  Enumerations are used to define the coordinate orientation.
+CoordinateOrientationType sets the coordinate orientation in an object. Enumerations are used to define the coordinate orientation.
 Any coordinate orientation System, that must that orientation must remain in the same order for that class’s `/Hardware/Hardware` element. 
 
 ## Metadata
