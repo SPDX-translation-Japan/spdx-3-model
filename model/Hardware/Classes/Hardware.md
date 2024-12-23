@@ -16,7 +16,7 @@ A hardware artifact is a distinct article or unit related to hardware such as a 
 ## Properties
 
 - physical
-  - type: /Hardware/HBOMPhysical
+  - type: HBOMPhysical
   - minCount: 0
   - maxCount: 1
 - virtualFlag 
