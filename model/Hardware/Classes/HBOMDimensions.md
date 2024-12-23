@@ -37,6 +37,3 @@ This class records the unit dimensions.
   - type: xsd:CoordinateorientationType
   - minCount: 1
   - maxCount: 1
-  
-  
-  
