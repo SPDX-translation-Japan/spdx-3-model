@@ -27,10 +27,10 @@ Processes define a set of tasks needed to perform a procedure. The step to assem
   - minCount: 0
   - maxCount: 1
 - status
-  - type: documentState
+  - type: DocumentState
   - minCount: 0
   - maxCount: 1
 - typeOfProcess
-  - type: processType
+  - type: ProcessType
   - minCount: 1
   - maxCount: 1
