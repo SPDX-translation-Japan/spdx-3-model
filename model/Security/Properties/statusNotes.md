@@ -15,3 +15,11 @@ A VEX statement may convey information about how status was determined and may r
 - name: statusNotes
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @zh-Hans
+
+提供有关VEX状态如何确定的信息。
+
+## Description @zh-Hans
+
+VEX语句可以传递有关状态如何确定的信息，也可以引用其他VEX信息。

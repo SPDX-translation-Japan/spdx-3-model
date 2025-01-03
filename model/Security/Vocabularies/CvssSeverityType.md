@@ -37,3 +37,25 @@ severity.
 - medium: When a CVSS score is between 4.0 - 6.9
 - low: When a CVSS score is between 0.1 - 3.9
 - none: When a CVSS score is 0.0
+
+## Summary @zh-Hans
+
+指定CVSS基本、时态、威胁或环境严重性级别。
+
+## Description @zh-Hans
+
+`CvssSeverityType`指定通用漏洞评分系统（CVSS）严重级别，在CVSS规范中定义为CVSS分数的文本表示。
+
+严重性级别条目包含并适用于[CVSS v3.0 规范文档](https://www.first.org/cvss/v3.0/specification-document#Qualitative-Severity-Rating-Scale)和[CVSS v4.0 规范文档](https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale)中的列举。
+
+`CvssSeverityType`是必填字段，因为[CVSS 3.0 模式](https://www.first.org/cvss/cvss-v3.0.json)、[CVSS 3.1 模式](https://www.first.org/cvss/cvss-v3.1.json)和[CVSS 4.0 模式](https://www.first.org/cvss/cvss-v4.0.json)中需要`baseSeverity`。
+
+此字段可用于记录基本、时态、威胁或环境严重性级别。
+
+## Entries @zh-Hans
+
+- critical: CVSS分数在9.0到10.0之间
+- high: CVSS分数在7.0到8.9之间
+- medium: CVSS分数在4.0到6.9之间
+- low: CVSS分数在0.1到3.9之间
+- none: CVSS分数为0.0

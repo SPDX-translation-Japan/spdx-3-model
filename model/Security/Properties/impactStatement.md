@@ -20,3 +20,12 @@ must be provided.
 - name: impactStatement
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @zh-Hans
+
+解释VEX产品不受漏洞影响的原因。它是`VexNotAffectedVulnAssessmentRelationship`中机器可读证明标签的替代方案。
+
+## Description @zh-Hans
+
+当VEX产品元素与`VexNotAffectedVulnAssessmentRelationship`关联且未提供机器可读证明标签时，必须提供一个`impactStatement`，进一步解释产品如何或为何不受漏洞影响。
+

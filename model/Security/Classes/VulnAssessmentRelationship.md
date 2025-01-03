@@ -39,3 +39,11 @@ assessment relationships. It factors out the common properties shared by them.
   - type: /Core/DateTime
   - minCount: 0
   - maxCount: 1
+
+## Summary @zh-Hans
+
+所有漏洞评估的抽象祖先类。
+
+## Description @zh-Hans
+
+`VulnAssessmentRelationship`是所有漏洞评估关系的祖先类，提取它们共享的公共属性。

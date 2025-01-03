@@ -17,3 +17,11 @@ Common Vulnerability Scoring System as defined by
 - name: score
 - Nature: DataProperty
 - Range: xsd:decimal
+
+## Summary @zh-Hans
+
+提供漏洞严重性级别的数值（0-10）表示。
+
+## Description @zh-Hans
+
+此评分根据[事件响应和安全团队论坛](https://www.first.org/cvss/)定义的通用漏洞评分系统（CVSS）提供有关漏洞严重性的信息。

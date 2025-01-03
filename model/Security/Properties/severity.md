@@ -15,3 +15,11 @@ The severity field provides a human readable string of the resulting numerical C
 - name: severity
 - Nature: ObjectProperty
 - Range: CvssSeverityType
+
+## Summary @zh-Hans
+
+指定与某软件相关的漏洞的CVSS定性严重性评级。
+
+## Description @zh-Hans
+
+`severity`字段提供一个人类可读字符串，表示CVSS分数。

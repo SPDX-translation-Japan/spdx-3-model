@@ -43,3 +43,33 @@ requirements must be observed:
 - name: VexFixedVulnAssessmentRelationship
 - SubclassOf: VexVulnAssessmentRelationship
 - Instantiability: Concrete
+
+## Summary @zh-Hans
+
+将漏洞与代表产品（根据VEX定义）的元素关联，这些产品已修复漏洞且不再受影响。
+
+## Description @zh-Hans
+
+`VexFixedVulnAssessmentRelationship`将一个漏洞与多个代表VEX产品的元素关联，这些产品已修复漏洞且不再受影响。此关系对应VEX的已修复（fixed）状态。
+
+*约束条件*
+
+使用`VexFixedVulnAssessmentRelationship`关联元素时，必须遵循以下要求：
+
+- 与`VulnVexFixedAssessmentRelationship`关联的元素必须使用`fixedIn`关系类型。
+- 关系的`from:`端必须为一个`/Security/Vulnerability`类型的元素。
+
+*示例*
+
+```json
+{
+  "type": "VexFixedVulnAssessmentRelationship",
+  "spdxId": "urn:spdx.dev:vex-fixed-in-1",
+  "relationshipType": "fixedIn",
+  "from": "urn:spdx.dev:vuln-cve-2020-28498",
+  "to": ["urn:product-acme-application-1.3"],
+  "security_assessedElement": "urn:npm-elliptic-6.5.4",
+  "suppliedBy": ["urn:spdx.dev:agent-jane-doe"],
+  "publishedTime": "2021-03-09T11:04:53Z"
+}
+```

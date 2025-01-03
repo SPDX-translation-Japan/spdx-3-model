@@ -15,3 +15,11 @@ base for all defined extension subclasses.
 
 - id: https://spdx.org/rdf/3.0.1/terms/Extension
 - name: Extension
+
+## Summary  @zh-Hans
+
+与SPDX扩展有关的内容。
+
+## Description  @zh-Hans
+
+`Extension`命名空间定义了抽象扩展类，作为所有定义的扩展子类的基础。

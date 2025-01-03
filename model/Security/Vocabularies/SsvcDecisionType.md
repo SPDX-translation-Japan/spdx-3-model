@@ -22,3 +22,18 @@ the
 - attend: The vulnerability requires attention from the organization's internal, supervisory-level individuals. Necessary actions include requesting assistance or information about the vulnerability, and may involve publishing a notification either internally and/or externally. CISA recommends remediating Attend vulnerabilities sooner than standard update timelines.
 - track: The vulnerability does not require action at this time. The organization would continue to track the vulnerability and reassess it if new information becomes available. CISA recommends remediating Track vulnerabilities within standard update timelines.
 - trackStar: ("Track\*" in the SSVC spec) The vulnerability contains specific characteristics that may require closer monitoring for changes. CISA recommends remediating Track\* vulnerabilities within standard update timelines.
+
+## Summary @zh-Hans
+
+指定SSVC决策类型。
+
+## Description @zh-Hans
+
+`SsvcDecisionType`指定根据[利益相关者特定漏洞分类（SSVC）指南](https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc)做出的决策类型。
+
+## Entries @zh-Hans
+
+- act: 此漏洞需要组织内部、监管层和领导层的人员关注。必要的措施包括请求对此漏洞的帮助或信息，并在内部和/或外部发布通知。通常，内部团队会召开会议确定整体响应，然后执行商定的措施。CISA建议尽快修复Act类漏洞。
+- attend: 此漏洞需要组织内部和监管层的人员关注。必要的措施包括请求对此漏洞的帮助或信息，可能需要在内部和/或外部发布通知。CISA建议尽早修复Attend类漏洞，先于标准更新时间表。
+- track: 此漏洞目前无需采取任何措施。组织将继续跟踪漏洞，并在获得新信息时重新评估漏洞。CISA建议在标准更新时间表内修复Track类漏洞。
+- trackStar: （SSVC规范中为“Track\*”）此漏洞具有特定特征，可能需要更密切地监控其变化。CISA建议在标准更新时间表内修复Track\*类漏洞。

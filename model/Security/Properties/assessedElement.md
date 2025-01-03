@@ -17,3 +17,11 @@ to specify the precise location where a vulnerability was found.
 - name: assessedElement
 - Nature: ObjectProperty
 - Range: /Software/SoftwareArtifact
+
+## Summary @zh-Hans
+
+指定发现漏洞的软件中包含的元素。
+
+## Description @zh-Hans
+
+指定安全评估引用的子包、文件或代码段，以明确漏洞发现的具体位置。
