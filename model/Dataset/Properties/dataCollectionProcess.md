@@ -18,3 +18,13 @@ the interview protocol that was used for data collection.
 - name: dataCollectionProcess
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @zh-Hans
+
+该属性描述数据集的收集方式。
+
+## Description @zh-Hans
+
+一段自由格式的文本，描述数据集是如何收集的。
+
+例如，爬取数据集的来源和用于数据收集的访谈协议。

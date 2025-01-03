@@ -34,3 +34,16 @@ left to the consumer of SPDX data to determine for themselves.
 - member
   - type: /SimpleLicensing/AnyLicenseInfo
   - minCount: 2
+
+
+## Summary @zh-Hans
+
+`AnyLicenseInfo`的一部分，指所有元素都需要遵守的许可信息集。
+
+## Description @zh-Hans
+  
+联合许可证集（`ConjunctiveLicenseSet`）表示 *每个* 附属`AnyLicenseInfos`都需要遵守。换句话说，一个由两个或更多许可证组成的`ConjunctiveLicenseSet`代表了一种许可情况，即 *所有* 特定的许可证都需要遵守。它在SPDX许可证表达式语法中通过`AND`运算符来表示。
+
+语法上正确的做法是指定一个`ConjunctiveLicenseSet`，其中的附属`AnyLicenseInfos`可以根据对相应许可证的特定解释而 “不兼容”。
+
+[SPDX License Expression Syntax](../../../annexes/spdx-license-expressions.md)没有考虑到许可证文本的解释，而是将其留给用户自行决定。

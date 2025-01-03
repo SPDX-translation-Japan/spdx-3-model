@@ -26,3 +26,15 @@ NoAssertionLicense should be used if
 ## Property Values
 
 - name: "NOASSERTION"
+
+## Summary @zh-Hans
+
+无法断言许可证实际值时，所用的许可证（`License`）的特殊值。
+
+## Description @zh-Hans
+
+如果满足以下条件，则应使用 `NoAssertionLicense`
+
+- SPDX 创建者已尝试但无法得出合理的客观结论；
+- SPDX 创建者没有尝试确认该字段；或
+- SPDX 创建者故意未提供任何信息（不应因此推断出任何意义）。

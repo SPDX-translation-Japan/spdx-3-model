@@ -48,3 +48,13 @@ or otherwise) which is defined by an SPDX data creator (CustomLicenseAddition).
   - type: xsd:string
   - minCount: 0
   - maxCount: 1
+
+## Summary @zh-Hans
+
+用于添加到许可证（`License`）中但其本身并非独立的许可证的附加文本的抽象类。
+
+## Description @zh-Hans
+
+许可证附加内容（`LicenseAddition`）表示要将一段文本作为附加文本添加到许可证（`License`）中，但其本身并不旨在成为一个独立的许可证。
+ 
+它可能是列在[SPDX License Exceptions](https://spdx.org/licenses/exceptions-index.html)中一个例外情况（`(ListedLicenseException`），或也可能是由SPDX数据创建者定义（`CustomLicenseAddition`）的任何其他附加文本（作为例外情况，或者其他情况）。

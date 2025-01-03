@@ -17,3 +17,13 @@ The size is to be measured in bytes.
 - name: datasetSize
 - Nature: DataProperty
 - Range: xsd:nonNegativeInteger
+
+## Summary @zh-Hans
+
+该属性描述数据集的大小。
+
+## Description @zh-Hans
+
+描述数据集的大小。
+
+数据集的大小应以字节为单位。
