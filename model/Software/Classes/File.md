@@ -34,3 +34,15 @@ a directory and all content stored in that directory.
 
 - /Core/Element/name
   - minCount: 1
+
+## Summary  @zh-Hans
+
+指计算机上存储内容的任意对象。
+
+## Description  @zh-Hans
+
+指计算机上存储内容的任意对象。
+
+内容的类型可以通过可选地contentType 属性提供。
+
+fileKind 属性可以设置为directory ，用以表示文件代表的目录和该目录中的所有内容。

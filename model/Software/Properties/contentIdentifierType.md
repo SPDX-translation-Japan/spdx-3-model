@@ -15,3 +15,11 @@ A contentIdentifierType specifies the type of the content identifier.
 - name: contentIdentifierType
 - Nature: ObjectProperty
 - Range: ContentIdentifierType
+
+## Summary @zh-Hans
+
+指定内容标识符（`contentIdentifier`）的类型。
+
+## Description @zh-Hans
+
+内容标识符类型（`contentIdentifierType`）指定了内容标识符的类型。

@@ -29,3 +29,15 @@ It can be used for verifying its identity and integrity.
   - type: xsd:anyURI
   - minCount: 1
   - maxCount: 1
+
+
+## Summary @zh-Hans
+
+一个规范的、唯一的、不可变的标识符。
+
+## Description @zh-Hans
+
+内容标识符(`ContentIdentifier`) 是软件工件内容的一个规范的、唯一的、不可变的标识符，例如一个软件包，一个文件或一个代码片段。
+
+它可用于验证其身份和完整性。
+

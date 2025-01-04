@@ -59,3 +59,24 @@ Note that some of these could be represented in SPDX as a file as well.
 
 - /Core/Element/name
   - minCount: 1
+
+## Summary @zh-Hans
+
+指的是与软件分发相关的任何内容单元。
+
+## Description @zh-Hans
+
+ 包(`Package`)指与软件分发相关的任何内容单元。
+
+通常，一个软件包由一个或多个文件组成。
+
+在SPDX中表达一个软件包，包含但不限于以下示例：
+
+* 一个tar,zip或其他压缩文件
+* 一个目录或者子目录
+* 一个被其他包或文件使用或依赖的独立分发软件(例如 一个Python包, 一个 Go 模块 ...)
+* 一个容器镜像，以及/或者容器镜像里的一个镜像层
+* 一个或多个子包的集合
+* 一个特定时间点的git代码仓库快照
+
+需要注意的是上述内容中的一些也可以在SPDX中被表示为文件。
