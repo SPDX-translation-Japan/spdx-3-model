@@ -21,11 +21,11 @@ names, each potentially having different values.
 - Nature: ObjectProperty
 - Range: CdxPropertyEntry
 
-## Summary  @zh-Hans
+## Summary @zh-Hans
 
 提供属性名称与值的映射。
 
-## Description  @zh-Hans
+## Description @zh-Hans
 
 此字段提供名称与值的映射。
 

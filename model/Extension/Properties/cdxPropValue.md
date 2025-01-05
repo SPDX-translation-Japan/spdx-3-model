@@ -19,11 +19,11 @@ names, each potentially having different values.
 - Nature: DataProperty
 - Range: xsd:string
 
-## Summary  @zh-Hans
+## Summary @zh-Hans
 
 `CdxPropertyEntry`名值对中使用的值。
 
-## Description  @zh-Hans
+## Description @zh-Hans
 
 `cdxPropValue`用于`CdxPropertyEntry`名值对。
 

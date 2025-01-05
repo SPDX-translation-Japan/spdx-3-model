@@ -28,11 +28,11 @@ This is intended to be compatible with the CycloneDX property `properties`.
   - type: CdxPropertyEntry
   - minCount: 1
 
-## Summary  @zh-Hans
+## Summary @zh-Hans
 
 一种扩展类型，由名值对的列表组成。
 
-## Description  @zh-Hans
+## Description @zh-Hans
 
 此扩展采用名值方法，提供了更结构化的扩展。
 
