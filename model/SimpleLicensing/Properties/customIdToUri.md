@@ -29,8 +29,6 @@ CustomLicenseAddition, or SimpleLicensingText.
 - name: customIdToUri
 - Nature: ObjectProperty
 - Range: /Core/DictionaryEntry
-
-
 ## Summary @zh-Hans
 
 将自定义许可证或自定义许可证附加信息的`LicenseRef`或`AdditionRef`字符串映射到其URI ID上。
