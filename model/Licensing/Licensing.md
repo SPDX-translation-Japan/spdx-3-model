@@ -177,6 +177,7 @@ the following has to hold:
 对于`NoneLicense`的`hasConcludedLicense`关系表明SPDX数据创建者已查找但未找到此软件工件的任何许可信息。
 
 对于`NoneLicense`的`hasConcludedLicense`关系表明以下之一适用：
+
 - SPDX数据创建者已尝试但无法得出合理的客观结论；
 - SPDX数据创建者没有尝试确定此字段；或者
 - SPDX数据创建者故意未提供任何信息（不应因此推断出任何意义）。
