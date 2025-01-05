@@ -26,8 +26,6 @@ license expression as a combination of license objects.
 - name: licenseExpression
 - Nature: DataProperty
 - Range: xsd:string
-
-
 ## Summary @zh-Hans
 
 许可证表达式格式的字符串。
