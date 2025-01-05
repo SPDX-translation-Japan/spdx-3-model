@@ -30,8 +30,6 @@ assertions about whether the License is listed in the FSF's commentary.
 - name: isFsfLibre
 - Nature: DataProperty
 - Range: xsd:boolean
-
-
 ## Summary @zh-Hans
 
 指定许可证（`License`）是否被自由软件基金会（FSF）列为自由(许可证)。
