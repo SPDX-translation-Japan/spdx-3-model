@@ -29,6 +29,7 @@ It can be used for verifying its identity and integrity.
   - type: xsd:anyURI
   - minCount: 1
   - maxCount: 1
+
 ## Summary @zh-Hans
 
 一个规范的、唯一的、不可变的标识符。
