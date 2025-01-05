@@ -161,6 +161,7 @@ the following has to hold:
 对于`NoAssertionLicense`的`hasDeclaredLicense`关系表明相应的软件包、文件或代码片段不包含任何许可信息。
 
 对于`NoAssertionLicense`的`hasDeclaredLicense`关系表明以下之一适用：
+
 - SPDX数据创建者已尝试但无法得出合理的客观结论；
 - SPDX数据创建者没有尝试确定该字段；或者
 - SPDX数据创建者故意未提供任何信息（不应因此推断出任何意义）。
