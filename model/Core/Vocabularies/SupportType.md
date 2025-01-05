@@ -23,6 +23,7 @@ SupportType is an enumeration of the various types of support commonly found for
 - endOfSupport: there is a defined end of support for the artifact from the supplier.  This may also be referred to as end of life. There is a validUntilDate that can be used to signal when support ends for the artifact.
 - noSupport: there is no support for the artifact from the supplier, consumer assumes any support obligations.
 - noAssertion: no assertion about the type of support is made.   This is considered the default if no other support type is used.
+
 ## Summary @zh-Hans
 
 表示与`Artifact`相关的支持类型。
