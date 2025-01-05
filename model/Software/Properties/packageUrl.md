@@ -51,6 +51,7 @@ significant on the left to the least significant components on the right.
 scheme:type/namespace/name@version?qualifiers#subpath
 ```
 
-每个组件的定义可以在本规范的相应附录([Annex](https://../../../annexes/pkg-url-specification.md))中找到。已知类型的类型定义([type definitions](https://github.com/package-url/purl-spec/blob/b33dda1cf4515efa8eabbbe8e9b140950805f845/PURL-TYPES.rst).)可以在包URL类型定义中找到。
+每个组件的定义可以在本规范的相应附录([Annex](../../../annexes/pkg-url-specification.md))中找到。
+已知类型的类型定义([type definitions](https://github.com/package-url/purl-spec/blob/b33dda1cf4515efa8eabbbe8e9b140950805f845/PURL-TYPES.rst))可以在包URL类型定义中找到。
 
 组件的设计方式是，它们从最左边的最重要的组件到最右边的最不重要的组件形成一个层次结构。
