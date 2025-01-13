@@ -14,9 +14,7 @@ A Physical hardware artifact describes a distinct physical unit.
 - Instantiability: Concrete
 
 ## Properties
-
 - physical
   - type: HBOMPhysical
   - minCount: 0
   - maxCount: 1
-
