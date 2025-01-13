@@ -3,21 +3,17 @@ SPDX-License-Identifier: Community-Spec-1.0
 # Process
 
 ## Summary
-
 Class that describes a process.
 
 ## Description
-
-Processes define a set of tasks needed to perform a procedure. The step to assemble a table is an is a process.
+Processes are composed of systematic task(s) required to achieve a goal.
 
 ## Metadata
-
 - name: Process
 - SubclassOf: /Core/Artifact
-- Instantiability: Concrete
+- Instantiability: Abstract
 
 ## Properties
-
 - version
   - type: xsd:string
   - minCount: 1
@@ -29,8 +25,4 @@ Processes define a set of tasks needed to perform a procedure. The step to assem
 - status
   - type: DocumentState
   - minCount: 0
-  - maxCount: 1
-- typeOfProcess
-  - type: ProcessType
-  - minCount: 1
   - maxCount: 1
