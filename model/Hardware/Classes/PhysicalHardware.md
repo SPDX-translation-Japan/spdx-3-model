@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# Hardware
+# PhysicalHardware
 
 ## Summary
 Class that describes a physical instance of Hardware.
