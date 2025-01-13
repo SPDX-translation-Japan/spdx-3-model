@@ -17,4 +17,3 @@ Virtual hardware requires instantiation involving specific hardware and software
 - Instantiability: Concrete
 
 ## Properties
-
