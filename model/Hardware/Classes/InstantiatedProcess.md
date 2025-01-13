@@ -9,11 +9,8 @@ Class that describes a InstantiatedProcess that is used to define VirtualHardwar
 InstantiatedProcess is a class defining the process needed to instantiate an ‘VirtualHardware’ defined by running software package(s).
 
 ## Metadata
-
 - name: InstantiatedProcess
 - SubclassOf: /Core/Process
 - Instantiability: Concrete
 
 ## Properties
-
-
