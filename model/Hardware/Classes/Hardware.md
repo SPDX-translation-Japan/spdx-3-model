@@ -6,23 +6,14 @@ SPDX-License-Identifier: Community-Spec-1.0
 Class that describes a instance of Hardware.
 
 ## Description
-A hardware artifact is a distinct article or unit related to hardware such as a unit.
+A hardware artifact is a distinct unit related to hardware.
 
 ## Metadata
 - name: Hardware
 - SubclassOf: /Core/Element
-- Instantiability: Concrete
+- Instantiability: Abstract
 
 ## Properties
-
-- physical
-  - type: HBOMPhysical
-  - minCount: 0
-  - maxCount: 1
-- virtualFlag 
-  - type: xsd:boolean
-  - minCount: 1
-  - maxCount: 1
 - organizationalEntity
   - type: /Core/Organization
   - minCount: 1
