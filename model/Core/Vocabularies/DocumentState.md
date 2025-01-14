@@ -20,4 +20,3 @@ Documents states vary by state. Enumerations are used to define the state.
 - active: in use
 - obsolete: superseded or not valid at present
 - other: other
-
