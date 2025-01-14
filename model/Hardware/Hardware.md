@@ -23,4 +23,6 @@ the following has to hold:
    
 2. for every `/Hardware/HBOMPhysical` If the property mass is defined then massUnit must be defined.
 
-3. For evert `/Hardware/HBOMPhysical` If the property dimensions and centerofMass is defined then both centerofMass and dimensions have the same coordinateorientationType for x, y, and z.
+3. For evert `/Hardware/HBOMPhysical` If the property dimensions and centerOfMass is
+   defined then both centerOfMass and dimensions have the same
+   coordinateOrientationType for x, y, and z.
