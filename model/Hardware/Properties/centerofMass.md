@@ -12,6 +12,6 @@ The mass-center is a fixed property for a given rigid body (e.g. with no slosh o
 
 ## Metadata
 
-- name: centerofMass
+- name: centerOfMass
 - Nature: ObjectProperty
 - Range: /Hardware/HBOMDimensions
