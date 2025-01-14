@@ -10,6 +10,7 @@ Property describing the start time of an action.
 actionStartTime is the time at which a action is triggered.
 
 ## Metadata
+
 - name: actionStartTime
 - Nature: DataProperty
 - Range: /Core/DateTime

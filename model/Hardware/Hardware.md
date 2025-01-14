@@ -3,17 +3,21 @@ SPDX-License-Identifier: Community-Spec-1.0
 # Hardware
 
 ## Summary
-The Hardware Profile provides additional metadata, that is useful for hardware.
+
+The Hardware Profile provides additional metadata that is useful for hardware.
 
 ## Description
-The Hardware namespace defines concepts related to hardware, including virtual hardware
+
+The Hardware namespace defines concepts related to hardware, including virtual hardware.
 preparation process, its characteristics, and its access methods.
 
 ## Metadata
+
 - id: https://spdx.org/rdf/3.1.0/terms/Hardware
 - name: Hardware
 
 ## Profile conformance
+
 For an element collection to be conformant with this profile,
 the following has to hold:
 
