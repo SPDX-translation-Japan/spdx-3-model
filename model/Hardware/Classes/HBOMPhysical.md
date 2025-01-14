@@ -21,7 +21,7 @@ Physical characteristics include dimensions, mass, units and related items.
 - dimensions
   - type: HBOMDimensions
   - maxCount: 1
-- mass 
+- mass
   - type: xsd:Number
   - maxCount: 1
 - massUnit
