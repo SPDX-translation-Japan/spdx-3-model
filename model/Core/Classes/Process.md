@@ -11,6 +11,7 @@ Class that describes a process.
 Processes are composed of systematic task(s) required to achieve a goal.
 
 ## Metadata
+
 - name: Process
 - SubclassOf: /Core/Artifact
 - Instantiability: Abstract
