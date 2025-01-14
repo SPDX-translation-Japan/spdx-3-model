@@ -15,6 +15,7 @@ Action defines an event that has occurred. This is an Abstract Action.
 - Instantiability: Abstract
 
 ## Properties
+
 - actionStartTime
   - type: /Core/DateTime
   - minCount: 0
