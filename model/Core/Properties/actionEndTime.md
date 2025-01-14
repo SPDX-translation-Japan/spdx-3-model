@@ -14,4 +14,4 @@ Property describing the time at which an action stops or finishes.
 
 - name: actionEndTime
 - Nature: DataProperty
-- Range: /Core/DateTime
+- Range: DateTime
