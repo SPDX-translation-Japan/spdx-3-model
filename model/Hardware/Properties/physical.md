@@ -14,4 +14,4 @@ This field is a reasonable estimation of the physical characteristics of hardwar
 
 - name: physical
 - Nature: ObjectProperty
-- Range: /Hardware/HBOMPhysical
+- Range: HBOMPhysical
