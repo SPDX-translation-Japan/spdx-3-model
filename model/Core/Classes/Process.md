@@ -3,6 +3,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 # Process
 
 ## Summary
+
 Class that describes a process.
 
 ## Description
