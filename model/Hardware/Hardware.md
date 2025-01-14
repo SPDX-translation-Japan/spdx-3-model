@@ -23,10 +23,11 @@ the following has to hold:
 
 1. for every `/Hardware/InstantiatedProcess` there MUST exist exactly one
    `/Core/Relationship` of type `instantiatedBy` having that element as its
-   `from` property and a `/Hardware/VirualHardware` as its `to`
+   `from` property and a `/Hardware/VirualHardware` as its `to`.
    
-2. for every `/Hardware/HBOMPhysical` If the property mass is defined then massUnit must be defined.
+2. for every `/Hardware/HBOMPhysical`, if the property `mass` is defined then
+   `massUnit` must be defined.
 
-3. For evert `/Hardware/HBOMPhysical` If the property dimensions and centerOfMass is
-   defined then both centerOfMass and dimensions have the same
-   coordinateOrientationType for x, y, and z.
+3. for every `/Hardware/HBOMPhysical`, if the properties `dimensions` and
+   `centerOfMass` are defined then both `dimensions` and `centerOfMass`
+   must have the same `coordinateOrientationType` for x, y, and z.

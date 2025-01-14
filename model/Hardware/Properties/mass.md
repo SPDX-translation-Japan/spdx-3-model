@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-information related to physical hardware.
+Information related to physical hardware.
 
 ## Description
 
