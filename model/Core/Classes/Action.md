@@ -13,16 +13,16 @@ Action defines an event that has occurred. This is an Abstract Action.
 ## Metadata
 
 - name: Action
-- SubclassOf: /Core/Artifact
+- SubclassOf: Artifact
 - Instantiability: Abstract
 
 ## Properties
 
 - actionStartTime
-  - type: /Core/DateTime
+  - type: DateTime
   - minCount: 0
   - maxCount: 1
 - actionEndTime
-  - type: /Core/DateTime
+  - type: DateTime
   - minCount: 0
   - maxCount: 1
