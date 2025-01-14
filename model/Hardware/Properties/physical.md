@@ -9,6 +9,7 @@ Describes the physical characteristics of hardware.
 ## Description
 
 This field is a reasonable estimation of the physical characteristics of hardware.
+
 ## Metadata
 
 - name: physical
