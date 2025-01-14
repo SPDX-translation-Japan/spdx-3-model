@@ -7,6 +7,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 Class that describes a process.
 
 ## Description
+
 Processes are composed of systematic task(s) required to achieve a goal.
 
 ## Metadata
