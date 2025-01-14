@@ -3,7 +3,8 @@ SPDX-License-Identifier: Community-Spec-1.0
 # Action
 
 ## Summary
-Class that describes an action that has occurred .
+
+Class that describes an action that has occurred.
 
 ## Description
 
