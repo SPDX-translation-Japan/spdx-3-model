@@ -17,6 +17,7 @@ Processes are composed of systematic task(s) required to achieve a goal.
 - Instantiability: Abstract
 
 ## Properties
+
 - version
   - type: xsd:string
   - minCount: 1
