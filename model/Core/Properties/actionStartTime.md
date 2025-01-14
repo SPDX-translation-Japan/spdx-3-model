@@ -7,7 +7,8 @@ SPDX-License-Identifier: Community-Spec-1.0
 Property describing the start time of an action.
 
 ## Description
-actionStartTime is the time at which a action is triggered.
+
+actionStartTime is the time at which an action is triggered.
 
 ## Metadata
 
