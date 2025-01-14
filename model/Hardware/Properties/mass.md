@@ -14,4 +14,4 @@ Mass is defined as an intrinsic property of a body for describing a physical har
 
 - name: mass
 - Nature: DataProperty
-- Range: xsd:Number
+- Range: xsd:decimal
