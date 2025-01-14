@@ -14,4 +14,4 @@ actionStartTime is the time at which an action is triggered.
 
 - name: actionStartTime
 - Nature: DataProperty
-- Range: /Core/DateTime
+- Range: DateTime
