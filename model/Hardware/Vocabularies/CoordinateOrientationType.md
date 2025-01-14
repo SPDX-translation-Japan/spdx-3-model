@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-coordinateorientationType sets the coordinate orientation. 
+CoordinateOrientationType sets the coordinate orientation. 
 
 ## Description
 
