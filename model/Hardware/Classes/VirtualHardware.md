@@ -16,7 +16,7 @@ Virtual hardware requires instantiation involving specific hardware and software
 ## Metadata
 
 - name: VirtualHardware
-- SubclassOf: /Hardware/Hardware
+- SubclassOf: Hardware
 - Instantiability: Concrete
 
 ## Properties
