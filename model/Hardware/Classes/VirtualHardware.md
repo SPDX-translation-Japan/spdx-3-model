@@ -8,7 +8,7 @@ Class that describes an instance of VirtualHardware.
 
 ## Description
 
-A VirtualHardware artifact is a distinct article related to virtual hardware. 
+A VirtualHardware is a distinct article related to simulation or emulation hardware. 
 This is used to assist in recording "Digital Twinning".
 A FPGA simualtion of hardware is a VirtualHardware. 
 Virtual hardware requires instantiation involving specific hardware and software. 
