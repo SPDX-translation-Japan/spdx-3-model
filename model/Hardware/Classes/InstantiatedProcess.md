@@ -17,3 +17,4 @@ InstantiatedProcess is a class defining the process needed to instantiate an 'Vi
 - Instantiability: Concrete
 
 ## Properties
+
