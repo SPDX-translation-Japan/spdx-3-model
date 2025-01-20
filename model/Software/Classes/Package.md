@@ -66,7 +66,7 @@ Note that some of these could be represented in SPDX as a file as well.
 
 ## Description @zh-Hans
 
- 包(`Package`)指与软件分发相关的任何内容单元。
+包(`Package`)指与软件分发相关的任何内容单元。
 
 通常，一个软件包由一个或多个文件组成。
 
