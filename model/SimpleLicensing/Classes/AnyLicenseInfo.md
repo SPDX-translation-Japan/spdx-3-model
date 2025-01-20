@@ -42,8 +42,6 @@ It can be:
 `AnyLicenseInfo`是一个抽象类，表示由一个或多个许可证（可选包括附加文本）组成的许可证组合，这些许可证可根据[SPDX许可证表达式语法](../../../annexes/spdx-license-expressions.md)进行组合。
 
 `AnyLicenseInfo`可用于软件工件的许可属性。
-
-
 它可以是
 - `NoneLicense`；
 - `NoAssertionLicense`；
