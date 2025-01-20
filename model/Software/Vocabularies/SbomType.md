@@ -35,6 +35,7 @@ A single SBOM can have multiple SBOM document types associated with it.
 ## Summary @zh-Hans
 
 提供一组值，用于描述工具可能创建的常见SBOM（软件物料清单）类型。
+
 ## Description @zh-Hans
 
 在2023年4月21日发布的《软件物料清单（SBOM）文档类型》（[Types of Software Bill of Material (SBOM) Documents](https://www.cisa.gov/sites/default/files/2023-04/sbom-types-document-508c.pdf)）中定义的SBOM类型集合及其定义。
