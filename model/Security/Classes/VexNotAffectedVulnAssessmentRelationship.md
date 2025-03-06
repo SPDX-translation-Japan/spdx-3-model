@@ -20,8 +20,6 @@ following requirements must be observed:
 
 - Relating elements with a VexNotAffectedVulnAssessmentRelationship is
   restricted to the doesNotAffect relationship type.
-- The from: end of the relationship must be a /Security/Vulnerability classed
-  element.
 - Both impactStatement and justificationType properties have a cardinality of
   0..1 making them optional. Nevertheless, to produce a valid VEX not_affected
   statement, one of them MUST be defined. This is specified in the Minimum

@@ -20,8 +20,6 @@ the following requirements must be observed:
 
 - Elements linked with a VexUnderInvestigationVulnAssessmentRelationship are
   constrained to using the underInvestigationFor relationship type.
-- The from: end of the relationship must be a /Security/Vulnerability classed
-  element.
 
 *Example*
 
