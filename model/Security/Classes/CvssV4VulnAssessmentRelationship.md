@@ -33,17 +33,17 @@ It is intended to communicate the results of using a CVSS calculator.
   "security_assessedElement": "urn:apache-log4j-2.14.1",
   "externalRef": [
     {
-      "@type": "ExternalRef",
+      "type": "ExternalRef",
       "externalRefType": "securityAdvisory",
       "locator": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228"
     },
     {
-      "@type": "ExternalRef",
+      "type": "ExternalRef",
       "externalRefType": "securityAdvisory",
       "locator": "https://logging.apache.org/log4j/2.x/security.html"
     },
     {
-      "@type": "ExternalRef",
+      "type": "ExternalRef",
       "externalRefType": "securityOther",
       "locator": "https://www.first.org/cvss/v4.0/examples#Apache-log4j-Vulnerability-CVE-2021-44228"
     },
