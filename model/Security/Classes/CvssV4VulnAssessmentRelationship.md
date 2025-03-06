@@ -25,7 +25,7 @@ It is intended to communicate the results of using a CVSS calculator.
   "type": "CvssV4VulnAssessmentRelationship",
   "spdxId": "urn:spdx.dev:cvssv4-cve-2021-44228",
   "relationshipType": "hasAssessmentFor",
-  "security_severity": "medium",
+  "security_severity": "critical",
   "security_score": "10.0",
   "security_vectorString": "CVSS:4.0/AV:N/AC:L/AT:N/AR:N/UI:N/VCH/VI:H/VA:H/SC:H/SI:H/SA:H/E:A",
   "from": "urn:spdx.dev:vuln-cve-2021-44228",
