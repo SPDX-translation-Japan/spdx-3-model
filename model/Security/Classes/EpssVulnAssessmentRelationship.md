@@ -24,7 +24,7 @@ scores, using the Exploit Prediction Scoring System (EPSS) as defined at
 
 ```json
 {
-  "type": "EpssVulnAssessmentRelationship",
+  "type": "security_EpssVulnAssessmentRelationship",
   "spdxId": "urn:spdx.dev:epss-CVE-2020-28498",
   "relationshipType": "hasAssessmentFor",
   "security_probability": "0.00105",

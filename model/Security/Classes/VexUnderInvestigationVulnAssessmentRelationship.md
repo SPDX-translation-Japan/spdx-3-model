@@ -25,7 +25,7 @@ the following requirements must be observed:
 
 ```json
 {
-  "type": "VexUnderInvestigationVulnAssessmentRelationship",
+  "type": "security_VexUnderInvestigationVulnAssessmentRelationship",
   "spdxId": "urn:spdx.dev:vex-underInvestigation-1",
   "relationshipType": "underInvestigationFor",
   "from": "urn:spdx.dev:vuln-cve-2020-28498",

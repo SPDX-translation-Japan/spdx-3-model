@@ -29,7 +29,7 @@ following requirements must be observed:
 
 ```json
 {
-  "type": "VexNotAffectedVulnAssessmentRelationship",
+  "type": "security_VexNotAffectedVulnAssessmentRelationship",
   "spdxId": "urn:spdx.dev:vex-not-affected-1",
   "relationshipType": "doesNotAffect",
   "from": "urn:spdx.dev:vuln-cve-2020-28498",

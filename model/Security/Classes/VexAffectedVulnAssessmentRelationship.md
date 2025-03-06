@@ -25,7 +25,7 @@ following requirements must be observed:
 
 ```json
 {
-  "type": "VexAffectedVulnAssessmentRelationship",
+  "type": "security_VexAffectedVulnAssessmentRelationship",
   "spdxId": "urn:spdx.dev:vex-affected-1",
   "relationshipType": "affects",
   "from": "urn:spdx.dev:vuln-cve-2020-28498",

@@ -22,7 +22,7 @@ It is intended to communicate the results of using a CVSS calculator.
 
 ```json
 {
-  "type": "CvssV4VulnAssessmentRelationship",
+  "type": "security_CvssV4VulnAssessmentRelationship",
   "spdxId": "urn:spdx.dev:cvssv4-cve-2021-44228",
   "relationshipType": "hasAssessmentFor",
   "security_severity": "critical",

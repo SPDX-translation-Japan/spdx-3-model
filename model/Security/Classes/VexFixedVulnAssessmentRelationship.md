@@ -25,7 +25,7 @@ requirements must be observed:
 
 ```json
 {
-  "type": "VexFixedVulnAssessmentRelationship",
+  "type": "security_VexFixedVulnAssessmentRelationship",
   "spdxId": "urn:spdx.dev:vex-fixed-in-1",
   "relationshipType": "fixedIn",
   "from": "urn:spdx.dev:vuln-cve-2020-28498",
