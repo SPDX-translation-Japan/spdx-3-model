@@ -31,7 +31,7 @@ requirements must be observed:
   "from": "urn:spdx.dev:vuln-cve-2020-28498",
   "to": ["urn:product-acme-application-1.3"],
   "security_assessedElement": "urn:npm-elliptic-6.5.4",
-  "suppliedBy": ["urn:spdx.dev:agent-jane-doe"],
+  "suppliedBy": "urn:spdx.dev:agent-jane-doe",
   "publishedTime": "2021-03-09T11:04:53Z"
 }
 ```

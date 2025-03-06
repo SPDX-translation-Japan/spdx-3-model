@@ -47,7 +47,7 @@ It is intended to communicate the results of using a CVSS calculator.
       "locator": "https://github.com/indutny/elliptic/commit/441b742"
     }
   ],
-  "suppliedBy": ["urn:spdx.dev:agent-my-security-vendor"],
+  "suppliedBy": "urn:spdx.dev:agent-my-security-vendor",
   "publishedTime": "2023-05-06T10:06:13Z"
 },
 {

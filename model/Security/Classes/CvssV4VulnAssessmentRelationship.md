@@ -48,7 +48,7 @@ It is intended to communicate the results of using a CVSS calculator.
       "locator": "https://www.first.org/cvss/v4.0/examples#Apache-log4j-Vulnerability-CVE-2021-44228"
     },
   ],
-  "suppliedBy": ["urn:spdx.dev:agent-my-security-vendor"],
+  "suppliedBy": "urn:spdx.dev:agent-my-security-vendor",
   "publishedTime": "2023-10-05T23:09:13Z"
 },
 {
