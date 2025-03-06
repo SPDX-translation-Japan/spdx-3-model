@@ -23,8 +23,8 @@ It is intended to communicate the results of using the CISA SSVC Calculator.
 
 ```json
 {
-  "@type": "SsvcVulnAssessmentRelationship",
-  "@id": "urn:spdx.dev:ssvc-1",
+  "type": "SsvcVulnAssessmentRelationship",
+  "spdxId": "urn:spdx.dev:ssvc-1",
   "relationshipType": "hasAssessmentFor",
   "security_decisionType": "act",
   "from": "urn:spdx.dev:vuln-cve-2020-28498",
