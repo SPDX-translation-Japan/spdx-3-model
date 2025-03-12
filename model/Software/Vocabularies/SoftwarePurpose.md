@@ -52,3 +52,47 @@ conclusions about the context in which the Element exists.
 - source: The Element is a single or a collection of source files.
 - specification: The Element is a plan, guideline or strategy how to create, perform or analyze an application.
 - test: The Element is a test used to verify functionality on an software element.
+
+## Summary @zh-Hans
+
+提供有关元素的主要目的信息。
+
+## Description @zh-Hans
+
+该字段提供了有关元素的主要目的信息。
+
+软件目的与元素的使用方式内在相关，而不是元素的内容。
+
+这个字段是对元素最可能用途的合理估计，从生产者和消费者的角度来看，双方都可以从中得出关于元素存在的上下文的结论。
+
+## Entries @zh-Hans
+
+- application: (应用程序) 该元素是一个软件应用程序。
+- archive: (归档文件) 该元素是一个或多个文件的归档集合（如.tar、.zip等）。
+- bom: (物料清单) 该元素是一个物料清单。
+- configuration: (配置数据) 该元素是配置数据。
+- container: (容器) 该元素是一个容器镜像，可以被容器运行时应用程序使用。
+- data: (数据) 该元素是数据。
+- device: (设备) 该元素指的是芯片模组、处理器或电路板。
+- diskImage: (磁盘映像) 该元素指的是可以写入磁盘、在虚拟机中启动等的磁盘映像。磁盘映像通常包含启动所需的大部分或全部组件，如引导加载程序、内核、固件、用户空间等。
+- deviceDriver: (设备驱动程序) 该元素代表控制硬件设备的软件。
+- documentation: (文档) 该元素是文档。
+- evidence: (证据) 该元素是证明规范或要求已得到满足的证据。
+- executable: (可执行文件) 该元素是可以计算机上运行的工件。
+- file: (文件) 该元素是一个可以独立分发的单个文件（配置文件、静态链接的二进制文件、Kubernetes部署等）。
+- filesystemImage: (文件系统映像) 该元素是一个可以写入磁盘（或虚拟）分区的文件系统映像。
+- firmware: (固件) 该元素提供对设备硬件的低级控制。
+- framework: (框架) 该元素是一个软件框架。
+- install: (安装程序) 该元素用于在磁盘上安装软件。
+- library: (库) 该元素是一个软件库。
+- manifest: (清单) 该元素是一个软件清单。
+- model: (模型) 该元素是机器学习或人工智能模型。
+- module: (模块) 该元素是软件的一个模块。
+- operatingSystem: (操作系统) 该元素是一个操作系统。
+- other: (其他) 该元素不属于其他任何类别。
+- patch: (补丁) 该元素包含一组用于更新、修复或改进另一个元素的更改。
+- platform: (平台) 该元素代表一个运行时环境。
+- requirement: (需求) 该元素提供了作为另一个元素输入所需的需求。
+- source: (源代码) 该元素是单个或一组源代码文件。
+- specification: (规范) 该元素是一个计划、指南或策略，说明如何创建、执行或分析应用程序。
+- test: (测试) 该元素是用来验证软件元素功能的测试。

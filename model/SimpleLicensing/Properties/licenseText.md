@@ -20,3 +20,13 @@ when comparing it to another text for matching purposes.
 - name: licenseText
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @zh-Hans
+
+标识许可证（`License`）或附加内容（`Addition`）的全文。
+
+## Description @zh-Hans
+
+一个许可证文本（`licenseText`）包含许可证（`License`）或附加内容（`Addition`）的纯文本，不含模板或其他类似标记。
+
+许可证（`License`）的许可证文本（`licenseText`）用户在将其与其他文本进行匹配时，可应用[SPDX许可证列表匹配指南](../../../annexes/license-matching-guidelines-and-templates.md)。

@@ -39,3 +39,15 @@ license expression as a combination of license objects.
 - customIdToUri
   - type: /Core/DictionaryEntry
   - minCount: 0
+
+## Summary @zh-Hans
+
+一个包含SPDX许可证表达式字符串的SPDX元素。
+
+## Description @zh-Hans
+
+一个`LicenseExpression`可以在单个字符串中表示一个或多个许可证的组合，以及许可证例外情况等附加内容。
+
+`licenseExpression`字符串的语法在本规范的相应附件（[“SPDX 许可证表达式”](../../../annexes/spdx-license-expressions.md)）中规定。如果一个`licenseExpression`字符串不符合该附件中规定的语法，则该字符串无效。
+
+`ExpandedLicensing`配置文件可用于将完整解析的许可证表达式表示为许可证对象的组合。
