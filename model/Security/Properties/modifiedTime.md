@@ -15,3 +15,11 @@ Specifies a time when a vulnerability assessment was last modified.
 - name: modifiedTime
 - Nature: DataProperty
 - Range: /Core/DateTime
+
+## Summary @zh-Hans
+
+指定漏洞评估修改时间。
+
+## Description @zh-Hans
+
+指定漏洞评估的最后修改时间。

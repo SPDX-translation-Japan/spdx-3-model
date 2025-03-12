@@ -81,3 +81,60 @@ It is intended to communicate the results of using a CVSS calculator.
   - type: xsd:string
   - minCount: 1
   - maxCount: 1
+
+## Summary @zh-Hans
+
+提供漏洞的CVSS v4.0评估。
+
+## Description @zh-Hans
+
+`CvssV4VulnAssessmentRelationship`关系描述根据[CVSS v4.0 规范文档](https://www.first.org/cvss/v4.0/specification-document)定义的漏洞评分、严重性和向量。
+
+其目的是传达CVSS计算器的结果。
+
+*约束条件*
+
+- 关系类型必须设置为`hasAssessmentFor`。
+
+*示例*
+
+```json
+{
+  "type": "CvssV4VulnAssessmentRelationship",
+  "spdxId": "urn:spdx.dev:cvssv4-cve-2021-44228",
+  "relationshipType": "hasAssessmentFor",
+  "security_severity": "medium",
+  "security_score": "10.0",
+  "security_vectorString": "CVSS:4.0/AV:N/AC:L/AT:N/AR:N/UI:N/VCH/VI:H/VA:H/SC:H/SI:H/SA:H/E:A",
+  "from": "urn:spdx.dev:vuln-cve-2021-44228",
+  "to": ["urn:product-acme-application-1.3"],
+  "security_assessedElement": "urn:apache-log4j-2.14.1",
+  "externalRef": [
+    {
+      "@type": "ExternalRef",
+      "externalRefType": "securityAdvisory",
+      "locator": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228"
+    },
+    {
+      "@type": "ExternalRef",
+      "externalRefType": "securityAdvisory",
+      "locator": "https://logging.apache.org/log4j/2.x/security.html"
+    },
+    {
+      "@type": "ExternalRef",
+      "externalRefType": "securityOther",
+      "locator": "https://www.first.org/cvss/v4.0/examples#Apache-log4j-Vulnerability-CVE-2021-44228"
+    },
+  ],
+  "suppliedBy": ["urn:spdx.dev:agent-my-security-vendor"],
+  "publishedTime": "2023-10-05T23:09:13Z"
+},
+{
+  "type": "Relationship",
+  "spdxId": "urn:spdx.dev:vulnAgentRel-1",
+  "relationshipType": "publishedBy",
+  "from": "urn:spdx.dev:cvssv4-cve-2021-44228",
+  "to": ["urn:spdx.dev:agent-apache.org"],
+  "startTime": "2021-12-11T18:39:00Z"
+}
+```

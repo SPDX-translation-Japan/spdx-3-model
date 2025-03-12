@@ -18,3 +18,11 @@ probability score. The definition follows "percentile" in
 - name: percentile
 - Nature: DataProperty
 - Range: xsd:decimal
+
+## Summary @zh-Hans
+
+当前概率分数的百分位数。
+
+## Description @zh-Hans
+
+当前概率分数的百分位数，范围为0到1（0到100%），表示所有得分漏洞中具有相同或更低概率得分的比例。此定义参照[EPSS数据](https://www.first.org/epss/data_stats)中的“percentile”定义。

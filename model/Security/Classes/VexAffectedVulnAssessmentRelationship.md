@@ -53,3 +53,33 @@ following requirements must be observed:
   - type: /Core/DateTime
   - minCount: 0
   - maxCount: 1
+
+## Summary @zh-Hans
+
+将漏洞与某个元素关联，此元素指定受漏洞影响的产品。
+
+## Description @zh-Hans
+
+`VexAffectedVulnAssessmentRelationship`将一个漏洞与多个元素关联。此关系将这些元素标记为受漏洞影响的产品，对应VEX的已受影响（affected）状态。
+
+*约束条件*
+
+使用`VexAffectedVulnAssessmentRelationship`关联元素时，必须遵循以下要求：
+
+- 与`VulnVexAffectedAssessmentRelationship`关联的元素必须使用`affects`关系类型。
+
+*示例*
+
+```json
+{
+  "type": "VexAffectedVulnAssessmentRelationship",
+  "spdxId": "urn:spdx.dev:vex-affected-1",
+  "relationshipType": "affects",
+  "from": "urn:spdx.dev:vuln-cve-2020-28498",
+  "to": ["urn:product-acme-application-1.3"],
+  "security_assessedElement": "urn:npm-elliptic-6.5.2",
+  "security_actionStatement": "Upgrade to version 1.4 of ACME application.",
+  "suppliedBy": ["urn:spdx.dev:agent-jane-doe"],
+  "publishedTime": "2021-03-09T11:04:53Z"
+}
+```

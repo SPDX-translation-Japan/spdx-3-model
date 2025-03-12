@@ -60,3 +60,48 @@ For a `/Software/Sbom` to be conformant with this profile, the following has to 
 Finally, for a `/Core/Agent` to be conformant with this profile, the following has to hold:
 
 1. The minCount for `name` is 1
+
+## Summary @zh-Hans
+
+SPDX Lite（SPDX 轻量版）配置文件从某些行业用例的角度定义了 SPDX 数据的简要视图。
+
+## Description @zh-Hans
+
+SPDX `Lite` 配置文件包括强制性和建议性信息。
+
+SPDX `Lite` 中的强制性信息是基础性的，但有助于遵守许可证。
+通过阅读 SPDX `Lite` 文件，可以轻松理解许可证信息。
+
+SPDX `Lite` 力求在全量 SPDX 数据模型和某些行业的实际工作流程之间寻求一种平衡。
+
+SPDX `Lite` 文档可以在软件供应链中与其他 SPDX 文档并行使用。
+
+## Profile conformance @zh-Hans
+
+除了以下强制性信息外，请参考相应的附录，了解符合 Lite 配置文件的文档应包含的元素。
+
+一个 `/Software/Package` 类要符合此配置文件，必须满足以下条件：
+
+1. `copyrightText` 的 `minCount` 为 1。
+2. `packageVersion` 的 `minCount` 为 1。
+3. `suppliedBy` 的 `minCount` 为 1。
+4. 必须至少存在一个 `downloadLocation` 或 `packageUrl`。
+
+此外：
+
+1. 对于每个 `/Software/Package`，必须存在一个 `/Core/Relationship`，其类型为 `hasConcludedLicense`，该元素作为其 `from` 属性，`/SimpleLicensing/AnyLicenseInfo` 作为其 `to` 属性。
+2. 对于每个 `/Software/Package`，必须存在一个 `/Core/Relationship`，其类型为 `hasDeclaredLicense`，该元素作为其 `from` 属性， `/SimpleLicensing/AnyLicenseInfo` 作为其 `to` 属性。
+
+一个 `/Core/SpdxDocument` 类要符合这个配置文件，必须满足以下条件：
+
+1. `element` 的 `minCount` 为 1。
+2. `rootElement` 的 `minCount` 为 1。
+
+一个 `/Software/Sbom` 类要符合这个配置文件，必须满足以下条件：
+
+1. `element` 的 `minCount` 为 1。
+2. `rootElement` 的 `minCount` 为 1。
+
+最后，一个 `/Core/Agent` 类要符合这个配置文件，必须满足以下条件：
+
+1. `name` 的 `minCount` 为 1。

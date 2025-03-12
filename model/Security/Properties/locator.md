@@ -15,3 +15,11 @@ A locator provides the location of an exploit catalog.
 - name: locator
 - Nature: DataProperty
 - Range: xsd:anyURI
+
+## Summary @zh-Hans
+
+提供漏洞利用目录的位置。
+
+## Description @zh-Hans
+
+定位器提供漏洞利用目录的位置。

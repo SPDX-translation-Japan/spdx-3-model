@@ -18,3 +18,13 @@ names, each potentially having different values.
 - name: cdxPropName
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @zh-Hans
+
+`CdxPropertyEntry`名值对中使用的名称。
+
+## Description @zh-Hans
+
+`cdxPropName`用于`CdxPropertyEntry`名值对。
+
+与键值存储不同，`CdxPropertiesExtension`中的属性支持重名，每个属性可以具有不同的值。
