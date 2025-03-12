@@ -17,3 +17,11 @@ the [`SsvcDecisionType`](../Vocabularies/SsvcDecisionType.md) vocabulary.
 - name: decisionType
 - Nature: ObjectProperty
 - Range: SsvcDecisionType
+
+## Summary @zh-Hans
+
+枚举[利益相关者特定漏洞分类（SSVC）决策树](https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc)中可能的决策。
+
+## Description @zh-Hans
+
+`decisionType`是必填值，必须选择[`SsvcDecisionType`](../Vocabularies/SsvcDecisionType.md)词汇表中的四个条目之一。

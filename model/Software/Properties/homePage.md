@@ -24,3 +24,15 @@ referenced by the SPDX document creator.
 - name: homePage
 - Nature: DataProperty
 - Range: xsd:anyURI
+
+## Summary @zh-Hans
+
+为SPDX文档创建者提供了一个记录软件包主页网站的地方。
+
+## Description @zh-Hans
+
+主页(`homePage`)是SPDX文档创建者记录软件包主页网站的地方。
+
+这为寻找更多信息的SPDX文档接收者避免了需要搜索和验证软件包与相关项目主页之间匹配的麻烦。
+
+这个链接也可以用来引用SPDX文档创建者提到的有关软件包的更多信息。

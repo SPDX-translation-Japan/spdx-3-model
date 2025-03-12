@@ -21,3 +21,11 @@ available for this Artifact.
 ## Property Values
 
 - name: "NONE"
+
+## Summary @zh-Hans
+
+SPDX 数据创建者确定没有许可证存在时，所用的许可证（`License`）的特殊值。
+
+## Description @zh-Hans
+
+如果SPDX创建者确定此工件没有可用的许可证，则应使用`NoneLicense`。

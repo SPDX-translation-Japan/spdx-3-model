@@ -23,3 +23,13 @@ preferred.
 - name: obsoletedBy
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @zh-Hans
+
+指定了用于替代已弃用的许可证（`License`）或者许可证附加内容（`LicenseAddition`）的首选的licenseId。
+
+## Description @zh-Hans
+
+对于已弃用的许可证（`License`）或者许可证附加内容（`LicenseAddition`），`obsoletedBy` 值指定用于替代许可证（`License`）或者许可证附加内容（`LicenseAddition`）的首选许可证Id。应使用与为的licenseId指定的格式相同的格式。
+
+许可证（`License`）或者许可证附加内容（`LicenseAddition`）的注释值可能包含关于在`obsoletedBy`值中首选指定的licenseId的原因的更多信息。

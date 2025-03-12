@@ -40,3 +40,37 @@ practically infeasible to invert.
 - sha3_256: SHA-3 with a digest length of 256, as defined in [FIPS 202](https://csrc.nist.gov/pubs/fips/202/final).
 - sha3_384: SHA-3 with a digest length of 384, as defined in [FIPS 202](https://csrc.nist.gov/pubs/fips/202/final).
 - sha3_512: SHA-3 with a digest length of 512, as defined in [FIPS 202](https://csrc.nist.gov/pubs/fips/202/final).
+
+## Summary @zh-Hans
+
+一种将任意大小的数据映射为位字符串的数学算法。
+
+## Description @zh-Hans
+
+`HashAlgorithm`是一种数学算法，可以将任意大小的数据映射为一个位字符串（哈希值，Classes > Hash.md是这样处理的）。它是一种单向函数，即在实际操作中几乎不可逆的函数。
+
+## Entries @zh-Hans
+
+- adler32: Adler-32校验和是广泛使用的zlib压缩库的一部分，如[RFC 1950](https://datatracker.ietf.org/doc/rfc1950/)第2.3节中定义。
+- blake2b256: 摘要大小为256比特的BLAKE2b算法，如[RFC 7693](https://datatracker.ietf.org/doc/rfc7693/)第4节中定义。
+- blake2b384: 摘要大小为384比特的BLAKE2b算法，如[RFC 7693](https://datatracker.ietf.org/doc/rfc7693/)第4节中定义。
+- blake2b512: 摘要大小为512比特的BLAKE2b算法，如[RFC 7693](https://datatracker.ietf.org/doc/rfc7693/)第4节中定义。
+- blake3: [BLAKE3](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf)
+- crystalsDilithium: [Dilithium](https://pq-crystals.org/dilithium/)
+- crystalsKyber: [Kyber](https://pq-crystals.org/kyber/)
+- falcon: [FALCON](https://falcon-sign.info/falcon.pdf)
+- md2: MD2消息摘要算法，如[RFC 1319](https://datatracker.ietf.org/doc/rfc1319/)中定义。
+- md4: MD4消息摘要算法，如[RFC 1186](https://datatracker.ietf.org/doc/rfc1186/)中定义。
+- md5: MD5消息摘要算法，如[RFC 1321](https://datatracker.ietf.org/doc/rfc1321/)中定义。
+- md6: [MD6哈希函数](https://people.csail.mit.edu/rivest/pubs/RABCx08.pdf)
+- other: 不在此条目列表中的任何哈希算法
+- sha1: SHA-1，一种安全哈希算法，如[RFC 3174](https://datatracker.ietf.org/doc/rfc3174/)中定义。
+- sha224: 摘要长度为224比特的SHA-2算法，如[RFC 3874](https://datatracker.ietf.org/doc/rfc3874/)中定义。
+- sha256: 摘要长度为256比特的SHA-2算法，如[RFC 6234](https://datatracker.ietf.org/doc/rfc6234/)中定义。
+- sha384: 摘要长度为384比特的SHA-2算法，如[RFC 6234](https://datatracker.ietf.org/doc/rfc6234/)中定义。
+- sha512: 摘要长度为512比特的SHA-2算法，如[RFC 6234](https://datatracker.ietf.org/doc/rfc6234/)中定义。
+- sha3_224: 摘要长度为224比特的SHA-3算法，如[FIPS 202](https://csrc.nist.gov/pubs/fips/202/final)中定义。
+- sha3_256: 摘要长度为256比特的SHA-3算法，如[FIPS 202](https://csrc.nist.gov/pubs/fips/202/final)中定义。
+- sha3_384: 摘要长度为384比特的SHA-3算法，如[FIPS 202](https://csrc.nist.gov/pubs/fips/202/final)中定义。
+- sha3_512: 摘要长度为512比特的SHA-3算法，如[FIPS 202](https://csrc.nist.gov/pubs/fips/202/final)中定义。
+

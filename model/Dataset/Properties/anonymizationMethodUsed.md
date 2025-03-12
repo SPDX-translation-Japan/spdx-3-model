@@ -16,3 +16,11 @@ or fields in the dataset.
 - name: anonymizationMethodUsed
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @zh-Hans
+
+该属性描述了所使用的匿名化方法。
+
+## Description @zh-Hans
+
+一段自由格式的文本，描述了用于匿名化数据集或数据集中字段的方法。

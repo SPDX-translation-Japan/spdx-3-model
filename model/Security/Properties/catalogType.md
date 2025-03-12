@@ -16,3 +16,11 @@ in the [`ExploitCatalogType`](../Vocabularies/ExploitCatalogType.md) vocabulary.
 - name: catalogType
 - Nature: ObjectProperty
 - Range: ExploitCatalogType
+
+## Summary @zh-Hans
+
+指定漏洞利用目录类型。
+
+## Description @zh-Hans
+
+`catalogType`是必填值，必须从[`ExploitCatalogType`](../Vocabularies/ExploitCatalogType.md)词汇表中选择一个现有条目。

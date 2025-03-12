@@ -34,3 +34,24 @@ significant on the left to the least significant components on the right.
 - name: packageUrl
 - Nature: DataProperty
 - Range: xsd:anyURI
+
+## Summary @zh-Hans
+
+为SPDX数据创建者提供了一个记录软件包的包URL字符串（按照包URL规范）的地方。
+
+## Description @zh-Hans
+
+包URL(`packageUrl`)（通常发音并被称为“purl”）是试图标准化包表示的方法，以便可靠地识别和定位软件包。
+
+包URL是一个URL字符串，它以一种大致通用和统一的方式跨编程语言、包管理器、打包约定、工具、API和数据库来表示一个软件包。
+
+包URL由七个组成部分构成：
+
+```plain
+scheme:type/namespace/name@version?qualifiers#subpath
+```
+
+每个组件的定义可以在本规范的相应附录([Annex](../../../annexes/pkg-url-specification.md))中找到。
+已知类型的类型定义([type definitions](https://github.com/package-url/purl-spec/blob/b33dda1cf4515efa8eabbbe8e9b140950805f845/PURL-TYPES.rst))可以在包URL类型定义中找到。
+
+组件的设计方式是，它们从最左边的最重要的组件到最右边的最不重要的组件形成一个层次结构。

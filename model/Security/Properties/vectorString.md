@@ -24,3 +24,17 @@ of metric names specified in CVSS specifications, e.g.
 - name: vectorString
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @zh-Hans
+
+指定漏洞的CVSS向量字符串。
+
+## Description @zh-Hans
+
+指定漏洞的CVSS基本、时态、威胁、环境和/或补充向量字符串值的任意组合。
+
+支持所有CVSS版本中指定的`vectorString`。
+
+*约束条件*
+
+`vectorString`范围内的字符串值只能包含CVSS规范中，例如[通用漏洞评分系统（CVSS）矢量字符串](https://www.first.org/cvss/v4.0/specification-document#Vector-String)，指定的度量名称的缩写形式，。

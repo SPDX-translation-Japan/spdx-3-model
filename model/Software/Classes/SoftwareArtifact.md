@@ -36,3 +36,13 @@ such as a package, a file, or a snippet.
 - contentIdentifier
   - type: ContentIdentifier
   - minCount: 0
+
+## Summary @zh-Hans
+
+是与软件相关的一个独立条目或单元。
+
+## Description @zh-Hans
+
+软件工件(`SoftwareArtifact`)是与软件相关的一个独立条目或单元。
+
+比如，一个软件包、文件或一个代码片段。

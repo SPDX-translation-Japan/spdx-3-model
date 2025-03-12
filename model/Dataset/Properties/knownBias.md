@@ -15,3 +15,11 @@ A free-form text that describes the different biases that the dataset encompasse
 - name: knownBias
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @zh-Hans
+
+该属性记录数据集的已知偏差。
+
+## Description @zh-Hans
+
+用于描述数据集包含的不同偏差的一段自由格式文本。

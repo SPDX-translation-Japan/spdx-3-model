@@ -54,3 +54,11 @@ A License represents a license text, whether listed on the
   - type: xsd:string
   - minCount: 0
   - maxCount: 1
+
+## Summary @zh-Hans
+
+表示许可证的 `AnyLicenseInfo` 一部分的抽象类。
+
+## Description @zh-Hans
+
+License代表一段许可证文本，或者已在[SPDX License List](https://spdx.org/licenses/)中列出（`ListedLicense`），或者由一个SPDX数据创建者定义（`CustomLicense`）。

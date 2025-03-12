@@ -20,3 +20,15 @@ names, each potentially having different values.
 - name: cdxProperty
 - Nature: ObjectProperty
 - Range: CdxPropertyEntry
+
+## Summary @zh-Hans
+
+提供属性名称与值的映射。
+
+## Description @zh-Hans
+
+此字段提供名称与值的映射。
+
+目的是与CycloneDX属性`properties`兼容。
+
+与键值存储不同，`CdxPropertiesExtension`中的属性支持重名，每个属性可以具有不同的值。

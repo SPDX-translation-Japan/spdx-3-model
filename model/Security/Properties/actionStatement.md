@@ -18,3 +18,11 @@ to remediate or mitigate the vulnerability.
 - name: actionStatement
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @zh-Hans
+
+提供关于在VEX产品受漏洞影响时如何缓解或修复漏洞的建议。
+
+## Description @zh-Hans
+
+使用`VexAffectedVulnAssessmentRelationship`引用元素时，**必须**包含一个`actionStatement`，**应当**描述缓解或修复漏洞的措施。

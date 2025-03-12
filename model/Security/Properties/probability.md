@@ -18,3 +18,11 @@ The definition follows "epss" in
 - name: probability
 - Nature: DataProperty
 - Range: xsd:decimal
+
+## Summary @zh-Hans
+
+漏洞被利用的概率分数，范围为0到1。
+
+## Description @zh-Hans
+
+预估未来30天（发布评分后）漏洞在实际环境中被利用的概率分数，范围为0到1（0%到100%）。此定义参照[EPSS数据](https://www.first.org/epss/data_stats)中的“epss”定义。

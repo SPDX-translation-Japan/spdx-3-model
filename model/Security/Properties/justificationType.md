@@ -22,3 +22,13 @@ complementary to the justification label, but one of both MUST be defined.
 - name: justificationType
 - Nature: ObjectProperty
 - Range: VexJustificationType
+
+## Summary @zh-Hans
+
+用于将漏洞与代表VEX产品的元素（具有`VexNotAffectedVulnAssessmentRelationship`关系）关联时使用的影响证明标签。
+
+## Description @zh-Hans
+
+当声明某个元素不受漏洞影响时，`VexNotAffectedVulnAssessmentRelationship`必须包含机器可读标签目录中的证明，说明此元素不受影响的原因。
+
+`impactStatement`是一个英文文本字符串，可以替代或作为证明标签的补充，但二者必须定义其一。

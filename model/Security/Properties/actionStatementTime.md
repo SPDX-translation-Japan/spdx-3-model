@@ -19,3 +19,11 @@ when the action statement was first communicated.
 - name: actionStatementTime
 - Nature: DataProperty
 - Range: /Core/DateTime
+
+## Summary @zh-Hans
+
+记录在VEX语句中传达的缓解漏洞建议措施的时间。
+
+## Description @zh-Hans
+
+当VEX语句传达已受影响（affected）状态时，作者必须包含一个措施语句，提供建议措施帮助减轻漏洞影响。`actionStatementTime`属性记录措施语句首次传达的时间。
