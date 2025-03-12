@@ -19,3 +19,13 @@ This class provides the type used by the individuals.
 - name: IndividualLicensingInfo
 - SubclassOf: /SimpleLicensing/AnyLicenseInfo
 - Instantiability: Concrete
+
+## Summary @zh-Hans
+
+在已扩展许可证（`ExpandedLicensing`）配置文件中特殊使用的`AnyLicenseInfo`的具体子类。
+
+## Description @zh-Hans
+
+特殊许可证，例如：无许可证（`NoneLicense`） 和无法断言许可证（`NoAssertionLicense`），需要引用一个`AnyLicenseInfo` 的具体子类。
+
+这个类提供了特殊使用类型。

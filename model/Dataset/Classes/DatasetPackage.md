@@ -79,3 +79,11 @@ Metadata information that can be added to a dataset that may be used in a softwa
   - minCount: 1
 - /Software/SoftwareArtifact/primaryPurpose
   - minCount: 1
+
+## Summary @zh-Hans
+
+此类定义一个数据包及其相关信息。
+
+## Description @zh-Hans
+
+添加到数据集中的元数据信息，这些信息可能用于软件中或用于训练/测试 AI 包。
