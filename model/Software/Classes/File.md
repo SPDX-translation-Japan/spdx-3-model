@@ -35,11 +35,11 @@ a directory and all content stored in that directory.
 - /Core/Element/name
   - minCount: 1
 
-## Summary  @zh-Hans
+## Summary @zh-Hans
 
 指计算机上存储内容的任意对象。
 
-## Description  @zh-Hans
+## Description @zh-Hans
 
 指计算机上存储内容的任意对象。
 
