@@ -40,15 +40,34 @@ no assertion is being made about any potential descendants of Element1.
 
 ## Description @ja
 
-NoAssertionElement は、以下の場合に利用されるべきです。  
+NoAssertionElement は、以下の場合に利用されるべきです。
 
-- SPDX ドキュメントの作成者が、合理的、客観的な判断を試みたが解決できなかった場合  
-- SPDX ドキュメントの作成者が、この部分を判断しなかった場合  
-- SPDX ドキュメントの作成者が、意図的に情報を提供しなかった場合（その行為に意味を含ませるべきではありません）  
+- SPDX ドキュメントの作成者が、合理的、客観的な判断を試みたが解決できなかった場合
+- SPDX ドキュメントの作成者が、この部分を判断しなかった場合
+- SPDX ドキュメントの作成者が、意図的に情報を提供しなかった場合（その行為に意味を含ませるべきではありません）
 
-例えば、  
-`relationshipType`="ancestorOf"、  
-`from`=Element1  
-の時に、  
-`to`=NoAssertionElement  
-という関係は、Element1 が子エレメントを持つかどうかは分からないということを明示的に表しています。  
+例えば、
+`relationshipType`="ancestorOf"、
+`from`=Element1
+の時に、
+`to`=NoAssertionElement
+という関係は、Element1 が子エレメントを持つかどうかは分からないということを明示的に表しています。
+
+## Summary @zh-Hans
+
+表示一组未知标识或基数（数量）的`Element`的单独值。
+
+## Description @zh-Hans
+
+对于以下情况，应使用`NoAssertionElement`：
+
+- SPDX创建者尝试但无法达成合理的客观判断；
+- SPDX创建者未尝试确定此字段；
+- SPDX创建者故意不提供信息（这样做不应被暗示为有任何含义）。
+
+例如，关系
+`relationshipType`="ancestorOf"、
+`from`=Element1
+和
+`to`=NoAssertionElement
+明确表示不对 Element1 的任何潜在后代作出任何断言。

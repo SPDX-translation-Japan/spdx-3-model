@@ -23,3 +23,11 @@ SPDXプロファイル全ての基礎構造。
 ## Description @ja
 
 名前空間 Core は、すべての SPDX-3.0 プロファイルの基礎となる基本概念を定義します。
+
+## Summary @zh-Hans
+
+所有SPDX配置文件的基础。
+
+## Description @zh-Hans
+
+`Core`命名空间定义了作为所有SPDX 3.0配置文件基础的基本概念。

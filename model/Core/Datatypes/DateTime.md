@@ -25,12 +25,24 @@ The specific format is one of the most commonly used ISO-8601 formats.
 
 ## Summary @ja
 
-特定の日付と時刻を表す文字列。  
+特定の日付と時刻を表す文字列。
 
 ## Description @ja
 
-DateTime は、特定の日付と時刻を表す文字列です。  
+DateTime は、特定の日付と時刻を表す文字列です。
 
-秒単位の解像度を持ち、常にUTCタイムゾーンで表されます。  
+秒単位の解像度を持ち、常にUTCタイムゾーンで表されます。
 
-最も一般的に使用されている形式の1つである、ISO-8601 フォーマットで記述します。  
+最も一般的に使用されている形式の1つである、ISO-8601 フォーマットで記述します。
+
+## Summary @zh-Hans
+
+表示特定日期和时间的字符串。
+
+## Description @zh-Hans
+
+`DateTime`是表示特定日期和时间的字符串。
+
+其精度为秒，并始终以UTC时区表示。
+
+具体格式是最常用的ISO-8601格式之一。
