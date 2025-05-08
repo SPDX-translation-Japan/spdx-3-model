@@ -92,3 +92,10 @@ Metadata information that can be added to a package to describe an AI applicatio
 
 可添加到软件包中的元数据信息，用于描述AI应用或经过训练的AI模型。
 
+## Summary @ja
+
+AIパッケージおよびそれに関連する情報を指定する。
+
+## Description @ja
+
+AIアプリケーションまたは学習済みAIモデルを記述するために、パッケージに追加できるメタデータ情報である。
