@@ -66,8 +66,7 @@ NoAssertionElement は、以下の場合に利用されるべきです。
 - SPDX创建者故意不提供信息（这样做不应被暗示为有任何含义）。
 
 例如，关系
-`relationshipType`="ancestorOf"、
-`from`=Element1
+`relationshipType=ancestorOf`、`from=Element1`
 和
-`to`=NoAssertionElement
-明确表示不对 Element1 的任何潜在后代作出任何断言。
+`to=NoAssertionElement`
+明确表示不对`Element1`的任何潜在后代作出任何断言。
