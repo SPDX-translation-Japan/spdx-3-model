@@ -83,7 +83,7 @@ following requirements must be observed:
 
 ```json
 {
-  "type": "VexNotAffectedVulnAssessmentRelationship",
+  "type": "security_VexNotAffectedVulnAssessmentRelationship",
   "spdxId": "urn:spdx.dev:vex-not-affected-1",
   "relationshipType": "doesNotAffect",
   "from": "urn:spdx.dev:vuln-cve-2020-28498",
@@ -91,7 +91,7 @@ following requirements must be observed:
   "security_assessedElement": "urn:npm-elliptic-6.5.2",
   "security_justificationType": "componentNotPresent",
   "security_impactStatement": "Not using this vulnerable part of this library.",
-  "suppliedBy": ["urn:spdx.dev:agent-jane-doe"],
+  "suppliedBy": "urn:spdx.dev:agent-jane-doe",
   "publishedTime": "2021-03-09T11:04:53Z"
 }
 ```

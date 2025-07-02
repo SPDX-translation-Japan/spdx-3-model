@@ -44,4 +44,3 @@ the following has to hold:
 
 1. 对于每个`/AI/AIPackage`，**必须**存在一个`/Core/Relationship`类型为`hasConcludedLicense`的元素，该元素的`from`属性是该元素，并且其`to`属性是`/SimpleLicensing/AnyLicenseInfo`。
 2. 对于每个`/AI/AIPackage`，**必须**存在一个`/Core/Relationship`类型为`hasDeclaredLicense`的元素，该元素的`from`属性是该元素，并且其`to`属性是`/SimpleLicensing/AnyLicenseInfo`。
-

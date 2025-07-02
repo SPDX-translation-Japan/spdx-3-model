@@ -24,4 +24,3 @@ aspect of an Element.
 ## Description @zh-Hans
 
 `extension`指定`Element`某个特定方面的基于`Extension`的特征。
-

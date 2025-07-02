@@ -40,5 +40,5 @@ data will need to determine for themselves what meaning to attribute to a
 ## Description @zh-Hans
 
 或操作符(`OrLaterOperator`) 表示，`AnyLicenseInfo`的一部分是指：(1) 相应许可证（`License`）的指定版本，或 (2) 该许可证（`License`）的任何更新版本。它在SPDX许可证表达式中通过`+`运算符来体现。
- 
+
 任何特定许可证（`License`）的“后续版本”，视上下文而定，且SPDX未对此明确。某些许可证（`License`）可能没有具体版本，或者可能没有明确定义的版本顺序。SPDX数据的用户需要自行决定对特定许可证（`License`）的“后续版本”运算符赋予何种含义。

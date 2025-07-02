@@ -19,7 +19,7 @@ endIntegerRange is a positive integer that defines the end of a range.
 ## Summary @zh-Hans
 
 定义范围的结束。
- 
+
 ## Description @zh-Hans
 
-`endIntegerRange `是一个正整数，用于定义范围的结束。
+`endIntegerRange`是一个正整数，用于定义范围的结束。

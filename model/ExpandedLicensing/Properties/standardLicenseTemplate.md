@@ -32,6 +32,6 @@ capture all the text and metadata associated with a license.
 
 标准许可证模版（`standardLicenseTemplate`）包含描述许可证（`License`）文本可以更改的部分的许可证模版。
 
-请参阅[SPDX许可证列表匹配指南](../../../ annexes/license-matching-guidelines-and-templates..md)，以获得格式信息。
+请参阅[SPDX许可证列表匹配指南](../../../annexes/license-matching-guidelines-and-templates.md)，以获得格式信息。
 
 建议改用[licenseXml](./licenseXml.md)，因为可以获得与许可证关联的所有文本和元数据。
