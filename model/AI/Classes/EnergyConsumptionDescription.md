@@ -56,3 +56,25 @@ property `energyQuantity`, and `"kilowattHour"` as a value for property
 `energyQuantity`属性存储能耗的数量，而`energyUnit`属性存储测量单位。
 
 例如，0.042千瓦时的能量，其`energyQuantity`属性的值将为`0.042`，`energyUnit`属性的值为`"kilowattHour"`。
+
+## Summary @ja
+
+エネルギー消費量とその測定に用いられた単位を記録するためのクラスである。
+
+## Description @ja
+
+このクラスは、エネルギー消費に関するデータを格納するように設計されており、消費量とその測定単位の両方を含む。
+
+`energyQuantity` プロパティには消費されたエネルギー量が、`energyUnit` プロパティには使用された測定単位が格納される。
+
+たとえば、0.042キロワット時のエネルギーであれば、`energyQuantity` の値として `0.042` が、`energyUnit` の値として `"kilowattHour"` が設定される。
+
+*例*
+
+```json
+{
+  "type": "ai_EnergyConsumptionDescription",
+  "ai_energyQuantity": "0.042",
+  "ai_energyUnit": "kilowattHour"
+}
+```
