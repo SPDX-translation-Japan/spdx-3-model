@@ -23,3 +23,11 @@ Provides the quantity information of the energy.
 ## Description @zh-Hans
 
 提供能量的数量信息。
+
+## Summary @ja
+
+エネルギー量を表す。
+
+## Description @ja
+
+エネルギーの量に関する情報を提供する。
