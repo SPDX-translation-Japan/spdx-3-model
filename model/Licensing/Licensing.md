@@ -112,7 +112,7 @@ can be made from a missing hasConcludedLicense relationship.
 - id: https://spdx.org/rdf/3.0.1/terms/Licensing
 - name: Licensing
 
-## Profile conformance 
+## Profile conformance
 
 For an element collection to be conformant with this profile,
 the following has to hold:
