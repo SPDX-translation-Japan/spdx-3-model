@@ -28,7 +28,6 @@ This type is used to indicate if a given field is present or absent or unknown.
 
 此类型用于指示给定字段的存在、缺失或未知状态。
 
-
 ## Entries @zh-Hans
 
 - yes: 表示字段存在。

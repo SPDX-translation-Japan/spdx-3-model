@@ -30,4 +30,3 @@ verifying the integrity of specific subclasses of Elements.
 `verifiedUsing`提供用于断言`Element`完整性的`IntegrityMethod`。
 
 请注意，其他配置文件可能还会提供额外的方法用于验证特定`Element`子类的完整性。
-

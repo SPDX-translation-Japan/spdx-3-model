@@ -32,5 +32,5 @@ For a text description of the XML fields, see
 许可证XML格式由SPDX法务团队定义和使用。
 
 正式的模式定义可以在以下位置找到：[SPDX许可证列表XML模式](https://github.com/spdx/license-list-XML/blob/v3.25.0/schema/ListedLicense.xsd)。
- 
+
 有关XML字段的文本描述，请参见[XML模板字段](https://github.com/spdx/license-list-XML/blob/v3.25.0/DOCS/xml-fields.md)。

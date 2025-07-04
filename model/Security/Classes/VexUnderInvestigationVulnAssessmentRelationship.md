@@ -61,13 +61,13 @@ the following requirements must be observed:
 
 ```json
 {
-  "type": "VexUnderInvestigationVulnAssessmentRelationship",
+  "type": "security_VexUnderInvestigationVulnAssessmentRelationship",
   "spdxId": "urn:spdx.dev:vex-underInvestigation-1",
   "relationshipType": "underInvestigationFor",
   "from": "urn:spdx.dev:vuln-cve-2020-28498",
   "to": ["urn:product-acme-application-1.3"],
   "security_assessedElement": "urn:npm-elliptic-6.5.2",
-  "suppliedBy": ["urn:spdx.dev:agent-jane-doe"],
+  "suppliedBy": "urn:spdx.dev:agent-jane-doe",
   "publishedTime": "2021-03-09T11:04:53Z"
 }
 ```

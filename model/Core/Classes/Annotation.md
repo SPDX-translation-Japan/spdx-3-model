@@ -46,4 +46,3 @@ The `contentType` property describes the format of the `statement` property.
 `Annotation`是对一个或多个元素的断言。
 
 `contentType`属性描述了`statement`属性的格式。
-

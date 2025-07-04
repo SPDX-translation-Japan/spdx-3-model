@@ -35,7 +35,6 @@ left to the consumer of SPDX data to determine for themselves.
   - type: /SimpleLicensing/AnyLicenseInfo
   - minCount: 2
 
-
 ## Summary @zh-Hans
 
 `AnyLicenseInfo`的一部分，指所有元素都需要遵守的许可信息集。
