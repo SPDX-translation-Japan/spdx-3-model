@@ -146,20 +146,17 @@ the following has to hold:
 
 `hasDeclaredLicense`在实际应用中可能会因不同类型的软件工件而有所不同。例如：
 
-对于软件包
+- 对于软件包
+  - 包括在软件包本身中找到的软件包的所有许可信息（例如，LICENSE文件，README文件，软件包中的元数据等）
+  - 不包括不在软件包本身中的任何许可信息（例如，项目网站或第三方代码仓库或网站的许可信息）
 
-- 包括在软件包本身中找到的软件包的所有许可信息（例如，LICENSE文件，README文件，软件包中的元数据等）
-- 不包括不在软件包本身中的任何许可信息（例如，项目网站或第三方代码仓库或网站的许可信息）
+- 对于文件
+  - 包括在文件本身中找到的许可信息（例如，许可标题或声明，指示许可的注释，SPDX-License-Identifier表达式）
+  - 不包括在不同文件中找到的许可信息（例如，代码仓库顶层目录中的LICENSE文件）
 
-对于文件
-
-- 包括在文件本身中找到的许可信息（例如，许可标题或声明，指示许可的注释，SPDX-License-Identifier表达式）
-- 不包括在不同文件中找到的许可信息（例如，代码仓库顶层目录中的LICENSE文件）
-
-对于代码片段
-
-- 包括在代码片段本身中找到的许可信息（例如，许可声明，注释，SPDX-License-Identifier表达式）
-- 不包括在文件的其他地方或不同文件中找到的许可信息（例如，对于不在代码片段内的内容，在文件顶部的注释；在代码仓库顶层目录中的LICENSE文件）
+- 对于代码片段
+  - 包括在代码片段本身中找到的许可信息（例如，许可声明，注释，SPDX-License-Identifier表达式）
+  - 不包括在文件的其他地方或不同文件中找到的许可信息（例如，对于不在代码片段内的内容，在文件顶部的注释；在代码仓库顶层目录中的LICENSE文件）
 
 对于`NoAssertionLicense`的`hasDeclaredLicense`关系表明相应的软件包、文件或代码片段不包含任何许可信息。
 
@@ -171,8 +168,7 @@ the following has to hold:
 
 如果不存在`hasDeclaredLicense`关系，则无法对是否存在`hasDeclaredLicense`做出任何假设。
 
-请注意，缺少`hasDeclaredLicense`与缺少对`NoAssertionLicense`关系不同，
-因为后者是“已知的未知”，而缺少`hasDeclaredLicense`关系则无法做出任何假设。
+请注意，缺少`hasDeclaredLicense`与缺少对`NoAssertionLicense`关系不同，因为后者是“已知的未知”，而缺少`hasDeclaredLicense`关系则无法做出任何假设。
 
 *hasConcludedLicense*
 
@@ -188,11 +184,10 @@ the following has to hold:
 
 如果不存在`hasConcludedLicense`，则无法对是否存在`hasConcludedLicense`做出任何假设。
 
-请注意，缺少`hasConcludedLicense`与缺少对`NoAssertionLicense`的关系不同，
-因为后者是“已知的未知”，而缺少`hasConcludedLicense`关系则无法做出任何假设。
+请注意，缺少`hasConcludedLicense`与缺少对`NoAssertionLicense`的关系不同，因为后者是“已知的未知”，而缺少`hasConcludedLicense`关系则无法做出任何假设。
 
 ## Profile conformance @zh-Hans
 
 要使元素集符合此配置文件，必须满足以下条件：
 
-1. 对于每个`/Software/SoftwareArtifact`，**必须**存在一个类型为`hasConcludedLicense`的`/Core/Relationship`，其`from`属性为该元素，`to`属性为`/SimpleLicensing/AnyLicenseInfo`。
+1.对于每个`/Software/SoftwareArtifact`，**必须**存在一个类型为`hasConcludedLicense`的`/Core/Relationship`，其`from`属性为该元素，`to`属性为`/SimpleLicensing/AnyLicenseInfo`。
