@@ -7,7 +7,7 @@ are structured, please refer to the
 [Serialization information][sr-spec] section
 in the "Model and serializations" chapter of the SPDX specification.
 
-[sr-spec]: https://github.com/spdx/spdx-spec/blob/main/docs/serializations.md#serialization-information
+[sr-spec]: https://github.com/spdx/spdx-spec/blob/support/3.0/docs/serializations.md#serialization-information
 
 ## Serialization formats
 
