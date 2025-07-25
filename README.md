@@ -57,15 +57,15 @@ The editable files are automatically processed by
 and the following are generated:
 
 - Input for [MkDocs](https://www.mkdocs.org/), which then generates the
-  [specification](https://spdx.github.io/spdx-spec/v3.0.1/)
+  [specification](https://spdx.github.io/spdx-spec/v3.0/)
 - [JSON-LD context](http://niem.github.io/json/reference/json-ld/context/)
-  file: [spdx-context.jsonld](https://spdx.org/rdf/3.0.1/spdx-context.jsonld)
+  file: [spdx-context.jsonld](https://spdx.org/rdf/3.0/spdx-context.jsonld)
 - Model [SHACL](https://en.wikipedia.org/wiki/SHACL) and
   [OWL](https://www.w3.org/OWL/) files:
   - [Turtle format](https://en.wikipedia.org/wiki/Turtle_(syntax)):
-    [spdx-model.ttl](https://spdx.org/rdf/3.0.1/spdx-model.ttl)
+    [spdx-model.ttl](https://spdx.org/rdf/3.0/spdx-model.ttl)
   - [JSON-LD format](https://json-ld.org/):
-    [spdx-model.jsonld](https://spdx.github.io/spdx-spec/v3.0.1/rdf/spdx-model.jsonld)
+    [spdx-model.jsonld](https://spdx.github.io/spdx-spec/v3.0/rdf/spdx-model.jsonld)
 
 People who wish to read the current version of the information
 should be viewing the generated files, while anyone wanting to edit

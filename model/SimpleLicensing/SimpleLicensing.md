@@ -23,7 +23,7 @@ license expressions.
 
 ## Metadata
 
-- id: https://spdx.org/rdf/3.0.1/terms/SimpleLicensing
+- id: https://spdx.org/rdf/3.0/terms/SimpleLicensing
 - name: SimpleLicensing
 
 ## Summary @zh-Hans

@@ -96,8 +96,8 @@ means a document can be validated using the command:
 
 ```shell:
 pyshacl \
-    --shacl https://spdx.org/rdf/3.0.1/spdx-model.ttl \
-    --ont-graph https://spdx.org/rdf/3.0.1/spdx-model.ttl \
+    --shacl https://spdx.org/rdf/3.0/spdx-model.ttl \
+    --ont-graph https://spdx.org/rdf/3.0/spdx-model.ttl \
     <DOCUMENT>
 ```
 

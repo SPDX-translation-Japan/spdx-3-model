@@ -171,16 +171,16 @@ will give this RDF graph
 (in [Turtle syntax](https://en.wikipedia.org/wiki/Turtle_(syntax))):
 
 ```ttl
-<https://spdx.org/rdf/3.0.1/terms/SimpleLicensing/SimpleLicensingText> a owl:Class,
+<https://spdx.org/rdf/3.0/terms/SimpleLicensing/SimpleLicensingText> a owl:Class,
         sh:NodeShape ;
     rdfs:comment "A license or addition that is not listed on the SPDX License List."@en ;
-    rdfs:subClassOf <https://spdx.org/rdf/3.0.1/terms/Core/Element> ;
+    rdfs:subClassOf <https://spdx.org/rdf/3.0/terms/Core/Element> ;
     sh:nodeKind sh:IRI ;
     sh:property [ sh:datatype xsd:string ;
             sh:maxCount 1 ;
             sh:minCount 1 ;
             sh:nodeKind sh:Literal ;
-            sh:path <https://spdx.org/rdf/3.0.1/terms/SimpleLicensing/licenseText> ] .
+            sh:path <https://spdx.org/rdf/3.0/terms/SimpleLicensing/licenseText> ] .
 ```
 
 ## Syntax
