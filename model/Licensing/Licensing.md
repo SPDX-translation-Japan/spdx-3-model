@@ -72,7 +72,7 @@ indicates that one of the following applies:
 - the SPDX data creator has made no attempt to determine this field; or
 - the SPDX data creator has intentionally provided no information (no meaning
   should be implied by doing so).
-  
+
 If a hasDeclaredLicense relationship is not present, no assumptions can be made
 about whether or not a hasDeclaredLicense exists.
 

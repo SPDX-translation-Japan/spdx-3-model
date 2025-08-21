@@ -39,7 +39,7 @@ A specific sphere of activity or knowledge. For example, cyber security, softwar
 
 A class representing a concept of primary focus within a given domain.
 
-In a graph or serialized set of instance content this would be the granularity of what would be a node in the graph or a top-level object in the serialization set. This is typically similar to the scoping seen in labelled property graphs.
+In a graph or serialized set of instance content this would be the granularity of what would be a node in the graph or a top-level object in the serialization set. This is typically similar to the scoping seen in labeled property graphs.
 
 ## Namespace
 
