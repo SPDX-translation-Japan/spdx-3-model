@@ -162,16 +162,16 @@ Here are some common errors worth looking into if an SPDX JSON-LD fails validati
 
 Serialized names take the form of either `profilename_ClassName` or
 `profilename_propertyName`.  The prefix `profilename_` is derived from the name
-of the Profile and is always written in lowercase letters.
-There is an exception for the `Core` Profile, where serialized names omit the
+of the profile and is always written in lowercase letters.
+There is an exception for the `Core` profile, where serialized names omit the
 prefix entirely.
 
 For example,
 
-- `dataset_datasetType` for a `datasetType` Property in the `Dataset` Profile
-- `expandedlicensing_CustomLicense` for a `CustomLicense` Class in the
-  `ExpandedLicensing` Profile
-- `Person` for a Class `Person` in the `Core` Profile (no prefix)
+- `dataset_datasetType` for a `datasetType` property in the `Dataset` profile
+- `expandedlicensing_CustomLicense` for a `CustomLicense` class in the
+  `ExpandedLicensing` profile
+- `Person` for a class `Person` in the `Core` profile (no prefix)
 
 ### Cardinality
 
