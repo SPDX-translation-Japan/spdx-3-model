@@ -94,7 +94,7 @@ name completes the sentence:
 提供关于两个`Element`之间关系的信息。
 例如，可以表示两个不同`File`之间的关系，`Package`与`File`之间的关系，两个`Package`之间的关系，或者一个`SpdxDocument`与另一个`SpdxDocument`之间的关系。
 
-关系名称应该具有足够的描述性，以便根据其名称轻松推断出正确的方向。最佳做法是确保关系名称能够完整地表达以下句子: 
+关系名称应该具有足够的描述性，以便根据其名称轻松推断出正确的方向。最佳做法是确保关系名称能够完整地表达以下句子:
 
 `from`（是）`RELATIONSHIP` `to`
 

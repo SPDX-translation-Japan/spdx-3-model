@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The Security Profile captures security related information.
+The Security profile captures security related information.
 
 ## Description
 
-The Security Profile captures security related information.
+The Security profile captures security related information.
 
 ## Metadata
 

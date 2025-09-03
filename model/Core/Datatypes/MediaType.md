@@ -4,8 +4,8 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Standardized way of indicating the type of content of an Element or a Property.
-A String constrained to the RFC 2046 specification.
+Standardized way of indicating the type of content of an Element or a property.
+A string constrained to the RFC 2046 specification.
 
 ## Description
 

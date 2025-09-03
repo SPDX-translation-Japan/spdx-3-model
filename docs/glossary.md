@@ -1,4 +1,4 @@
-# Glossary of Terms
+# Glossary of terms
 
 ## Agent
 
@@ -35,7 +35,7 @@ A representation of a relationship between a class (definition or instance) and 
 
 A specific sphere of activity or knowledge. For example, cyber security, software, bills of material, licensing, software security, etc.
 
-## Domain Class
+## Domain class
 
 A class representing a concept of primary focus within a given domain.
 
@@ -49,7 +49,7 @@ Each namespace typically defines its own IRI prefix utilized in the IRI IDs of a
 
 In SPDX 3.0, the "core" namespace is the scoping within which all foundational BOM concept classes and properties are defined and managed.
 
-## Non-domain Class
+## Non-domain class
 
 A class representing a concept of secondary or tertiary focus within a given domain that is a characterization of some aspect of a domain class.
 
@@ -81,11 +81,11 @@ The creator of the ElementCollection can also indicate whether any of the associ
 
 A representation of a relationship between a class (definition or instance) and some descriptive characterization of the class.
 
-## Property Domain
+## Property domain
 
 The class at the root of a property relationship. In other words, the class being characterized.
 
-## Property Range
+## Property range
 
 The class or literal datatype of the value of a property relationship.
 
@@ -97,7 +97,7 @@ The process of translating an abstract logical data structure into a format that
 
 A formally defined set of constraints that explicitly specify the valid "shape" of particular data to support validation against SPDX conformance requirements.
 
-A Property Shape defines the set of constraints for a given property when applied to a particular concept class. A Node Shape defines the set of property shapes (and thus constraints) relevant for validation of instance data realization of a given concept class.
+A property shape defines the set of constraints for a given property when applied to a particular concept class. A node shape defines the set of property shapes (and thus constraints) relevant for validation of instance data realization of a given concept class.
 
 In SPDX 3.0 these shapes are expressed using the W3C SHACL language.
 

@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The Licensing Profile defines a minimum set of license information to
+The Licensing profile defines a minimum set of license information to
 facilitate compliance with typical license use cases.
 
 ## Description
@@ -12,10 +12,10 @@ facilitate compliance with typical license use cases.
 The Licensing profile only contains the additional requirement that any
 Software Artifact must have a `Relationship` of type `hasConcludedLicense`.
 
-Classes and Property restrictions are defined in the SimpleLicensing Profile
-(Classes and Properties associated with
+Classes and property restrictions are defined in the SimpleLicensing profile
+(classes and properties associated with
 [license expression strings](../../annexes/spdx-license-expressions.md))
-and in the ExpandedLicensing Profile (Classes and Properties used for a
+and in the ExpandedLicensing profile (classes and properties used for a
 fully parsed syntax tree of license expressions).
 
 There are 2 relationship types related to licensing - `hasDeclaredLicense` and
@@ -72,7 +72,7 @@ indicates that one of the following applies:
 - the SPDX data creator has made no attempt to determine this field; or
 - the SPDX data creator has intentionally provided no information (no meaning
   should be implied by doing so).
-  
+
 If a hasDeclaredLicense relationship is not present, no assumptions can be made
 about whether or not a hasDeclaredLicense exists.
 
@@ -130,7 +130,7 @@ the following has to hold:
 
 许可配置文件仅包含一个附加要求，即任何软件工件必须具有类型为`hasConcludedLicense`的`Relationship`。
 
-类和属性的限制在 `SimpleLicensingProfile`（与[许可表达字符串](../../annexes/spdx-license-expressions.md)相关的类和属性）和`ExpandedLicensingProfile`（用于许可表达式的完全解析语法树的类和属性）中定义。
+类和属性的限制在 `SimpleLicensing profile`（与[许可表达字符串](../../annexes/spdx-license-expressions.md)相关的类和属性）和`ExpandedLicensing profile`（用于许可表达式的完全解析语法树的类和属性）中定义。
 
 与许可相关的关系类型有两种 -`hasDeclaredLicense`and`hasConcludedLicense`。
 

@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The Build Profile defines the set of information required to describe an
+The Build profile defines the set of information required to describe an
 instance of a Software Build.
 
 ## Description
@@ -37,7 +37,7 @@ In addition, the following Relationship Types may be used to describe a Build.
   parent.
 - usesTool: Describes a relationship from a Build element to a build tool.
 
-All relationships in the Build Profile are scoped to the "build"
+All relationships in the Build profile are scoped to the "build"
 LifecycleScopeType period.
 
 The `hasInput` relationship can be applied to a config file or a build tool if
