@@ -15,3 +15,11 @@ base for all defined extension subclasses.
 
 - id: https://spdx.org/rdf/3.0.1/terms/Extension
 - name: Extension
+
+## Summary @ja
+
+`Extension` は、SPDXの拡張機能に関連するデータセットを定義する。
+
+## Description @ja
+
+`Extension` の名前空間は、定義されたすべての `Extension` サブクラスの基底となる抽象クラスのExtensionを定義する。
