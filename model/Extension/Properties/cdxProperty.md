@@ -20,3 +20,15 @@ names, each potentially having different values.
 - name: cdxProperty
 - Nature: ObjectProperty
 - Range: CdxPropertyEntry
+
+## Summary @ja
+
+プロパティ名から値へのマップを提供するプロパティ
+
+## Description @ja
+
+`cdxProperty` は、名前と値のマッピングを提供する。
+
+CycloneDXのプロパティ`properties`との互換性を意図している。
+
+key-valueストアとは異なり、`CdxPropertiesExtension` のプロパティは重複する名前をサポートし、それぞれが異なる値を持つ可能性がある。

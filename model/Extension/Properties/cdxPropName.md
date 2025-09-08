@@ -18,3 +18,13 @@ names, each potentially having different values.
 - name: cdxPropName
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @ja
+
+`CdxPropertyEntry` のname-valueのペアで使用される名前を示すプロパティ
+
+## Description @ja
+
+`cdxPropName` は、`CdxPropertyEntry` のname-valueのペアで使用される。
+
+key-valueストアとは異なり、`CdxPropertiesExtension` のプロパティは重複する名前をサポートし、それぞれが異なる値を持つ可能性がある。

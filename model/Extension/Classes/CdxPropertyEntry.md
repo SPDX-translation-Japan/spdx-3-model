@@ -30,3 +30,15 @@ This class can be used to implement CycloneDX compatible properties.
 - cdxPropValue
   - type: xsd:string
   - maxCount: 1
+
+## Summary @ja
+
+関連付けられた値を持つプロパティ名を表すクラス
+
+## Description @ja
+
+各 `CdxPropertyEntry` は、名前とその関連値をマッピングするname-valueのペアを含む。
+
+key-valueストアとは異なり、`CdxPropertiesExtension` のプロパティは重複する名前をサポートし、それぞれが異なる値を持つ可能性がある。
+
+このクラスは、CycloneDX互換のプロパティを実装するために使用することが可能である。
