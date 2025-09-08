@@ -27,3 +27,15 @@ This is intended to be compatible with the CycloneDX property `properties`.
 - cdxProperty
   - type: CdxPropertyEntry
   - minCount: 1
+
+## Summary @ja
+
+名前と値のペアのリストで構成される拡張子の種類を表すクラス
+
+## Description @ja
+
+`CdxPropertiesExtension` は、名前と値のアプローチを用いたより構造化された拡張機能を提供する。
+
+key-valueストアとは異なり、 `CdxPropertiesExtension` のプロパティは重複する名前をサポートし、それぞれが異なる値を持つ可能性がある。
+
+これはCycloneDXのプロパティ`properties`との互換性を意図したものである。
