@@ -18,3 +18,11 @@ so that relationships between Elements can be clearly articulated.
 - name: spdxId
 - Nature: DataProperty
 - Range: xsd:anyURI
+
+## Summary @ja
+
+他の要素から参照される要素を識別する。
+
+## Description @ja
+
+spdxId は要素を一意に識別し、他の要素から参照できるようにする。これらの参照は内部でも外部でもよい。同一の要素に複数のバージョンが存在する場合でも、各バージョンが明確に参照できるように一意である必要がある。

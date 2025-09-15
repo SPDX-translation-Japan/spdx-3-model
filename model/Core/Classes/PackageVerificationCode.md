@@ -58,3 +58,42 @@ Required sort order: '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b',
   - maxCount: 1
 - packageVerificationCodeExcludedFile
   - type: xsd:string
+
+## Summary @ja
+
+ソフトウェアパッケージのための SPDX 2.X 互換の検証手法。
+
+## Description @ja
+
+この検証手法は SPDX 2.X との互換性のために提供されている。  
+
+Artifact の `contentIdentifier` プロパティが利用できない場合を除き、この検証コード手法の使用は推奨されない。  
+
+この検証手法は、各パッケージを構成する実際のファイル（パッケージに SPDX 文書自体が含まれる場合はそれを除外する）に基づき、そのパッケージの特定の内容を識別するための、独立して再現可能な仕組みを提供する。そしてこの内容は本 SPDX 文書内のデータと対応している。  
+
+この識別子により、受信者は解析対象となった元のパッケージ内のファイルが変更されていないかを判断でき、さらに SPDX 文書をパッケージの一部として含めることが可能になる。  
+
+Algorithm:
+
+    templist = ""
+
+    for all files in the package {
+        if file is a packageVerificationCodeExcludedFile
+            skip it  /* exclude SPDX analysis file */
+        else
+            append "algorithm(file)/n" to templist
+    }
+
+    sort templist in ascending order by value
+    
+    /* remove separators from ordered sequence */
+    valueslist = remove "/n"s from templist
+     
+    if valueslist is empty
+       hashValue = 0
+    else
+       hashValue = algorithm(valueslist)
+
+ここで `algorithm(string)` は文字列にハッシュアルゴリズムを適用し、その結果を小文字の 16 進数で返す。  
+
+ソート順序は ASCII 順序に従い、 `'0'`, `'1'`, …, `'9'`, `'a'`, `'b'`, …, `'f'` とする。  

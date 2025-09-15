@@ -17,3 +17,11 @@ defined external to that SpdxDocument.
 - name: externalSpdxId
 - Nature: DataProperty
 - Range: xsd:anyURI
+
+## Summary @ja
+
+SpdxDocument 内で使用されるが、その SpdxDocument の外部で定義される外部要素を識別する。
+
+## Description @ja
+
+externalSpdxId は、SpdxDocument 内で使用されるが、その SpdxDocument の外部で定義される外部要素を識別する。

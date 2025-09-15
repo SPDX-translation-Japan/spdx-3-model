@@ -17,3 +17,11 @@ that uniquely identifies an Element.
 - name: externalIdentifier
 - Nature: ObjectProperty
 - Range: ExternalIdentifier
+
+## Summary @ja
+
+SPDX-3.0 コンテンツの範囲外にあるリソースを参照し、要素を一意に識別する。
+
+## Description @ja
+
+externalIdentifier は、SPDX-3.0 コンテンツの範囲外にあるリソースを指し示し、要素を一意に識別する。

@@ -15,3 +15,11 @@ A startTime specifies the time from which an element is applicable / valid.
 - name: startTime
 - Nature: DataProperty
 - Range: DateTime
+
+## Summary @ja
+
+要素が適用可能／有効になり始める時刻を指定する。
+
+## Description @ja
+
+startTime は、要素が適用可能／有効になり始める時刻を指定する。

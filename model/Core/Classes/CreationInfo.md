@@ -40,3 +40,11 @@ doing so supports reproducible builds.
 - createdUsing
   - type: Tool
   - minCount: 0
+
+## Summary @ja
+
+要素の作成に関する情報を提供する。
+
+## Description @ja
+
+CreationInfo は、要素を誰が、いつ、どのように作成したかに関する情報を提供する。作成日時は多くの場合、SPDX データが作成された日付ではなく、最終変更日（例: git のコミット日）である。これにより再現可能なビルドを支援する。

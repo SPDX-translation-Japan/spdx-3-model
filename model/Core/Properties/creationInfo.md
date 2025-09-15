@@ -15,3 +15,11 @@ CreationInfo provides information about the creation of the Element.
 - name: creationInfo
 - Nature: ObjectProperty
 - Range: CreationInfo
+
+## Summary @ja
+
+要素の作成に関する情報を提供する。
+
+## Description @ja
+
+`creationInfo` は、当該要素の作成に関する情報を提供する。

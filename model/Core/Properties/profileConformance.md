@@ -30,3 +30,19 @@ adhere to the Core profile.
 - name: profileConformance
 - Nature: ObjectProperty
 - Range: ProfileIdentifierType
+
+## Summary @ja
+
+この ElementCollection の作成者が準拠しようと意図するプロファイルを記述する。
+
+## Description @ja
+
+ElementCollection の作成者が準拠しようと意図するプロファイルを記述する。  
+
+profileConformance はコレクション内のすべての Element とコレクション自体に適用される。  
+
+プロファイルへの準拠は、プロファイル固有の文書やスキーマファイルに記載された追加の制約によって定義される。  
+
+このプロパティを利用することで、作成者は利用者に対し、追加制約に従う意図を伝えることができる。  
+
+他の値が指定されない場合、profileConformance のデフォルト値は「core」であり、すべての ElementCollection および Element は Core プロファイルに準拠しなければならない。

@@ -27,3 +27,19 @@ Element1 has no descendants.
 ## Property Values
 
 - name: "NONE"
+
+## Summary @ja
+
+基数（数）がゼロである要素集合を表す Element の個体値。
+
+## Description @ja
+
+NoneElement は、SPDX 作成者が「与えられた利用コンテキストにおいて要素は存在しない」と明示的に表明する場合に使用されるべきである。  
+
+*例*  
+例えば、以下のような Relationship があるとする：  
+`relationshipType`="ancestorOf"、  
+`from`=Element1、  
+`to`=NoneElement。  
+
+この場合、Element1 には子孫が存在しないことを明示的に表現している。  

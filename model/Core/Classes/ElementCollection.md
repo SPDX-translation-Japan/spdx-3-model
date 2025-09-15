@@ -40,3 +40,11 @@ the default.
   - minCount: 0
 - profileConformance
   - type: ProfileIdentifierType
+
+## Summary @ja
+
+必ずしも統一されたコンテキストを持たない要素の集合。
+
+## Description @ja
+
+ElementCollection は、必ずしも統一されたコンテキストを持たない要素の集合である。全ての ElementCollection は Core プロファイルに準拠しなければならない。profileConformance プロパティが指定されていない場合、デフォルトで "core" と見なされる。

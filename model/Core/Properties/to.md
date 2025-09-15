@@ -18,3 +18,13 @@ the given type.
 - name: to
 - Nature: ObjectProperty
 - Range: Element
+
+## Summary @ja
+
+Relationship の右辺（関係先）となる要素を参照する。
+
+## Description @ja
+
+to は、ある要素から他の一つ以上の要素への関係の相手側を指定する。
+
+この値が指定されていない場合、与えられた型の関係が存在しないことを意味する。

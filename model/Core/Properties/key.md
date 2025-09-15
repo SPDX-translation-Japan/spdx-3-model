@@ -18,3 +18,11 @@ with a value.
 - name: key
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @ja
+
+汎用的なキーと値のペアにおけるキー。
+
+## Description @ja
+
+キーと値のペアにおけるキー。キーと値のペアは、キーと値を対応付ける辞書を実装するために利用できる。

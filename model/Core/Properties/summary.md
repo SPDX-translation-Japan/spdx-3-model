@@ -17,3 +17,11 @@ the Element.
 - name: summary
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @ja
+
+要素の短い要約を提供する。
+
+## Description @ja
+
+summary は、要素の目的や内容を簡潔に伝える要約であり、受領者が全体像を迅速に把握するのに資する。

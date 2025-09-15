@@ -23,3 +23,13 @@ List, as well as individuals defined in the specification.
 ## Property Values
 
 - name: "SPDX Project"
+
+## Summary @ja
+
+SPDX プロジェクトを表す組織。
+
+## Description @ja
+
+SpdxOrganization は SPDX プロジェクトを表す Organization である。  
+定義上、SPDX プロジェクトによって定義されるすべての Element 型個体の作成者である。  
+これらの個体には、SPDX ライセンスリストに定義されたライセンスや例外、そして仕様内で定義された個体が含まれる。  

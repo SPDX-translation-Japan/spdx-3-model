@@ -19,3 +19,11 @@ This is not to be confused with tools that are used to perform tasks.
 - name: Agent
 - SubclassOf: Element
 - Instantiability: Concrete
+
+## Summary @ja
+
+システム上で動作する可能性を持つものを表す。
+
+## Description @ja
+
+Agent クラスは、システム上で動作する可能性を持つものを表す。これには人、組織、ソフトウェアエージェントなどが含まれる。タスクを実行するためのツールとは区別される。

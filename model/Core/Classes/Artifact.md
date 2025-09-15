@@ -44,3 +44,11 @@ such as an electronic file, a software package, a device or an element of data.
 - supportLevel
   - type: SupportType
   - minCount: 0
+
+## Summary @ja
+
+デジタル領域における個別の項目や単位。
+
+## Description @ja
+
+Artifact はデジタル領域における個別の項目や単位であり、電子ファイル、ソフトウェアパッケージ、デバイス、データ要素などが含まれる。

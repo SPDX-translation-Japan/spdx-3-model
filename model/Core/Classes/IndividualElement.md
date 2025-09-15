@@ -19,3 +19,11 @@ This class provides the type used by the individuals defined in the Core profile
 - name: IndividualElement
 - SubclassOf: Element
 - Instantiability: Concrete
+
+## Summary @ja
+
+Core プロファイルにおいて Individuals によって使用される Element の具体的なサブクラス。
+
+## Description @ja
+
+NoneElement や NoAssertionElement のような Individual は、具体的な Element サブクラスを参照する必要がある。このクラスは Core プロファイルで定義される Individual によって使用される型を提供する。

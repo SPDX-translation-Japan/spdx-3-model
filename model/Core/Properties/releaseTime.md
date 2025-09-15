@@ -15,3 +15,11 @@ A releaseTime specifies the time an artifact was released.
 - name: releaseTime
 - Nature: DataProperty
 - Range: DateTime
+
+## Summary @ja
+
+アーティファクトがリリースされた時刻を指定する。
+
+## Description @ja
+
+releaseTime はアーティファクトがリリースされた時刻を指定する。

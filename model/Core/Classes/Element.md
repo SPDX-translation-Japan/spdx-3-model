@@ -54,3 +54,11 @@ and inter-relatable content objects.
 - extension
   - type: /Extension/Extension
   - minCount: 0
+
+## Summary @ja
+
+すべての他の SPDX-3.0 ドメインクラスが派生する基底ドメインクラス。
+
+## Description @ja
+
+Element は BOM ドメインに直接固有または間接的に関連し、BOM の概念や関係を文脈的に特徴づけるために必要となる基本概念の表現である。SPDX-3.0 の構造において、Element はすべての明示的かつ相互関連可能なコンテンツオブジェクトの一貫性のある、統一的で相互運用可能な基盤となる。

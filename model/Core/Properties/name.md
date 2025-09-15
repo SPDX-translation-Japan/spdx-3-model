@@ -18,3 +18,11 @@ the URI.
 - name: name
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @ja
+
+作成者によって指定された要素の名前を識別する。
+
+## Description @ja
+
+このフィールドは、作成者によって指定された要素の名前を識別する。要素の名前は URI よりも参照しやすく、重要な慣例である。

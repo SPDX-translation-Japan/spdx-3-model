@@ -30,3 +30,11 @@ that provides additional context, characteristics or related information about a
 - comment
   - type: xsd:string
   - maxCount: 1
+
+## Summary @ja
+
+SPDX-3.0 コンテンツのスコープ外にあるリソースへの参照。
+
+## Description @ja
+
+ExternalRef は、SPDX-3.0 コンテンツのスコープ外にあるリソースを指し、Element に関連する追加の文脈や特性、情報を提供する。

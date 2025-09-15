@@ -15,3 +15,11 @@ An identifier uniquely identifies an external element.
 - name: identifier
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @ja
+
+外部要素を一意に識別する。
+
+## Description @ja
+
+identifier は外部要素を一意に識別する。
