@@ -84,3 +84,79 @@ name completes the sentence:
 - trainedOn: The `from` Element has been trained on the `to` Element(s).
 - underInvestigationFor: The `from` Vulnerability impact is being investigated for each `to` Element. The use of the `underInvestigationFor` type is constrained to `VexUnderInvestigationVulnAssessmentRelationship` classed relationships.
 - usesTool: The `from` Element uses each `to` Element as a tool, during a LifecycleScopeType period.
+
+## Summary @ja
+
+2つの要素間の関係に関する情報。  
+
+## Description @ja
+
+2つの要素間の関係に関する情報を提供する。  
+例えば、2つの異なるファイル間、パッケージとファイル間、2つのパッケージ間、あるいは SpdxDocument 同士の関係を表現できる。  
+
+関係の名前は、その名前から正しい方向性を容易に推測できる程度に記述的であるべきである。  
+最良の方法は、関係名が次の文を完成させるようにすることである。  
+
+`from` (is) (a) `RELATIONSHIP` `to`  
+
+## Entries @ja
+
+- affects: `from` 脆弱性は各 `to` 要素に影響を与える。`affects` 型の使用は `VexAffectedVulnAssessmentRelationship` に限定される。  
+- amendedBy: `from` 要素は各 `to` 要素によって修正される。  
+- ancestorOf: `from` 要素は各 `to` 要素の祖先である。  
+- availableFrom: `from` 要素は各 `to` 要素で記述された追加の提供者から利用可能である。  
+- configures: `from` 要素は LifecycleScopeType の期間中に各 `to` 要素に適用される設定である。  
+- contains: `from` 要素は各 `to` 要素を含む。  
+- coordinatedBy: `from` 脆弱性は `to` エージェント（ベンダー、研究者、または利用者）によって調整される。  
+- copiedTo: `from` 要素は各 `to` 要素にコピーされる。  
+- delegatedTo: `from` エージェントは、LifecycleScopeType の期間中に、`to` の関係（invokedBy 型でなければならない）を持つエージェントにアクションを委任する（例: `to` invokedBy 関係が `from` の代理で実行される）。  
+- dependsOn: `from` 要素は LifecycleScopeType の期間中、各 `to` 要素に依存する。  
+- descendantOf: `from` 要素は各 `to` 要素の子孫である。  
+- describes: `from` 要素は各 `to` 要素を記述する。コレクション内の要素ツリーの根を示すには rootElement プロパティを使用する。  
+- doesNotAffect: `from` 脆弱性は各 `to` 要素に影響を与えない。`doesNotAffect` の使用は `VexNotAffectedVulnAssessmentRelationship` に限定される。  
+- expandsTo: `from` アーカイブは各 `to` 要素で記述された成果物として展開される。  
+- exploitCreatedBy: `from` 脆弱性に対して各 `to` エージェントによってエクスプロイトが作成される。  
+- fixedBy: `from` 脆弱性が `to` エージェントによって修正されたことを示す。  
+- fixedIn: `from` 脆弱性は各 `to` 要素内で修正されている。`fixedIn` の使用は `VexFixedVulnAssessmentRelationship` に限定される。  
+- foundBy: `from` 脆弱性が最初に `to` エージェントによって発見されたことを示す。  
+- generates: `from` 要素は各 `to` 要素を生成する。  
+- hasAddedFile: 各 `to` 要素は `from` 要素に追加されたファイルである。  
+- hasAssessmentFor: `from` 脆弱性と各 `to` 要素をセキュリティ評価で関連付ける。`VulnAssessmentRelationship` 型で使用される。  
+- hasAssociatedVulnerability: `from` アーティファクトを各 `to` 脆弱性と関連付けるために使用される。  
+- hasConcludedLicense: `from` SoftwareArtifact が SPDX データ作成者によって各 `to` ライセンスに準拠すると結論づけられる。  
+- hasDataFile: `from` 要素が各 `to` 要素をデータファイルとして扱う。データファイルは、機能に必要または任意のデータを保存する成果物であり、データベース、インデックス、ログ、AI モデル、キャリブレーションデータ、一時ファイル、バックアップファイルなどが含まれる。AI 用データについては `trainedOn`, `testedOn`, `hasTest`, `configures`, `hasInput`, `hasOutput` を使用することを推奨。この関係は依存を意味しない。  
+- hasDeclaredLicense: `from` SoftwareArtifact が実際に各 `to` ライセンスを含んでいることが検出される。  
+- hasDeletedFile: 各 `to` 要素は `from` 要素から削除されたファイルである。  
+- hasDependencyManifest: `from` 要素は各 `to` 要素に依存関係情報を含むマニフェストファイルを持つ。  
+- hasDistributionArtifact: `from` 要素は各 `to` 要素に成果物として配布される（例: RPM やアーカイブ）。  
+- hasDocumentation: `from` 要素は各 `to` 要素によって文書化されている。  
+- hasDynamicLink: `from` 要素は LifecycleScopeType の期間中に各 `to` 要素に動的リンクする。  
+- hasEvidence: 各 `to` 要素は `from` 要素の証拠と見なされる。  
+- hasExample: 各 `to` 要素は `from` 要素の例である。  
+- hasHost: `from` ビルドは LifecycleScopeType の期間中に `to` 要素上で実行される。  
+- hasInput: `from` ビルドは LifecycleScopeType の期間中に各 `to` 要素を入力として持つ。  
+- hasMetadata: 各 `to` 要素は `from` 要素に関するメタデータである。  
+- hasOptionalComponent: 各 `to` 要素は `from` 要素のオプションコンポーネントである。  
+- hasOptionalDependency: `from` 要素は LifecycleScopeType の期間中に各 `to` 要素にオプションで依存する。  
+- hasOutput: `from` ビルド要素は LifecycleScopeType の期間中に各 `to` 要素を出力として生成する。  
+- hasPrerequisite: `from` 要素は LifecycleScopeType の期間中に各 `to` 要素を前提条件として持つ。  
+- hasProvidedDependency: `from` 要素は LifecycleScopeType の期間中に各 `to` 要素に依存するが、依存は配布成果物には含まれず提供されるものと仮定される。  
+- hasRequirement: `from` 要素は LifecycleScopeType の期間中に各 `to` 要素を要求する。  
+- hasSpecification: 各 `to` 要素は LifecycleScopeType の期間中に `from` 要素の仕様である。  
+- hasStaticLink: `from` 要素は LifecycleScopeType の期間中に各 `to` 要素に静的リンクする。  
+- hasTest: 各 `to` 要素は LifecycleScopeType の期間中に `from` 要素のテスト成果物である。  
+- hasTestCase: 各 `to` 要素は `from` 要素のテストケースである。  
+- hasVariant: 各 `to` 要素は `from` 要素のバリアントである。  
+- invokedBy: `from` 要素は LifecycleScopeType の期間中に `to` エージェントによって呼び出される。  
+- modifiedBy: `from` 要素は各 `to` 要素によって変更される。  
+- other: 各 `to` 要素は `from` 要素と関連するが、その関係の種類は SPDX に定義されていない（方向性を持たない）。  
+- packagedBy: 各 `to` 要素は `from` 要素のパッケージ化されたインスタンスである。  
+- patchedBy: 各 `to` 要素は `from` 要素に対するパッチである。  
+- publishedBy: `from` 脆弱性が各 `to` エージェントによって公開利用可能にされたことを示す。  
+- reportedBy: `from` 脆弱性が各 `to` エージェントによって最初に報告されたことを示す。  
+- republishedBy: `from` 脆弱性の詳細が各 `to` エージェントによって追跡、集約、補強されたことを示す（例: NVD）。  
+- serializedInArtifact: `from` SpdxDocument は各 `to` 成果物内にシリアライズされた形式で存在する。  
+- testedOn: `from` 要素は `to` 要素上でテストされる。  
+- trainedOn: `from` 要素は `to` 要素上で訓練される。  
+- underInvestigationFor: `from` 脆弱性の影響が各 `to` 要素について調査中である。`underInvestigationFor` の使用は `VexUnderInvestigationVulnAssessmentRelationship` に限定される。  
+- usesTool: `from` 要素は LifecycleScopeType の期間中に各 `to` 要素をツールとして使用する。  

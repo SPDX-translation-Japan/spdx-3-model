@@ -16,3 +16,11 @@ user's authority) to act on a system.
 - name: SoftwareAgent
 - SubclassOf: Agent
 - Instantiability: Concrete
+
+## Summary @ja
+
+ソフトウェアエージェント。
+
+## Description @ja
+
+ソフトウェアエージェントは、ユーザーの権限に類似した権限を与えられ、システム上で動作するソフトウェアプログラムである。

@@ -15,3 +15,11 @@ A builtTime specifies the time an artifact was built.
 - name: builtTime
 - Nature: DataProperty
 - Range: DateTime
+
+## Summary @ja
+
+アーティファクトがビルドされた時刻を指定する。
+
+## Description @ja
+
+builtTime はアーティファクトがビルドされた時刻を指定する。  

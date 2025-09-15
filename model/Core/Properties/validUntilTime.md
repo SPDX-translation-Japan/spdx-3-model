@@ -17,3 +17,11 @@ needs to be reassessed.
 - name: validUntilTime
 - Nature: DataProperty
 - Range: DateTime
+
+## Summary @ja
+
+アーティファクトの使用を再評価する必要が生じる前に、そのアーティファクトが使用可能である期限を指定する。
+
+## Description @ja
+
+validUntilTime は、アーティファクトが使用可能である期限を指定するものであり、その期限を過ぎた場合には使用の継続について再評価を行う必要があることを示す。

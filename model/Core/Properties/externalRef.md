@@ -17,3 +17,11 @@ that provides additional characteristics of an Element.
 - name: externalRef
 - Nature: ObjectProperty
 - Range: ExternalRef
+
+## Summary @ja
+
+SPDX-3.0 コンテンツの範囲外にあるリソースを参照し、要素に追加の特徴を与える。
+
+## Description @ja
+
+このフィールドは、SPDX-3.0 コンテンツの範囲外にあるリソースを指し示し、要素に追加の特徴を与える。

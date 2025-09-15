@@ -19,3 +19,12 @@ and another SpdxDocument.
 - name: relationshipType
 - Nature: ObjectProperty
 - Range: RelationshipType
+
+## Summary @ja
+
+二つの Element 間の関係に関する情報。
+
+## Description @ja
+
+このフィールドは二つの Element 間の関係に関する情報を提供する。  
+例えば、二つの異なる File 間、Package と File の間、二つの Package 間、または一つの SpdxDocument と別の SpdxDocument の間の関係を表すことができる。

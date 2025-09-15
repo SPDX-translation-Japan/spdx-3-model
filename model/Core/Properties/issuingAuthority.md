@@ -21,3 +21,11 @@ The string provides a unique identifier for the issuing authority.
 - name: issuingAuthority
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @ja
+
+識別資格情報を発行する権限を持つ主体。
+
+## Description @ja
+
+issuingAuthority は識別資格情報を発行する権限を持つ主体である。この主体は政府、非営利団体、教育機関、営利企業などがあり得る。文字列は発行主体を一意に識別する。

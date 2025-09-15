@@ -36,3 +36,11 @@ The `contentType` property describes the format of the `statement` property.
   - type: Element
   - minCount: 1
   - maxCount: 1
+
+## Summary @ja
+
+1つ以上の要素に関連して行われる主張。
+
+## Description @ja
+
+Annotation は、1つ以上の要素に関連して行われる主張である。`contentType` プロパティは `statement` プロパティのフォーマットを記述する。

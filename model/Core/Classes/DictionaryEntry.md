@@ -31,3 +31,15 @@ unique keys.
 - value
   - type: xsd:string
   - maxCount: 1
+
+## Summary @ja
+
+関連する値を持つキー。
+
+## Description @ja
+
+DictionaryEntry クラスは、SPDX において汎用的な文字列マッピング（連想配列、辞書、またはハッシュマップとも呼ばれる）を実装するために使用される。  
+
+各 DictionaryEntry はキーとそれに対応する値のペアを含み、そのキーを関連する値に対応づける。  
+
+辞書を実装する場合、このクラスはユニークなキーを持つコレクションの中で使用される。  

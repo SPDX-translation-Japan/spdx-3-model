@@ -15,3 +15,11 @@ An externalRefType specifies the type of the external reference.
 - name: externalRefType
 - Nature: ObjectProperty
 - Range: ExternalRefType
+
+## Summary @ja
+
+外部参照の型を指定する。
+
+## Description @ja
+
+externalRefType は、外部参照の型を指定する。

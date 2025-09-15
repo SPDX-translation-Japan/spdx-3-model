@@ -16,3 +16,11 @@ ElementCollection.
 - name: element
 - Nature: ObjectProperty
 - Range: Element
+
+## Summary @ja
+
+ElementCollection を構成する 1 つ以上の Element を参照する。
+
+## Description @ja
+
+このフィールドは、ElementCollection を構成する 1 つ以上の Element を参照する。

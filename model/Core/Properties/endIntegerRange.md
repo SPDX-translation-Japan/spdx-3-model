@@ -15,3 +15,11 @@ endIntegerRange is a positive integer that defines the end of a range.
 - name: endIntegerRange
 - Nature: DataProperty
 - Range: xsd:positiveInteger
+
+## Summary @ja
+
+範囲の終端を定義する。
+
+## Description @ja
+
+endIntegerRange は、範囲の終端を定義する正の整数である。

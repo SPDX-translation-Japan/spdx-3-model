@@ -15,3 +15,11 @@ A prefix is a substitute for a URI.
 - name: prefix
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @ja
+
+URI の代替となるもの。
+
+## Description @ja
+
+プレフィックスとは URI の代替である。

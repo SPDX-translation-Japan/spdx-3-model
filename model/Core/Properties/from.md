@@ -15,3 +15,11 @@ This field references the Element on the left-hand side of a relationship.
 - name: from
 - Nature: ObjectProperty
 - Range: Element
+
+## Summary @ja
+
+関係の左辺にある要素を参照する。
+
+## Description @ja
+
+このフィールドは、関係の左辺にある要素を参照する。

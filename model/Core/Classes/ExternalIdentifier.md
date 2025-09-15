@@ -38,3 +38,11 @@ that provides a unique key within an established domain that can uniquely identi
   - type: xsd:string
   - minCount: 0
   - maxCount: 1
+
+## Summary @ja
+
+SPDX-3.0 コンテンツのスコープ外で定義されたリソース識別子への参照であり、要素を一意に識別する。
+
+## Description @ja
+
+ExternalIdentifier は SPDX-3.0 コンテンツのスコープ外のリソースへの参照であり、確立されたドメイン内で一意のキーを提供し、要素を一意に識別することができる。

@@ -15,3 +15,11 @@ A locationHint provides an indication of where to retrieve an external Element.
 - name: locationHint
 - Nature: DataProperty
 - Range: xsd:anyURI
+
+## Summary @ja
+
+外部要素を取得する場所の手がかりを提供する。
+
+## Description @ja
+
+locationHint は、外部要素を取得する場所の手がかりを提供する。

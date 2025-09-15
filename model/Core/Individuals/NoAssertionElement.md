@@ -33,3 +33,24 @@ no assertion is being made about any potential descendants of Element1.
 ## Property Values
 
 - name: "NOASSERTION"
+
+
+## Summary @ja
+
+識別や基数（数）が不明な要素集合を表す Element の個体値。
+
+## Description @ja
+
+NoAssertionElement は次の場合に使用されるべきである：  
+
+- SPDX 作成者が合理的で客観的な判断を試みたが到達できなかった場合  
+- SPDX 作成者がこのフィールドの判断をまったく試みていない場合  
+- SPDX 作成者が意図的に情報を提供していない場合（そのことから意味を推測してはならない）  
+
+*例*  
+例えば、以下のような Relationship があるとする：  
+`relationshipType`="ancestorOf"、  
+`from`=Element1、  
+`to`=NoAssertionElement。  
+
+この場合、Element1 の子孫に関していかなる主張も行っていないことを明示的に表現している。  

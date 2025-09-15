@@ -19,3 +19,10 @@ is being used.
 - name: contentType
 - Nature: DataProperty
 - Range: MediaType
+
+## Summary @ja
+要素またはプロパティのコンテンツタイプに関する情報を提供する。
+
+## Description @ja
+このフィールドは、作成者の視点から見た要素またはプロパティのコンテンツタイプの妥当な推定を表す。  
+コンテンツタイプは要素やプロパティに本質的に備わっており、それがどのように使用されるかには依存しない。  

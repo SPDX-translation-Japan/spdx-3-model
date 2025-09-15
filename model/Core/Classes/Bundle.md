@@ -21,3 +21,11 @@ A bundle is a collection of Elements that have a shared context.
 - context
   - type: xsd:string
   - maxCount: 1
+
+## Summary @ja
+
+共通のコンテキストを持つ要素の集合。
+
+## Description @ja
+
+Bundle は、共通のコンテキストを持つ要素の集合である。

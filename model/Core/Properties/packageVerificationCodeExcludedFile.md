@@ -19,3 +19,11 @@ Every filename is preceded with a `./`.
 - name: packageVerificationCodeExcludedFile
 - Nature: DataProperty
 - Range: xsd:string
+
+## Summary @ja
+
+`PackageVerificationCode` から除外されるファイルの相対ファイル名。
+
+## Description @ja
+
+パッケージアーカイブまたはディレクトリのルートからの相対ファイル名で、`PackageVerificationCode` から除外されるファイルを参照する。すべてのファイル名は `./` で始まる。

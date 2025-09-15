@@ -17,3 +17,11 @@ identifier.
 - name: identifierLocator
 - Nature: DataProperty
 - Range: xsd:anyURI
+
+## Summary @ja
+
+外部識別子に関する追加情報の所在を提供する。
+
+## Description @ja
+
+識別子は必ずしも URI として構造化されているわけではない。identifierLocator は識別子に関連する文脈情報を提供する URL としての所在ヒントである。

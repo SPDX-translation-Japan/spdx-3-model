@@ -19,3 +19,11 @@ A semantic version is a string that is following the specification of
 ## Format
 
 - pattern: ^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$
+
+## Summary @ja
+
+SemVer 2.0.0 仕様に準拠した文字列。
+
+## Description @ja
+
+セマンティックバージョンは [Semantic Versioning 2.0.0](https://semver.org/) の仕様に従う文字列である。

@@ -21,3 +21,11 @@ its composition, licensing information, known quality or security issues, etc.
 - name: Bom
 - SubclassOf: Bundle
 - Instantiability: Concrete
+
+## Summary @ja
+
+製品に関する詳細（由来、構成、ライセンスなど）を特徴づける SPDX-3.0 コンテンツをまとめるコンテナ。
+
+## Description @ja
+
+Bill of Materials (BOM) は、製品に関する詳細を特徴づける SPDX-3.0 コンテンツをまとめるコンテナである。これには製品の内容や構成の詳細、由来の詳細、ライセンス情報、既知の品質やセキュリティの問題などが含まれる。

@@ -20,3 +20,13 @@ verifying the integrity of specific subclasses of Elements.
 - name: verifiedUsing
 - Nature: ObjectProperty
 - Range: IntegrityMethod
+
+## Summary @ja
+
+要素の完全性を検証するために使用される IntegrityMethod を提供する。
+
+## Description @ja
+
+verifiedUsing は、要素の完全性を検証するために使用される IntegrityMethod を提供する。 
+ 
+なお、異なるプロファイルは、特定の Element サブクラスの完全性を検証するための追加の方法を提供する場合がある。
