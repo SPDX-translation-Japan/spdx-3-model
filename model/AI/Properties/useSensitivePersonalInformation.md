@@ -34,3 +34,18 @@ Related: `hasSensitivePersonalInformation` in `/Dataset/DatasetPackage`
 这可能包括生物特征数据、地址或其他可用于推断个人身份的数据。
 
 相关：`/Dataset/DatasetPackage`中的`hasSensitivePersonalInformation`
+<<<<<<< HEAD
+=======
+
+## Summary @ja
+
+モデルの学習中に機微な個人情報が使用されたか、あるいは推論時に使用される可能性があるかを記録する。
+
+## Description @ja
+
+AIモデルの学習または推論において、機微な個人情報が使用されているかどうかを記録する。
+
+これには、生体認証データ、住所、または個人の身元を推測するために使用できるその他のデータが含まれる場合がある。
+
+関連: `/Dataset/DatasetPackage` 内の `hasSensitivePersonalInformation`
+>>>>>>> c136619 (model/AI/Properties/useSensitivePersonalInformation.md: Add Japanese)
