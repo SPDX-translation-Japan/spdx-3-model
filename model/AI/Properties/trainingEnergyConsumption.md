@@ -25,3 +25,11 @@ that is being used in the AI system.
 ## Description @zh-Hans
 
 该字段指定训练AI系统中使用的AI模型时的能耗量。
+
+## Summary @ja
+
+AIシステムで使用されているAIモデルの学習時に消費されたエネルギー量を指定する。
+
+## Description @ja
+
+このフィールドは、AIシステムで使用されているAIモデルの学習時に消費されたエネルギー量を指定する。
