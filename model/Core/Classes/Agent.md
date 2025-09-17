@@ -20,6 +20,18 @@ This is not to be confused with tools that are used to perform tasks.
 - SubclassOf: Element
 - Instantiability: Concrete
 
+## Summary @ja
+
+Agent は、システム上で動作する可能性のあるすべてのものを表します。
+
+## Description @ja
+
+Agent クラスは、システムで動作する可能性のあるすべてのものを表します。
+
+これは、各個人、組織、ソフトウェアエージェントなどです。
+
+様々な作業を実行するために使用されるツール類と混同しないでください。
+
 ## Summary @zh-Hans
 
 `Agent`代表任何有可能作用于系统的对象。
