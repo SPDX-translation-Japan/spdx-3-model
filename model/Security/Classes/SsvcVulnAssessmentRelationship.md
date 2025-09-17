@@ -65,6 +65,39 @@ It is intended to communicate the results of using the CISA SSVC Calculator.
 *示例*
 
 ```json
+```json
+{
+  "type": "security_SsvcVulnAssessmentRelationship",
+  "spdxId": "urn:spdx.dev:ssvc-1",
+  "relationshipType": "hasAssessmentFor",
+  "security_decisionType": "act",
+  "from": "urn:spdx.dev:vuln-cve-2020-28498",
+  "to": ["urn:product-acme-application-1.3"],
+  "security_assessedElement": "urn:npm-elliptic-6.5.2",
+  "suppliedBy": "urn:spdx.dev:agent-jane-doe",
+  "publishedTime": "2021-03-09T11:04:53Z"
+}
+```
+
+## Summary @ja
+
+脆弱性に対してSSVCの評価を提供する。
+
+## Description @ja
+
+SsvcVulnAssessmentRelationship は、
+[CISA Stakeholder-Specific Vulnerability Categorization Guide](https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc)
+で定義されている Stakeholder-Specific Vulnerability Categorization (SSVC) の意思決定ツリーを用いて下された決定を記述する。
+
+これは、CISA SSVC計算ツールを用いた結果を伝達することを目的としている。
+
+*制約*
+
+- リレーションシップタイプは hasAssessmentFor に設定されなければならない。
+
+*例*
+
+```json
 {
   "type": "security_SsvcVulnAssessmentRelationship",
   "spdxId": "urn:spdx.dev:ssvc-1",
