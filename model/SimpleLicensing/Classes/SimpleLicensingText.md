@@ -12,6 +12,15 @@ A SimpleLicensingText represents a License or Addition that is not listed on
 the [SPDX License List](https://spdx.org/licenses),
 and is therefore defined by an SPDX data creator.
 
+## Summary @ja
+
+SPDXライセンスリスト上に記載されていないライセンスまたは追加条項について。
+
+## Description @ja
+
+SimpleLicensingTextは、[SPDXライセンスリスト](https://spdx.org/licenses)に掲載されていないライセンス、または追加条項を表現し
+SPDXデーター作成者によって定義される。
+
 ## Metadata
 
 - name: SimpleLicensingText

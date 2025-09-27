@@ -6,6 +6,10 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 An SPDX Element containing an SPDX license expression string.
 
+## Summary @ja
+
+SPDXライセンス式文字列を含むSPDX要素
+
 ## Description
 
 A LicenseExpression enables the representation, in a single string, of a
@@ -20,6 +24,15 @@ set forth in that Annex.
 
 The ExpandedLicensing profile can be used to represent the complete parsed
 license expression as a combination of license objects.
+
+## Description @ja
+
+LicenseExpressionは、１つまたは複数のライセンスを組み合わせたものや、ライセンスの例外などを１つの文字列で表現するための仕組みである。
+
+licenseExpressionの文法は、本ドキュメントの付録である(["SPDX license expressions"](../../../annexes/spdx-license-expressions.md))に定められている。
+その文法に従わない文字列は、有効なlicenseExpressionとは見なされない。
+
+より完全に構文解析されたライセンス式を、ライセンスオブジェクトの組み合わせとして表現するには、ExpandedLicensingプロファイルが利用できる。
 
 ## Metadata
 

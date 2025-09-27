@@ -6,6 +6,10 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 Identifies the full text of a License or Addition.
 
+## Summary @ja
+
+ライセンスまたは追加条項の全文を表す。
+
 ## Description
 
 A licenseText contains the plain text of the License or Addition,
@@ -14,6 +18,12 @@ without templating or other similar markup.
 Users of the licenseText for a License can apply the
 [SPDX License List Matching Guidelines](../../../annexes/license-matching-guidelines-and-templates.md)
 when comparing it to another text for matching purposes.
+
+## Description @ja
+
+licenseTextは、ライセンスまたは追加条項の本文を、テンプレートやマークアップを使わずプレーンなテキストとして表現する。
+
+ライセンスの利用者は、licenseTextを他のテキストと[SPDXライセンスリストマッチングガイドライン](../../../annexes/license-matching-guidelines-and-templates.md)に従って照合することができる。
 
 ## Metadata
 

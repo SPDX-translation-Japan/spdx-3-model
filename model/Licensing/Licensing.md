@@ -7,6 +7,10 @@ SPDX-License-Identifier: Community-Spec-1.0
 The Licensing profile defines a minimum set of license information to
 facilitate compliance with typical license use cases.
 
+## Summary @ja
+
+ライセンスプロファイルは一般的なライセンス使用事例への準拠を促進するため、最小限のライセンス情報を定義する。
+
 ## Description
 
 The Licensing profile only contains the additional requirement that any
@@ -107,6 +111,74 @@ Note that a missing hasConcludedLicense is not the same as a relationship to a
 NoAssertionLicense since the latter is a "known unknown" whereas no assumptions
 can be made from a missing hasConcludedLicense relationship.
 
+## Description @ja
+
+ライセンスプロファイルには追加要件として「すべてのソフトウェアアーティファクトは`hasConcludedLicense`タイプの
+`Relationship`を必ず１つ持たねばらない」という規定がある。
+
+クラスやプロパティの制約は、次の２つのプロファイルで定義される：
+
+SimpleLicensingプロファイル（ライセンス表現文字列に関連するクラスとプロパティ）
+ExpandedLicensingプロファイル（ライセンス表現の構文解析ツリーに使われるクラスとプロパティ）
+
+ライセンスに関連するリレーションシップには、`hasDeclaredLicense`と`hasConcludedLicense`の二種類がある。
+
+もし、あるソフトウェアアーティファクトにおいて`hasDeclaredLicense`と`hasConcludedLicense`が同一でない場合、
+`hasConcludedLicense`リレーションシップの`comment`フィールドに説明文を記述すべきである。
+
+また、`NoAssertionLicense`とのリレーションシップには、`comment`フィールドにそれらの関係の説明を書くことができる。
+
+*hasDeclaredLicense*
+
+hasDeclaredLicenseは、ソフトウェアアーティファクトに実際のライセンス情報を明示する。例えば、自動化ツールがライセンスを検出するために使われる。
+
+このフィールドは外部のソースコード（パッケージのWEBサイトなど）から取得されたライセンス情報を記録するために作られたものではない。
+そのような情報は必要に応じてhasConcludedLicenseフィールドに含める。
+
+hasDeclaredLicenseは、ソフトウェアアーティファクトの種類によって異なる表現をすることができる：
+
+- パッケージ
+　パッケージに含まれるライセンス情報（ライセンスファイル、READMEファイル、パッケージ内のメタデータ）
+　パッケージのWEBサイトやサードパーティのレポジトリやWEBサイトは対象外である
+
+- ファイル
+　ファイル自体に明示されたライセンス（ライセンスヘッダー、通知、ライセンスを含むコメント、SPDX-License-Identifier
+  expressionなど）、一方別のファイル内に明示されたライセンスは含まない（レポジトリーのトップディレクトリにあるライセンスファイルなど）
+
+- スニペット
+　スニペット自体に含まれるライセンス（ライセンス通知、コメント、SPDX-License-Identifier expressionなど）は含まれるが、ファイル内の他の場所や別のファイル内に
+　あるライセンス（スニペット内にない場合はファイルの先頭のコメント、レポジトリのトップディレクトリにあるライセンスファイル）は含まない。
+
+NoneLicenseは、対応するパッケージ、ファイル、スニペットにライセンス情報がまったく含まれないことを示している。
+
+hasDeclaredLicenseは、次のいずれかを意味する：
+
+- SPDXデーター作成者が、合理的で客観的な判断を試みたが、結論を出せなかった場合
+- SPDXデーター作成者が、その項目について調べたり判断しようとしなかった場合
+- SPDXデーター作成者が、あえて情報を提供しなかった場合（その行為自体に特別な意味はない）
+
+hasDeclaredLicenseが書かれていない場合は、そのソフトウェアアーティファクトにライセンスがあるかないかは不明で、推測することをしてはならない。
+
+注意点として、hasConcludedLicenseがないことと、NoAssertionLicenseとして明示されているものとは異なる点で、
+後者は、わからないとははっきりと示している「既知の不明」であるが、前者は情報が全くない状態であるため、なにも言及できない。
+
+*hasConcludedLicense*
+
+hasConcludedLicenseは、SPDXデーター作成者が調査を行い、ソフトウェアアーティファクトに含まれるライセンス情報や関連する情報をもとに、このソフトウェアアーティファクトはこのライセンスで管理されていると合理的に結論付けたライセンスを指す。
+
+NoneLicenseは、SPDXデーター作成者が調べた結果、このソフトウェアアーティファクトにはライセンス情報が見つからなかったとこを示す。
+
+NoAssertionLicenseは、次のいずれかを意味する：
+
+- SPDXデーター作成者が、合理的で客観的な判断を試みたが、結論を出せなかった場合
+- SPDXデーター作成者が、その項目について調べたり判断しようとしなかった場合
+- SPDXデーター作成者が、あえて情報を提供しなかった場合（その行為自体に特別な意味はない）
+
+hasConcludedLicenseが書かれていない場合は、そのソフトウェアアーティファクトにライセンスがあるかないかは不明で、推測することをしてはならない。
+
+注意点として、hasConcludedLicenseがないことと、NoAssertionLicenseとして明示されているものとは異なる点で、
+後者は、わからないとははっきりと示している「既知の不明」であるが、前者は情報が全くない状態であるため、なにも言及できない。
+
 ## Metadata
 
 - id: https://spdx.org/rdf/3.0/terms/Licensing
@@ -121,6 +193,13 @@ the following has to hold:
    `/Core/Relationship` of type `hasConcludedLicense` having that element as
    its `from` property and a `/SimpleLicensing/AnyLicenseInfo` as its `to`
    property.
+
+## Profile conformance @ja
+
+ある要素コレクションがこのプロファイルに準拠するためには、次のような要件を満たす必要がある：
+
+1. すべての`/Software/SoftwareArtifact`は、厳密に１つの`/Core/Relationship`を持たねばならない。
+なおかつ、`from`プロパティがその要素であること。さらに`to`プロパティは`/SimpleLicensing/AnyLicenseInfo`であること。
 
 ## Summary @zh-Hans
 
