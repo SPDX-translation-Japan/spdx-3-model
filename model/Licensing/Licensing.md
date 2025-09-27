@@ -113,7 +113,7 @@ can be made from a missing hasConcludedLicense relationship.
 
 ## Description @ja
 
-ライセンスプロファイルには追加要件として「すべてのソースコードは`hasConcludedLicense`タイプの
+ライセンスプロファイルには追加要件として「すべてのソフトウェアアーティファクトは`hasConcludedLicense`タイプの
 `Relationship`を必ず１つ持たねばらない」という規定がある。
 
 クラスやプロパティの制約は、次の２つのプロファイルで定義される：
@@ -123,19 +123,19 @@ ExpandedLicensingプロファイル（ライセンス表現の構文解析ツリ
 
 ライセンスに関連するリレーションシップには、`hasDeclaredLicense`と`hasConcludedLicense`の二種類がある。
 
-もし、あるソースコードにおいて`hasDeclaredLicense`と`hasConcludedLicense`が同一でない場合、
+もし、あるソフトウェアアーティファクトにおいて`hasDeclaredLicense`と`hasConcludedLicense`が同一でない場合、
 `hasConcludedLicense`リレーションシップの`comment`フィールドに説明文を記述すべきである。
 
 また、`NoAssertionLicense`とのリレーションシップには、`comment`フィールドにそれらの関係の説明を書くことができる。
 
 *hasDeclaredLicense*
 
-hasDeclaredLicenseは、ソースコードに実際のライセンス情報を明示する。例えば、自動化ツールがライセンスを検出するために使われる。
+hasDeclaredLicenseは、ソフトウェアアーティファクトに実際のライセンス情報を明示する。例えば、自動化ツールがライセンスを検出するために使われる。
 
 このフィールドは外部のソースコード（パッケージのWEBサイトなど）から取得されたライセンス情報を記録するために作られたものではない。
 そのような情報は必要に応じてhasConcludedLicenseフィールドに含める。
 
-hasDeclaredLicenseは、ソースコードの種類によって異なる表現をすることができる：
+hasDeclaredLicenseは、ソフトウェアアーティファクトの種類によって異なる表現をすることができる：
 
 - パッケージ
 　パッケージに含まれるライセンス情報（ライセンスファイル、READMEファイル、パッケージ内のメタデータ）
@@ -157,17 +157,16 @@ hasDeclaredLicenseは、次のいずれかを意味する：
 - SPDXデーター作成者が、その項目について調べたり判断しようとしなかった場合
 - SPDXデーター作成者が、あえて情報を提供しなかった場合（その行為自体に特別な意味はない）
 
-hasDeclaredLicenseが書かれていない場合は、そのソースコードにライセンスがあるかないかは不明で、推測することをしてはならない。
+hasDeclaredLicenseが書かれていない場合は、そのソフトウェアアーティファクトにライセンスがあるかないかは不明で、推測することをしてはならない。
 
 注意点として、hasConcludedLicenseがないことと、NoAssertionLicenseとして明示されているものとは異なる点で、
 後者は、わからないとははっきりと示している「既知の不明」であるが、前者は情報が全くない状態であるため、なにも言及できない。
 
 *hasConcludedLicense*
 
-hasConcludedLicenseは、SPDXデーター作成者が調査を行い、ソースコードに含まれるライセンス情報や関連する情報をもとに、
-このソースコードはこのライセンスで管理されていると合理的に結論付けたライセンスを指す。
+hasConcludedLicenseは、SPDXデーター作成者が調査を行い、ソフトウェアアーティファクトに含まれるライセンス情報や関連する情報をもとに、このソフトウェアアーティファクトはこのライセンスで管理されていると合理的に結論付けたライセンスを指す。
 
-NoneLicenseは、SPDXデーター作成者が調べた結果、このソースコードにはライセンス情報が見つからなかったとこを示す。
+NoneLicenseは、SPDXデーター作成者が調べた結果、このソフトウェアアーティファクトにはライセンス情報が見つからなかったとこを示す。
 
 NoAssertionLicenseは、次のいずれかを意味する：
 
@@ -175,7 +174,7 @@ NoAssertionLicenseは、次のいずれかを意味する：
 - SPDXデーター作成者が、その項目について調べたり判断しようとしなかった場合
 - SPDXデーター作成者が、あえて情報を提供しなかった場合（その行為自体に特別な意味はない）
 
-hasConcludedLicenseが書かれていない場合は、そのソースコードにライセンスがあるかないかは不明で、推測することをしてはならない。
+hasConcludedLicenseが書かれていない場合は、そのソフトウェアアーティファクトにライセンスがあるかないかは不明で、推測することをしてはならない。
 
 注意点として、hasConcludedLicenseがないことと、NoAssertionLicenseとして明示されているものとは異なる点で、
 後者は、わからないとははっきりと示している「既知の不明」であるが、前者は情報が全くない状態であるため、なにも言及できない。

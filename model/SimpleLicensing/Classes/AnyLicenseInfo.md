@@ -36,7 +36,7 @@ It can be:
 AnyLicenseInfoは、１つまたは複数のライセンス（追加のテキストも含む）を表現する抽象クラスであり、[SPDX license expression syntax](../../../annexes/spdx-license-expressions.md)に従って、組み合わせることができる。
 
 
-AnyLicenseInfoは、ソースコードのライセンスプロパティによって使うことができる：
+AnyLicenseInfoは、ソフトウェアアーティファクトのライセンスプロパティによって使うことができる：
 
 - NoneLicense
 - NoAssertionLicense
