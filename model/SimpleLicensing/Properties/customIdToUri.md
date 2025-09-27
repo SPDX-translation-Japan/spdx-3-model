@@ -24,6 +24,21 @@ The key for the DictionaryEntry is the string used in the license expression
 and the value is the URI for the corresponding CustomLicense,
 CustomLicenseAddition, or SimpleLicensingText.
 
+## Summary @ja
+
+カスタムライセンスやカスタムライセンス追加条項のLicenseRefやAdditionRef文字列を、そのURI IDに対応させる。
+
+## Description @ja
+
+ライセンス式の中では、カスタムライセンスやカスタムライセンス追加条項を参照することができる。
+
+ [ライセンス式の文法](../../../annexes/spdx-license-expressions.md)において、"LicenseRef-"または"AdditionRef-"で始まる参照は、公式の[SPDXライセンスリスト](https://spdx.org/licenses/)に載っていない
+ ライセンスまたは追加テキストを指し示すと定められている。
+
+ そのようなカスタムライセンスは、CustomLicense、CustomLicenseAddition、SimpleLicensingTextでなくてはならず、固有のURIで識別されるようにする。
+
+ DictionaryEntryのキーは、ライセンス式で用いられる文字列であり、値は対応するCustomLicense、CustomLicenseAddition、SimpleLicensingTextのURIである。
+
 ## Metadata
 
 - name: customIdToUri

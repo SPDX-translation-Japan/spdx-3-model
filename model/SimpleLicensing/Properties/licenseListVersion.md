@@ -6,6 +6,10 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 The version of the SPDX License List used in the license expression.
 
+## Summary @ja
+
+ライセンス式で使用されるSPDXライセンスリストのバージョンについて。
+
 ## Description
 
 Recognizing that licenses are added to the
@@ -18,6 +22,15 @@ version of the SPDX License List that is older than the then current one.
 
 The specified version of the SPDX License List must include all listed licenses
 and exceptions referenced in the expression.
+
+## Description @ja
+
+[SPDXライセンスリスト](https://spdx.org/licenses/)がバージョンごとに新しいライセンスが追加されるため、
+licenseListVersionは、使用したSPDXライセンスリストのバージョンを示すために使われる。
+
+当時の最新版よりも古いバージョンのSPDXライセンスリストをライセンス式が使用していることを想定している。
+
+指定するSPDXライセンスリストのバージョンは、そのライセンス式で参照するすべてのライセンスおよび例外が含まれていなくてはならない。
 
 ## Metadata
 
