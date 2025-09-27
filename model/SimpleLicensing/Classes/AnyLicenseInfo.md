@@ -6,6 +6,10 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 Abstract class representing a license combination consisting of one or more licenses.
 
+## Summary @ja
+
+１つまたは複数のライセンスから構成されるライセンスのための抽象クラスの表現について
+
 ## Description
 
 AnyLicenseInfo is
@@ -26,6 +30,20 @@ It can be:
 - a single license with an "or later" operator applied;
 - the foregoing with additional text applied; or
 - a set of licenses combined by applying "AND" and "OR" operators recursively.
+
+## Description @ja
+
+AnyLicenseInfoは、１つまたは複数のライセンス（追加のテキストも含む）を表現する抽象クラスであり、[SPDX license expression syntax](../../../annexes/spdx-license-expressions.md)に従って、組み合わせることができる。
+
+
+AnyLicenseInfoは、ソースコードのライセンスプロパティによって使うことができる：
+
+- NoneLicense
+- NoAssertionLicense
+- 単一のライセンス：[SPDXライセンスリスト](https://spdx.org/licenses/) や　[カスタム定義ライセンス](../../ExpandedLicensing/Classes/CustomLicense.md)
+- 単一のライセンスに"or later"演算子を適用したもの
+- 上記に追加のテキストを追加したもの
+- "AND"や"OR"オペレーターを再帰的に適用して組み合わせたライセンスのセット
 
 ## Metadata
 
