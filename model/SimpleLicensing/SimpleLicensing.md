@@ -6,6 +6,10 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 Additional metadata relating to software licensing.
 
+## Summary @ja
+
+ソフトウェアライセンスに関する追加のメタデータ。
+
 ## Description
 
 The SimpleLicensing profile provides classes and properties to express licenses
@@ -20,6 +24,16 @@ that does not match a license on the
 
 The ExpandedLicensing profile can be used to represent the complete parsed
 license expressions.
+
+## Description @ja
+
+SimpleLicensingプロファイルは、ライセンスを[license expression](../../annexes/spdx-license-expressions.md)として表現するためのクラストプロパティを提供する。
+
+また、ライセンス情報を参照するために使われる基底抽象クラスAnyLicenseInfoを提供する。
+
+SimpleLicensingTextクラスは、[SPDX License List](https://spdx.org/licenses/)内に存在しないライセンス文を記録する場所を提供する。
+
+より完全に構文解析されたライセンス式は、ExpandedLicensingプロファイルが利用できる。
 
 ## Metadata
 
