@@ -95,3 +95,41 @@ following requirements must be observed:
   "publishedTime": "2021-03-09T11:04:53Z"
 }
 ```
+
+## Summary @ja
+
+脆弱性と1つ以上の要素をリンクし、後者を当該脆弱性の影響を受けない製品として指定する。
+
+## Description @ja
+
+VexNotAffectedVulnAssessmentRelationship は、脆弱性と複数の要素を接続し、
+それらの要素を当該脆弱性の影響を受けない製品として指定する。
+この関係は VEX における not_affected ステータスに対応する。
+
+*制約*
+
+VexNotVulnAffectedAssessmentRelationship を用いて要素をリンクする際には、次の要件を遵守しなければならない:
+
+- VexNotAffectedVulnAssessmentRelationship で要素を関連付ける場合、
+  doesNotAffect という関係タイプに制限される。
+- 関係の from: 側は /Security/Vulnerability クラスの要素でなければならない。
+- impactStatement プロパティと justificationType プロパティはいずれもカーディナリティが 0..1 であり、省略可能である。
+  しかし、有効な VEX の not_affected ステートメントを生成するためには、これらのうち少なくとも一方を定義しなければならない。
+  これは VEX の Minimum Elements において規定されている。
+
+*例*
+
+```json
+{
+  "type": "security_VexNotAffectedVulnAssessmentRelationship",
+  "spdxId": "urn:spdx.dev:vex-not-affected-1",
+  "relationshipType": "doesNotAffect",
+  "from": "urn:spdx.dev:vuln-cve-2020-28498",
+  "to": ["urn:product-acme-application-1.3"],
+  "security_assessedElement": "urn:npm-elliptic-6.5.2",
+  "security_justificationType": "componentNotPresent",
+  "security_impactStatement": "Not using this vulnerable part of this library.",
+  "suppliedBy": "urn:spdx.dev:agent-jane-doe",
+  "publishedTime": "2021-03-09T11:04:53Z"
+}
+```
