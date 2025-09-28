@@ -83,3 +83,35 @@ following requirements must be observed:
   "publishedTime": "2021-03-09T11:04:53Z"
 }
 ```
+
+## Summary @ja
+
+脆弱性と要素を接続し、その要素を当該脆弱性の影響を受ける製品として指定する。
+
+## Description @ja
+
+VexAffectedVulnAssessmentRelationship は、脆弱性と複数の要素を接続する。
+この関係は、それらの要素を当該脆弱性の影響を受ける対象として指定する。
+この関係は VEX における affected ステータスに対応する。
+
+*制約*
+
+VexAffectedVulnAssessmentRelationship を用いて要素をリンクする際には、次の要件を遵守しなければならない:
+
+- VulnVexAffectedAssessmentRelationship でリンクされる要素は、affects という関係タイプに制約される。
+
+*例*
+
+```json
+{
+  "type": "security_VexAffectedVulnAssessmentRelationship",
+  "spdxId": "urn:spdx.dev:vex-affected-1",
+  "relationshipType": "affects",
+  "from": "urn:spdx.dev:vuln-cve-2020-28498",
+  "to": ["urn:product-acme-application-1.3"],
+  "security_assessedElement": "urn:npm-elliptic-6.5.2",
+  "security_actionStatement": "Upgrade to version 1.4 of ACME application.",
+  "suppliedBy": "urn:spdx.dev:agent-jane-doe",
+  "publishedTime": "2021-03-09T11:04:53Z"
+}
+```
