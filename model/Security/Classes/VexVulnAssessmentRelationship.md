@@ -65,3 +65,24 @@ the document's date must be considered as authoritative.
 要指定检测到漏洞的其他元素，VEX关系可以选择使用`assessedElement`属性指定子组件。
 
 VEX从文档级别继承信息到其语句。当语句缺少信息时，可通过读取包含文档中的等效字段来补充。例如，如果VEX关系的`createdBy`属性中缺失数据，工具将文档`CreationInfo`部分中列出的实体视为VEX作者。同理，当VEX关系没有`created`属性时，文档的日期应被视为权威信息。
+
+## Summary @ja
+
+すべての VEX 関係の抽象的な祖先クラス
+
+## Description @ja
+
+VexVulnAssessmentRelationship は抽象的なサブクラスであり、すべての SPDX-VEX ステータス関係に共通するプロパティを定義する。
+
+*制約*
+
+WVexVulnAssessmentRelationship を用いて要素をリンクする際には、次の要件を遵守しなければならない。
+
+- 関係の from: 側は /Security/Vulnerability クラスの要素でなければならない。
+- 関係の to: 側は VEX の *製品* を表す要素を指していなければならない。
+
+脆弱性が検出された別の要素を指定するために、VEX 関係はオプションとして assessedElement プロパティを使用して *サブコンポーネント* を指定できる。
+
+VEX はドキュメントレベルから各ステートメントへ情報を継承する。ステートメントに情報が欠落している場合、その包含するドキュメントの同等のフィールドを参照して補完できる。
+たとえば、VEX 関係の createdBy プロパティにデータが欠落している場合、ツールはドキュメントの CreationInfo セクションに記載されているエンティティを VEX の作成者と見なさなければならない。
+同様に、VEX 関係に created プロパティが存在しない場合は、ドキュメントの日付を正規のものと見なさなければならない。
