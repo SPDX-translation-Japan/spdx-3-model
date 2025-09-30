@@ -47,3 +47,13 @@ assessment relationships. It factors out the common properties shared by them.
 ## Description @zh-Hans
 
 `VulnAssessmentRelationship`是所有漏洞评估关系的祖先类，提取它们共享的公共属性。
+
+## Summary @ja
+
+すべての脆弱性アセスメントの抽象的な祖先クラス
+
+## Description @ja
+
+VulnAssessmentRelationship は、すべての脆弱性アセスメント関係に共通する祖先クラスである。
+このクラスは、それらに共通するプロパティを抽出して定義している。
+
