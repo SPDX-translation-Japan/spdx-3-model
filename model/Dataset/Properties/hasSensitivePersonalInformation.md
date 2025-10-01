@@ -28,3 +28,13 @@ Related: `useSensitivePersonalInformation` in `/AI/AIPackage`
 指示数据集中是否存在敏感个人数据或允许推断出个人身份的信息。
 
 相关：`/AI/AIPackage` 中的 `useSensitivePersonalInformation`
+
+## Summary @jp
+
+データセットに機微な個人情報が含まれるか、記述する。
+
+## Description @jp
+
+機微な個人データ、もしくは、個人特定の結論を導ける情報を含むことを示す。
+
+関連: `/AI/AIPackage`の`useSensitivePersonalInformation`
