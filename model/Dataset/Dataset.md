@@ -49,3 +49,18 @@ the following has to hold:
 2. 每一个  `/Dataset/DatasetPackage` 必须存在一个类型为 `hasDeclaredLicense`
    的 `/Core/Relationship` 元素，此元素作为它的 `from` 属性，
    `/SimpleLicensing/AnyLicenseInfo` 作为它的 `to` 属性。
+
+## Summary @jp
+
+Dataset profileは、Software profileに基づいて、データセットに役立つ追加メタデータを提供する。
+
+## Description @jp
+
+Datasetネームスペースは、データセットの準備プロセス、特性、アクセス方法を含む、データセットに関連する概念を定義する。
+
+## Profile conformance @jp
+
+要素コレクションがこのプロファイルに準拠するには、次の条件を満たすこと。
+
+1. 全ての`/Dataset/DatasetPackage`に対し、要素として`from`プロパティ、`to`プロパティとして`/SimpleLicensing/AnyLicenseInfo`を持つ、型`hasConcludedLicense`の`/Core/Relationship`が正確にひとつ存在しなくてはならない。
+2. 全ての`/Dataset/DatasetPackage`に対し、要素として`from`プロパティ、`to`プロパティとして`/SimpleLicensing/AnyLicenseInfo`を持つ、型`hasDeclaredLicense`の`/Core/Relationship`が正確にひとつ存在しなくはならない。
