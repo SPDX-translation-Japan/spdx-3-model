@@ -27,3 +27,13 @@ The size is to be measured in bytes.
 描述数据集的大小。
 
 数据集的大小应以字节为单位。
+
+## Summary @jp
+
+データセットのサイズを取得する。
+
+## Description @jp
+
+データセットがどの程度の大きさであるか取得する。
+
+サイズはバイトで測定する。
