@@ -24,3 +24,11 @@ and its calibration value as a key-value pair.
 ## Description @zh-Hans
 
 描述用于收集数据的传感器及其校准值，以键值对形式呈现。
+
+## Summary @jp
+
+データを収集するために使用されるセンサーを記述する。
+
+## Description @jp
+
+データを収集するために使われるセンサーと、そのキャリブレーション値をkey-valueペアで、記述する。
