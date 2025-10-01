@@ -23,3 +23,11 @@ Describes the levels of confidentiality of the data points contained in the data
 ## Description @zh-Hans
 
 详细说明数据集中包含的数据点的保密级别。
+
+## Summary @jp
+
+データセットに含まれるデータポイントの機密レベルを記述する。
+
+## Description @jp
+
+データセットに含まれるデータポイントの機密レベルを記述する。
