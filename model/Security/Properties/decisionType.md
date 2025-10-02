@@ -25,3 +25,11 @@ the [`SsvcDecisionType`](../Vocabularies/SsvcDecisionType.md) vocabulary.
 ## Description @zh-Hans
 
 `decisionType`是必填值，必须选择[`SsvcDecisionType`](../Vocabularies/SsvcDecisionType.md)词汇表中的四个条目之一。
+
+## Summary @ja
+
+[Stakeholder-Specific Vulnerability Categorization (SSVC) decision tree](https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc) における可能な意思決定を列挙する。
+
+## Description @ja
+
+decisionType は必須の値であり、[`SsvcDecisionType`](../Vocabularies/SsvcDecisionType.md) 語彙にある4つのエントリのいずれかを選択しなければならない。
