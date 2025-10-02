@@ -25,3 +25,11 @@ to specify the precise location where a vulnerability was found.
 ## Description @zh-Hans
 
 指定安全评估引用的子包、文件或代码段，以明确漏洞发现的具体位置。
+
+## Summary @ja
+
+脆弱性が検出されたソフトウェア内の Element を指定する。
+
+## Description @ja
+
+セキュリティアセスメントによって参照されるサブパッケージ、ファイル、またはスニペットを指定し、脆弱性が発見された正確な場所を特定する。
