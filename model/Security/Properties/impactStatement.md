@@ -29,3 +29,11 @@ must be provided.
 
 当VEX产品元素与`VexNotAffectedVulnAssessmentRelationship`关联且未提供机器可读证明标签时，必须提供一个`impactStatement`，进一步解释产品如何或为何不受漏洞影响。
 
+## Summary @ja
+
+VEX 製品が脆弱性の影響を受けない理由を説明する。
+これは VexNotAffectedVulnAssessmentRelationship において、機械可読の justification ラベルに代わるものである。
+
+## Description @en
+
+VEX 製品要素が VexNotAffectedVulnAssessmentRelationship によって関連付けられ、機械可読の justification ラベルが提供されていない場合、その製品がなぜ、あるいはどのように脆弱性の影響を受けないのかをさらに説明する impactStatement を提供しなければならない。
