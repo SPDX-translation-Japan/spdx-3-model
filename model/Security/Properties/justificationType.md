@@ -32,3 +32,14 @@ complementary to the justification label, but one of both MUST be defined.
 当声明某个元素不受漏洞影响时，`VexNotAffectedVulnAssessmentRelationship`必须包含机器可读标签目录中的证明，说明此元素不受影响的原因。
 
 `impactStatement`是一个英文文本字符串，可以替代或作为证明标签的补充，但二者必须定义其一。
+
+## Summary @ja
+
+VexNotAffectedVulnAssessmentRelationship 関係を使用して、脆弱性を VEX 製品を表す要素にリンクする際に使用される impact justification ラベルを指定する。
+
+## Description @ja
+
+要素が脆弱性の影響を受けないことを示す場合、VexNotAffectedVulnAssessmentRelationship には、当該要素が影響を受けない理由を示す、機械可読ラベルカタログ内の justification 情報を含めなければならない。
+
+impactStatement（英語による文章文字列）は、この justification ラベルの代替として、または補足として使用することができるが、いずれか一方は必ず定義しなければならない。
+
