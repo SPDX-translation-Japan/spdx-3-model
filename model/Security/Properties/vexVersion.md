@@ -23,3 +23,12 @@ The statement version default value is zero. When any VEX-related content change
 ## Description @zh-Hans
 
 语句版本默认值为0。当任何与VEX相关的内容发生变更时，版本递增。
+
+## Summary @ja
+
+VEX ステートメントのバージョンを指定する。
+
+## Description @ja
+
+ステートメントバージョンのデフォルト値は 0 である。
+VEX に関連する内容に変更があった場合は、バージョンをインクリメントしなければならない。
