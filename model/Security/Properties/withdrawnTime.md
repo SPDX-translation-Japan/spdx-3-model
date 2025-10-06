@@ -23,3 +23,11 @@ Specified the time and date when a vulnerability was withdrawn.
 ## Description @zh-Hans
 
 指定漏洞撤回的时间和日期。
+
+## Summary @ja
+
+脆弱性が撤回された日時を指定する。
+
+## Description @ja
+
+脆弱性が撤回された日時を指定する。
