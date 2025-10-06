@@ -38,3 +38,20 @@ of metric names specified in CVSS specifications, e.g.
 *约束条件*
 
 `vectorString`范围内的字符串值只能包含CVSS规范中，例如[通用漏洞评分系统（CVSS）矢量字符串](https://www.first.org/cvss/v4.0/specification-document#Vector-String)，指定的度量名称的缩写形式，。
+
+## Summary @ja
+
+脆弱性の CVSS ベクター文字列を指定する。
+
+## Description @ja
+
+脆弱性に対して、CVSS の Base、Temporal、Threat、Environmental、および／または Supplemental ベクター文字列の値の任意の組み合わせを指定する。
+
+すべての CVSS バージョンで指定される vectorString をサポートする。
+
+*制約*
+
+vectorString の値として使用できる文字列は、CVSS 仕様で定義されているメトリクス名の省略形式のみを含まなければならない。
+例としては
+[Common Vulnerability Scoring System Vector String](https://www.first.org/cvss/v4.0/specification-document#Vector-String)
+に示されている形式が挙げられる。
