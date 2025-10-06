@@ -23,3 +23,11 @@ A VEX statement may convey information about how status was determined and may r
 ## Description @zh-Hans
 
 VEX语句可以传递有关状态如何确定的信息，也可以引用其他VEX信息。
+
+## Summary @ja
+
+VEX ステータスがどのように決定されたかに関する情報を伝達する。
+
+## Description @ja
+
+VEX ステートメントは、ステータスがどのように決定されたかに関する情報を伝達でき、また他の VEX 情報を参照することもできる。
