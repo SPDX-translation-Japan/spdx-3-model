@@ -23,3 +23,12 @@ The severity field provides a human readable string of the resulting numerical C
 ## Description @zh-Hans
 
 `severity`字段提供一个人类可读字符串，表示CVSS分数。
+
+## Summary @ja
+
+ソフトウェアに関連する脆弱性の、CVSS に基づく定性的な深刻度評価を指定する。
+
+## Description @ja
+
+severity フィールドは、算出された数値 CVSS スコアを人間が読みやすい文字列で表す。
+
