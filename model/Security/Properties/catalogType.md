@@ -24,3 +24,12 @@ in the [`ExploitCatalogType`](../Vocabularies/ExploitCatalogType.md) vocabulary.
 ## Description @zh-Hans
 
 `catalogType`是必填值，必须从[`ExploitCatalogType`](../Vocabularies/ExploitCatalogType.md)词汇表中选择一个现有条目。
+
+## Summary @ja
+
+エクスプロイトカタログのタイプを指定する。
+
+## Description @ja
+
+catalogType は必須の値であり、[`ExploitCatalogType`](../Vocabularies/ExploitCatalogType.md) 語彙に存在するエントリーのいずれかを選択しなければならない。
+

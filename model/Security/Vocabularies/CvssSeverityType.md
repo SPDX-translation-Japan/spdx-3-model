@@ -59,3 +59,31 @@ severity.
 - medium: CVSS分数在4.0到6.9之间
 - low: CVSS分数在0.1到3.9之间
 - none: CVSS分数为0.0
+
+## Summary @ja
+
+CVSS の Base、Temporal、Threat、または Environmental の深刻度タイプを指定する。
+
+## Description @ja
+
+**CvssSeverityType** は、Common Vulnerability Scoring System（CVSS）における深刻度タイプを指定する。
+これは、CVSS 仕様で定義されている数値スコアの文字列表現として定義されている。
+
+深刻度タイプのエントリは、以下の文書に示されている列挙値を含み、それらに適用できる。
+[Common Vulnerability Scoring System v3.0: Specification Document](https://www.first.org/cvss/v3.0/specification-document#Qualitative-Severity-Rating-Scale) および
+[Common Vulnerability Scoring System version 4.0: Specification Document](https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale)。
+
+CvssSeverityType** は必須フィールドである。これは、これらスキーマで baseSeverity が必須項目として定義されているためである。
+[CVSS 3.0 schema](https://www.first.org/cvss/cvss-v3.0.json)、
+[CVSS 3.1 schema](https://www.first.org/cvss/cvss-v3.1.json)、
+[CVSS 4.0 schema](https://www.first.org/cvss/cvss-v4.0.json)。
+
+このフィールドは、Base、Temporal、Threat、または Environmental の深刻度を文書化するために使用できる。
+
+## Entries @ja
+
+- critical: CVSSスコアが 9.0 - 10.0 の間。
+- high: CVSSスコアが between 7.0 - 8.9 の間。
+- medium: CVSSスコアが between 4.0 - 6.9 の間。
+- low: CVSSスコアが between 0.1 - 3.9 の間。
+- none: CVSSスコアが 0.0。

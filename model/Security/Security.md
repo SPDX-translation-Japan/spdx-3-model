@@ -22,3 +22,11 @@ The Security profile captures security related information.
 ## Description @zh-Hans
 
 `Security`配置文件捕获与安全相关的信息。
+
+## Summary @ja
+
+セキュリティプロファイルは、セキュリティに関連する情報を記録する。
+
+## Description @ja
+
+セキュリティプロファイルは、セキュリティに関連する情報を記録する。

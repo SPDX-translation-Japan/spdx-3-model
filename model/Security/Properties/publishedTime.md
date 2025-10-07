@@ -23,3 +23,11 @@ Specifies the time when a vulnerability was first published.
 ## Description @zh-Hans
 
 指定漏洞首次发布的时间。
+
+## Summary @ja
+
+脆弱性が公開された時刻を指定する。
+
+## Description @ja
+
+脆弱性が最初に公開された時刻を指定する。

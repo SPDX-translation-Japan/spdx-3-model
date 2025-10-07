@@ -71,3 +71,34 @@ the following requirements must be observed:
   "publishedTime": "2021-03-09T11:04:53Z"
 }
 ```
+
+## Summary @ja
+
+脆弱性の影響が調査中である製品として要素を指定する。
+
+## Description @ja
+
+VexUnderInvestigationVulnAssessmentRelationship は、脆弱性を複数の製品にリンクし、それらに対する脆弱性の影響が現在調査中であることを示す。
+これは VEX における under_investigation ステータスを表す。
+
+*制約*
+
+VexUnderInvestigationVulnAssessmentRelationship を用いて要素をリンクする際には、次の要件を遵守しなければならない:
+
+- VexUnderInvestigationVulnAssessmentRelationship でリンクされる要素は、underInvestigationFor という関係タイプを使用しなければならない。
+- 関係の from: 側は /Security/Vulnerability クラスの要素でなければならない。
+
+*Example*
+
+```json
+{
+  "type": "security_VexUnderInvestigationVulnAssessmentRelationship",
+  "spdxId": "urn:spdx.dev:vex-underInvestigation-1",
+  "relationshipType": "underInvestigationFor",
+  "from": "urn:spdx.dev:vuln-cve-2020-28498",
+  "to": ["urn:product-acme-application-1.3"],
+  "security_assessedElement": "urn:npm-elliptic-6.5.2",
+  "suppliedBy": "urn:spdx.dev:agent-jane-doe",
+  "publishedTime": "2021-03-09T11:04:53Z"
+}
+```

@@ -23,3 +23,11 @@ Specifies the time when the impact statement was recorded.
 ## Description @zh-Hans
 
 指定记录影响语句的时间。
+
+## Summary @ja
+
+impact ステートメントのタイムスタンプ。
+
+## Description @ja
+
+impact ステートメントが記録された時刻を指定する。

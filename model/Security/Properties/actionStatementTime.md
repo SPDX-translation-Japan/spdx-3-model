@@ -27,3 +27,12 @@ when the action statement was first communicated.
 ## Description @zh-Hans
 
 当VEX语句传达已受影响（affected）状态时，作者必须包含一个措施语句，提供建议措施帮助减轻漏洞影响。`actionStatementTime`属性记录措施语句首次传达的时间。
+
+## Summary @ja
+
+脆弱性を軽減するための推奨アクションが VEX ステートメントで伝達された時刻を記録する。
+
+## Description @ja
+
+VEX ステートメントが affected ステータスを伝達する場合、著者は脆弱性の影響を軽減するための推奨アクションを含むアクションステートメントを必ず記述しなければならない。
+actionStatementTime プロパティは、そのアクションステートメントが最初に伝達された時刻を記録する。

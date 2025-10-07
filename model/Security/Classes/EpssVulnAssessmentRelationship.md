@@ -87,3 +87,36 @@ scores, using the Exploit Prediction Scoring System (EPSS) as defined at
   "publishedTime": "2023-10-05T00:00:30Z"
 }
 ```
+
+## Summary @ja
+
+脆弱性に対して EPSSの評価を提供する。
+
+## Description @ja
+
+EpssVulnAssessmentRelationship リレーションシップは、
+[Exploit Prediction Scoring System (EPSS)](https://www.first.org/epss/model)
+で定義されているように、脆弱性が実際に悪用される可能性や確率、
+そして他のすべての脆弱性のEPSSスコアと比較した確率のパーセンタイル順位を記述する。
+
+*制約*
+
+- リレーションシップタイプは hasAssessmentFor に設定されなければならない。
+- 確率は 0 から 1 の範囲内でなければならない。
+- パーセンタイルは 0 から 1 の範囲内でなければならない。
+
+*例*
+
+```json
+{
+  "type": "security_EpssVulnAssessmentRelationship",
+  "spdxId": "urn:spdx.dev:epss-CVE-2020-28498",
+  "relationshipType": "hasAssessmentFor",
+  "security_probability": "0.00105",
+  "security_percentile": "0.42356",
+  "from": "urn:spdx.dev:vuln-cve-2020-28498",
+  "to": ["urn:product-acme-application-1.3"],
+  "suppliedBy": "urn:spdx.dev:agent-jane-doe",
+  "publishedTime": "2023-10-05T00:00:30Z"
+}
+```

@@ -71,3 +71,36 @@ requirements must be observed:
   "publishedTime": "2021-03-09T11:04:53Z"
 }
 ```
+
+## Summary @ja
+
+脆弱性と要素をリンクし、その要素を VEX の意味で「修正が適用され、もはや影響を受けていない製品」として表す。
+
+## Description
+
+VexFixedVulnAssessmentRelationship は、脆弱性と複数の要素をリンクし、
+それらの要素を「脆弱性が修正され、もはや影響を受けていない VEX 製品」として表す。
+これは VEX における fixed ステータスを表している。
+
+*制約*
+
+VexFixedVulnAssessmentRelationship を用いて要素をリンクする際には、次の要件を遵守しなければならない:
+
+- VulnVexFixedAssessmentRelationship でリンクされる要素は、
+  fixedIn という関係タイプを使用しなければならない。
+- 関係の from: 側は /Security/Vulnerability クラスの要素でなければならない。
+
+*例*
+
+```json
+{
+  "type": "security_VexFixedVulnAssessmentRelationship",
+  "spdxId": "urn:spdx.dev:vex-fixed-in-1",
+  "relationshipType": "fixedIn",
+  "from": "urn:spdx.dev:vuln-cve-2020-28498",
+  "to": ["urn:product-acme-application-1.3"],
+  "security_assessedElement": "urn:npm-elliptic-6.5.4",
+  "suppliedBy": "urn:spdx.dev:agent-jane-doe",
+  "publishedTime": "2021-03-09T11:04:53Z"
+}
+```

@@ -23,3 +23,11 @@ A locator provides the location of an exploit catalog.
 ## Description @zh-Hans
 
 定位器提供漏洞利用目录的位置。
+
+## Summary @ja
+
+エクスプロイトカタログの場所を提供する。
+
+## Description @ja
+
+ロケーターは、エクスプロイトカタログの場所を提供する。
