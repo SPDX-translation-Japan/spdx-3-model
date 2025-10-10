@@ -46,3 +46,14 @@ a directory and all content stored in that directory.
 内容的类型可以通过可选地contentType 属性提供。
 
 fileKind 属性可以设置为directory ，用以表示文件代表的目录和该目录中的所有内容。
+
+## Summary @jp
+
+コンピューター上にコンテンツを格納する全てのオブジェクトを指す。
+
+## Description @jp
+
+コンピューター上にコンテンツを格納する全てのオブジェクトを指す。
+コンテンツの種類は、contentTypeプロパティでオプションとして指定できる。
+
+fileKindプロパティをdirectoryと設定することにより、そのファイルがディレクトリとそのディレクトリに格納されるすべてのコンテンツを表すと示すことができる。

@@ -28,3 +28,13 @@ Examples include standardization, normalization, deduplication, tokenization, an
 一段自由格式的文本，描述了为创建数据集而对原始数据应用的多种预处理步骤。
 
 例如标准化、归一化、去重、分词和移除分词。
+
+## Summary @jp
+
+与えられたデータセットを作成するために生データに適用された前処理を記述する。
+
+## Description @jp
+
+データセットを作成するために名前データに適用された様々な前処理を記述する自由形式のテキスト。
+
+例えば、標準化、正規化、重複排除、トークン化およびトークンの削除、である。

@@ -23,3 +23,11 @@ A contentIdentifierValue specifies the value of a content identifier.
 ## Description @zh-Hans
 
  内容标识符值（`contentIdentifierValue`）用于指定内容标识符的值。
+
+## Summary @jp
+
+コンテンツ識別子の値を指定する。
+
+## Description @jp
+
+contentIdentifierValueはコンテンツ識別子の値を指定する。

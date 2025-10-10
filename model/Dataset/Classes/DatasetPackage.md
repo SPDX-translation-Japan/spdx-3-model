@@ -87,3 +87,11 @@ Metadata information that can be added to a dataset that may be used in a softwa
 ## Description @zh-Hans
 
 添加到数据集中的元数据信息，这些信息可能用于软件中或用于训练/测试 AI 包。
+
+## Summary @jp
+
+データ パッケージとその関連情報を指定する。
+
+## Description @jp
+
+ソフトウェアで使用したり、AIパッケージをトレーニング/テストするために使用するかもしれないデータセットに追加できるメタデータ情報。

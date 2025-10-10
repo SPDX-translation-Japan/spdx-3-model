@@ -23,3 +23,11 @@ A contentIdentifierType specifies the type of the content identifier.
 ## Description @zh-Hans
 
 内容标识符类型（`contentIdentifierType`）指定了内容标识符的类型。
+
+## Summary @jp
+
+コンテンツ識別子のタイプを指定する。
+
+## Description @jp
+
+contentIdentifierTypeはコンテンツ識別子のタイプを指定する。

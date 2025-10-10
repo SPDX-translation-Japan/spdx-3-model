@@ -22,3 +22,11 @@ The Software namespace defines concepts related to software artifacts.
 ## Description @zh-Hans
 
 软件（`Software`）命名空间定义了与软件工件相关的概念。
+
+## Summary @jp
+
+ソフトウェアに関するすべて。
+
+## Description @jp
+
+ソフトウェア名前空間は、ソフトウェアアーティファクトに関連する概念を定義する。

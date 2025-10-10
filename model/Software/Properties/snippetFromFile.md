@@ -23,3 +23,11 @@ The field identifies the file which contains the snippet.
 ## Description @zh-Hans
 
 该字段标识包含某个代码片段所对应的文件。
+
+## Summary @jp
+
+スニペット情報が適用される元のホストファイルを示す。
+
+## Description @jp
+
+このフィールドは、スニペットを含むファイルを特定する。

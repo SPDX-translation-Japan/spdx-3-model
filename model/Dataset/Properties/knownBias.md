@@ -23,3 +23,11 @@ A free-form text that describes the different biases that the dataset encompasse
 ## Description @zh-Hans
 
 用于描述数据集包含的不同偏差的一段自由格式文本。
+
+## Summary @jp
+
+データセットが含むとわかっているバイアスを記録する。
+
+## Description @jp
+
+データセットが含む種々のバイアスを記述する自由形式のテキスト。

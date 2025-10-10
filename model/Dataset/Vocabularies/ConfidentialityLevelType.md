@@ -36,3 +36,18 @@ Describes the different confidentiality levels as given by the
 - amber: 数据集中的数据点只能在需要的情况下与特定的组织及其客户共享。
 - green: 数据集可以在同行和合作伙伴的社区内分享。
 - clear: 数据集可以不受限制地自由分发。
+
+## Summary @jp
+
+機密レベルのカテゴリイ。
+
+## Description @jp
+
+[Traffic Light Protocol](https://en.wikipedia.org/wiki/Traffic_Light_Protocol)が示す機密レベルを記述する。
+
+## Entries @jp
+
+- red: データセット中のデータポイントは機密性が高く、指定された受け手とのみ共有できる。
+- amber: データセット中のデータポイントは特定組織とそのクライアントと、知る必要がある場合のみに共有できる。
+- green: データセットは同僚やパートナーのコミュニティ内で共有できる。
+- clear: データセットは、自由に制限なく配布できる。

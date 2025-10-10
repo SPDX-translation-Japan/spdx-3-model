@@ -40,3 +40,12 @@ It can be used for verifying its identity and integrity.
 
 它可用于验证其身份和完整性。
 
+## Summary @jp
+
+正規、一意かつ不変の識別子。
+
+## Description @jp
+
+ContentIdentifierは、パッケージ、ファイル、スニペットなどのソフトウェアアーティファクトのコンテンツの正規、一意かつ不変の識別子である。
+
+身元と完全性を検証するために使用できる。

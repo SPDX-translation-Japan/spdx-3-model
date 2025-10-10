@@ -55,3 +55,21 @@ scheme:type/namespace/name@version?qualifiers#subpath
 已知类型的类型定义([type definitions](https://github.com/package-url/purl-spec/blob/b33dda1cf4515efa8eabbbe8e9b140950805f845/PURL-TYPES.rst))可以在包URL类型定义中找到。
 
 组件的设计方式是，它们从最左边的最重要的组件到最右边的最不重要的组件形成一个层次结构。
+
+## Summary @jp
+
+SPDXデータ作成者がソフトウェアパッケージのパッケージURL文字列を(パッケージURL 仕様に従い)記録する。
+
+## Description @jp
+
+パッケージURL (一般的には"purl"と発音、参照される)は、ソフトウェアパッケージを確実に特定し、見つけるために、パッケージの表現を標準化する試みである。packageUrlは、プログラミング言語、パッケージマネージャー、パッケージ化規約、ツール、API、データベースにおいて普遍的で統一された方法でパッケージを表現するURL文字列である。
+
+packageUrlは7つのコンポーネントから構成される。
+
+```text
+scheme:type/namespace/name@version?qualifiers#subpath
+```
+
+各コンポーネントの定義は、この仕様の対応する[Annex](../../../annexes/pkg-url-specification.md)で見つけることができる。既知の型定義は、パッケージURL [type definitions](https://github.com/package-url/purl-spec/blob/b33dda1cf4515efa8eabbbe8e9b140950805f845/PURL-TYPES.rst)で見つけることができる。
+
+コンポーネントは、左側の最も重要から右側の最も重要でないコンポーネントまでの階層を形成するように設計されている。
