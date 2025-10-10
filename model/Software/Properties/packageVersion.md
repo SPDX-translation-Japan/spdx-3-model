@@ -25,3 +25,10 @@ changes of the package version.
 
 一个软件包版本（`packageVersion`）对于识别目的和指示软件包版本的后续更改非常有用。
 
+## Summary @jp
+
+パッケージのバージョンを指定する。
+
+## Description @jp
+
+packageVersionは、特定する目的や、パッケージバージョンのその後の変更を示すのに役立つ。
