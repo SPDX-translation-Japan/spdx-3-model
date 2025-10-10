@@ -30,3 +30,13 @@ is critical for verification and tracking data.
 下载位置（`downloadLocation`）‌ 标识了文档创建时软件包的下载统一资源标识符（URI）。
 
 下载被引用的具体软件包的位置和方式对于验证和跟踪数据至关重要。
+
+## Summary @jp
+
+ドキュメントが作成された時点のパッケージのダウンロードURIを指定する。
+
+## Description @jp
+
+downloadLocationは、ドキュメントが作成された時点のパッケージのダウンロードURIを指定する。
+
+参照されている正しいパッケージをどこからどのようにダウンロードするかは、データの検証と追跡に重要である。
