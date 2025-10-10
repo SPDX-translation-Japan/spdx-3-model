@@ -96,3 +96,47 @@ conclusions about the context in which the Element exists.
 - source: (源代码) 该元素是单个或一组源代码文件。
 - specification: (规范) 该元素是一个计划、指南或策略，说明如何创建、执行或分析应用程序。
 - test: (测试) 该元素是用来验证软件元素功能的测试。
+
+## Summary @jp
+
+Elementの主な目的に関する情報を提供する。
+
+## Description @jp
+
+このフィールドは、Elementの主な目的に関する情報を提供する。
+
+Software Purposeは、Elementの内容ではなく、Elementの使用方法に本質的に関係する。
+
+このフィールドは、作成者と利用者の観点から見た、Elementの最も可能性の高い使用法の合理的な推定であり、これにより両者はElementが存在する文脈について結論を導ける。
+
+## Entries @jp
+
+- application: Element はソフトウェアアプリケーションである。
+- archive: Elementは、1つ以上のファイルのアーカイブされたコレクション(.tar、.zipなど)である。
+- bom: Elementは部品表である。
+- configuration: Elementは構成データである。
+- container: Elementは、コンテナーランタイムアプリケーションで使用されうるコンテナーイメージである。
+- data: Elementはデータである。
+- device: Elementは、チップセット、プロセッサー、電子基板を指す。
+- diskImage: Elementは、ディスクに書き込まれたり、VMで起動されたりする、ディスイメージを指す。ディスク イメージは、通常、ブートローダー、カーネル、ファームウェア、ユーザー空間など、起動に必要なコンポーネントのほとんどまたはすべてが含まれている。
+- deviceDriver: Elementは、ハードウェアデバイスを制御するソフトウェアを示す。
+- documentation: Elementは文書である。
+- evidence: Elementは、仕様もしくは要求が達成されたことの証拠である。
+- executable: Elementは、コンピューター上で実行できるArtifactである。
+- file: Elementは、独立して配布できる単一のファイルである(構成ファイル、静的にリンクされたバイナリ、Kubernetesデプロイメントなど)。
+- filesystemImage: Elementは、ディスク(または仮想)パーティションに書き込むことができるファイルシステムイメージである。
+- firmware: Elementは、デバイスのハードウェアに対する低レベルの制御を提供する。
+- framework: Elementはソフトウェアフレームワークである。
+- install: Elementは、ディスクにソフトウェアをインストールするために使われる。
+- library: Elementはソフトウェアライブラリである。
+- manifest: Elementはソフトウェアマニフェストである。
+- model: Elementは、機械学習もしくは人工知能のモデルである。
+- module: Elementは、一片のソフトウェアのモジュールである。
+- operatingSystem: Elementはオペレーティングシステムである。
+- other: Elementは、他のカテゴリのいずれにも該当しない。
+- patch: Elementは、他のElementを更新、修正、改善するための一連の変更を含む。
+- platform: Elementは実行環境を指す。
+- requirement: Elementは、他のElementの入力として必要な要求を提供する。
+- source: Elementは、ひとつか複数のソースファイルである。
+- specification: Elementは、アプリケーションを生成、実行あるいは分析する方法の計画、ガイドラインもしくは戦略である。
+- test: Elementは、ソフトウェア要素の機能を検証するために使われるテストである。
