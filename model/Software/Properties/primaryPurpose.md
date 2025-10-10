@@ -24,3 +24,11 @@ artifact.
 ## Description @zh-Hans
 
 主要目的(`primaryPurpose`)提供了有关软件工件主要目的的信息。
+
+## Summary @jp
+
+ソフトウェアアーティファクトの主な目的に関する情報を提供する。
+
+## Description @jp
+
+primaryPurposeは、ソフトウェアアーティファクトの主な目的に関する情報を提供する。
