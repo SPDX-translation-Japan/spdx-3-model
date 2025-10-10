@@ -34,3 +34,15 @@ Aligning with the guidance produced in
 它旨在用于指导可能包含在其内的成分。
 
 与《软件物料清单（SBOM）文档类型》（[Types of Software Bill of Material (SBOM) Documents](https://www.cisa.gov/sites/default/files/2023-04/sbom-types-document-508c.pdf)）中产生的指导方针保持一致。
+
+## Summary @jp
+
+SBOMの種類に関する情報を提供する。
+
+## Description @jp
+
+このフィールドは、作成者の観点から作成されたSBOMの種類の合理的な推定である。
+
+その中に含まれるかもしれない要素に関するガイダンスを提供するために使用されることを目的としている。
+
+[Types of Software Bill of Material (SBOM) Documents](https://www.cisa.gov/sites/default/files/2023-04/sbom-types-document-508c.pdf)で作成されたガイダンスに従う。
