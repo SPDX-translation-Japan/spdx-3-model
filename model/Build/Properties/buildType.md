@@ -65,3 +65,13 @@ For more information, see the SLSA definition of buildType.
 如果 `buildType` IRI 无法识别，仍然可以检查构建的其他属性，但可能无法从中推导出更深层的含义。
 
 有关更多信息，请参阅 SLSA（Software Logistics and Supply Chain Automation，软件物流和供应链自动化） 对 `buildType` 的定义。
+
+## Summary @ja
+`buildType` はビルドが呼び出されたツールチェーン、プラットフォーム、またはインフラを示すヒント。
+
+## Description @ja
+`buildType` はツールチェーン、プラットフォーム、またはインフラを示す IRI である。この情報により他のビルドパラメータの意味が解釈される。異なる Build 要素で同じ `buildType` が現れれば同種のビルドであるが、インスタンスや構成は異なる場合がある。一般的でない場合は所有するドメインで名前空間を設定すべき。
+
+`buildType` IRI が認識できない場合でも、他のビルドのプロパティを調査することは可能ですが、そこからより深い意味を導き出すことはできない場合があります。
+
+詳細については、SLSA（Software Logistics and Supply Chain Automation、ソフトウェア物流およびサプライチェーン自動化）による `buildType` の定義を参照してください。
