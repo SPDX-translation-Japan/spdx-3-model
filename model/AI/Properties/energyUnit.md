@@ -23,3 +23,11 @@ Provides the unit information of the energy.
 ## Description @zh-Hans
 
 提供能量的单位信息。
+
+## Summary @ja
+
+エネルギーの測定に使用する単位を指定する。
+
+## Description @ja
+
+エネルギーの単位に関する情報を提供する。

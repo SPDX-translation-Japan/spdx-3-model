@@ -55,3 +55,33 @@ during its training, fine-tuning, and inference stages.
 ## Description @zh-Hans
 
 该类用于表示AI模型在训练、微调和推理阶段已知或估算的能耗。
+
+## Summary @ja
+
+AIモデルがそのライフサイクルの各段階で消費するエネルギーを記述するためのクラスである。
+
+## Description @ja
+
+AIモデルの学習、ファインチューニング、推論の各段階における既知または推定されるエネルギー消費を示すためのクラスである。
+
+*例*
+
+```json
+{
+  "type": "ai_EnergyConsumption",
+  "ai_trainingEnergyConsumption": [
+    {
+      "type": "ai_EnergyConsumptionDescription",
+      "ai_energyQuantity": "36.5",
+      "ai_energyUnit": "kilowattHour"
+    }
+  ],
+  "ai_inferenceEnergyConsumption": [
+    {
+      "type": "ai_EnergyConsumptionDescription",
+      "ai_energyQuantity": "0.042",
+      "ai_energyUnit": "kilowattHour"
+    }
+  ]
+}
+```

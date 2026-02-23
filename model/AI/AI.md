@@ -44,3 +44,18 @@ the following has to hold:
 
 1. 对于每个`/AI/AIPackage`，**必须**存在一个`/Core/Relationship`类型为`hasConcludedLicense`的元素，该元素的`from`属性是该元素，并且其`to`属性是`/SimpleLicensing/AnyLicenseInfo`。
 2. 对于每个`/AI/AIPackage`，**必须**存在一个`/Core/Relationship`类型为`hasDeclaredLicense`的元素，该元素的`from`属性是该元素，并且其`to`属性是`/SimpleLicensing/AnyLicenseInfo`。
+
+## Summary @ja
+
+AIプロファイルは、AIソフトウェアパッケージ（すなわちシステム）に関する情報を文書化し、共有するための標準化された方法を提供するように設計されている。
+
+## Description @ja
+
+AI名前空間は、AIシステムおよびモデルの成果物に関連する一連の概念とデータ要素を定義している。これらの成果物は、ソフトウェアパッケージ、モデル、データセットといった、AI開発プロセスの具体的なアウトプットである。
+
+## Profile conformance @ja
+
+ある要素コレクションが本プロファイルに準拠するためには、以下の条件を満たさなければならない：
+
+1. すべての `/AI/AIPackage` に対して、型が `hasConcludedLicense` である `/Core/Relationship` が正確に1つ存在しなければならず、その関係の `from` プロパティには当該要素が、`to` プロパティには `/SimpleLicensing/AnyLicenseInfo` が指定されていなければならない。
+2. すべての `/AI/AIPackage` に対して、型が `hasDeclaredLicense` である `/Core/Relationship` が正確に1つ存在しなければならず、その関係の `from` プロパティには当該要素が、`to` プロパティには `/SimpleLicensing/AnyLicenseInfo` が指定されていなければならない。

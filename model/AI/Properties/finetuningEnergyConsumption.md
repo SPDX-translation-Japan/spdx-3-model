@@ -25,3 +25,11 @@ that is being used in the AI system.
 ## Description @zh-Hans
 
 该字段指定微调AI系统中使用的AI模型时所消耗的能量。
+
+## Summary @ja
+
+AIシステムで使用されているAIモデルをファインチューニングする際に消費されたエネルギー量を指定する。
+
+## Description @ja
+
+このフィールドは、AIシステムで使用されているAIモデルのファインチューニングする際に消費されたエネルギー量を指定する。

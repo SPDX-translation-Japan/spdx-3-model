@@ -25,3 +25,11 @@ data before training of the model(s) contained in the AI software.
 ## Description @zh-Hans
 
 描述在训练AI软件包含的模型之前应用于训练数据的预处理步骤的自由格式文本。
+
+## Summary @ja
+
+モデル学習の前にトレーニングデータに適用されたすべての前処理手順を記述する。
+
+## Description @ja
+
+AIソフトウェアに含まれるモデルの学習前に、トレーニングデータに適用された前処理手順を記述する自由形式のテキストである。

@@ -38,3 +38,19 @@ is not listed here, please select "other".
 - kilowattHour: 千瓦时。
 - megajoule: 兆焦耳。
 - other: 任何其他能量单位。
+
+## Summary @ja
+
+エネルギー消費の単位を指定する。
+
+## Description @ja
+
+エネルギー消費を測定するために使用できるさまざまな単位を列挙する。
+
+なお、記録された単位が以下に含まれていない場合は、"other" を選択すること。
+
+## Entries @ja
+
+- kilowattHour: キロワット時。
+- megajoule: メガジュール。
+- other: その他のエネルギー測定単位。

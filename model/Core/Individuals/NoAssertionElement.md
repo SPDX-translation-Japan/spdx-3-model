@@ -46,7 +46,7 @@ NoAssertionElement は、以下の場合に利用されるべきです。
 - SPDX ドキュメントの作成者が、この部分を判断しなかった場合
 - SPDX ドキュメントの作成者が、意図的に情報を提供しなかった場合（その行為に意味を含ませるべきではありません）
 
-例えば、
+たとえば、
 `relationshipType`="ancestorOf"、
 `from`=Element1
 の時に、
