@@ -32,4 +32,4 @@ data before training of the model(s) contained in the AI software.
 
 ## Description @ja
 
-モデルの学習前に、AIソフトウェアに含まれるモデルに対してトレーニングデータに適用された前処理手順を記述する自由形式のテキストである。
+AIソフトウェアに含まれるモデルの学習前に、トレーニングデータに適用された前処理手順を記述する自由形式のテキストである。

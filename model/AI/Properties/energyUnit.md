@@ -26,7 +26,7 @@ Provides the unit information of the energy.
 
 ## Summary @ja
 
-エネルギーが測定される単位を指定する。
+エネルギーの測定に使用する単位を指定する。
 
 ## Description @ja
 
